@@ -1,0 +1,186 @@
+{
+  "generated_at": "2025-12-08T09:22:20.699094+00:00",
+  "count": 20,
+  "items": [
+    {
+      "source_id": "openai_news",
+      "source_name": "OpenAI News",
+      "category": "company",
+      "title": "Introducing OpenAI for Australia",
+      "link": "https://openai.com/global-affairs/openai-for-australia",
+      "published": "2025-12-04T19:00:00+00:00",
+      "summary": "OpenAI is launching OpenAI for Australia to build sovereign AI infrastructure, upskill more than 1.5 million workers, and accelerate innovation across the country’s growing AI ecosystem."
+    },
+    {
+      "source_id": "openai_news",
+      "source_name": "OpenAI News",
+      "category": "company",
+      "title": "OpenAI to acquire Neptune",
+      "link": "https://openai.com/index/openai-to-acquire-neptune",
+      "published": "2025-12-03T10:00:00+00:00",
+      "summary": "OpenAI is acquiring Neptune to deepen visibility into model behavior and strengthen the tools researchers use to track experiments and monitor training."
+    },
+    {
+      "source_id": "openai_news",
+      "source_name": "OpenAI News",
+      "category": "company",
+      "title": "How confessions can keep language models honest",
+      "link": "https://openai.com/index/how-confessions-can-keep-language-models-honest",
+      "published": "2025-12-03T10:00:00+00:00",
+      "summary": "OpenAI researchers are testing “confessions,” a method that trains models to admit when they make mistakes or act undesirably, helping improve AI honesty, transparency, and trust in model outputs."
+    },
+    {
+      "source_id": "openai_news",
+      "source_name": "OpenAI News",
+      "category": "company",
+      "title": "Announcing the initial People-First AI Fund grantees",
+      "link": "https://openai.com/index/people-first-ai-fund-grantees",
+      "published": "2025-12-03T08:00:00+00:00",
+      "summary": "The OpenAI Foundation announces the initial recipients of the People-First AI Fund, awarding $40.5M in unrestricted grants to 208 nonprofits supporting community innovation and opportunity."
+    },
+    {
+      "source_id": "openai_news",
+      "source_name": "OpenAI News",
+      "category": "company",
+      "title": "Inside Mirakl's agentic commerce vision",
+      "link": "https://openai.com/index/mirakl",
+      "published": "2025-12-01T22:00:00+00:00",
+      "summary": "Mirakl is redefining commerce through AI agents and ChatGPT Enterprise—achieving faster documentation, smarter customer support, and building toward agent-native commerce with Mirakl Nexus."
+    },
+    {
+      "source_id": "arxiv_cs_lg",
+      "source_name": "arXiv cs.LG (Machine Learning)",
+      "category": "arxiv",
+      "title": "Advanced Unsupervised Learning: A Comprehensive Overview of Multi-View Clustering Techniques",
+      "link": "https://arxiv.org/abs/2512.05169",
+      "published": "2025-12-08T05:00:00+00:00",
+      "summary": "arXiv:2512.05169v1 Announce Type: new Abstract: Machine learning techniques face numerous challenges to achieve optimal performance. These include computational constraints, the limitations of single-view learning algorithms and the complexity of processing large datasets from different domains, sources or views. In this context, multi-view clustering (MVC), a class of unsupervised multi-view lear..."
+    },
+    {
+      "source_id": "arxiv_cs_lg",
+      "source_name": "arXiv cs.LG (Machine Learning)",
+      "category": "arxiv",
+      "title": "Coefficient of Variation Masking: A Volatility-Aware Strategy for EHR Foundation Models",
+      "link": "https://arxiv.org/abs/2512.05216",
+      "published": "2025-12-08T05:00:00+00:00",
+      "summary": "arXiv:2512.05216v1 Announce Type: new Abstract: Masked autoencoders (MAEs) are increasingly applied to electronic health records (EHR) for learning general-purpose representations that support diverse clinical tasks. However, existing approaches typically rely on uniform random masking, implicitly assuming all features are equally predictable. In reality, laboratory tests exhibit substantial heter..."
+    },
+    {
+      "source_id": "arxiv_cs_lg",
+      "source_name": "arXiv cs.LG (Machine Learning)",
+      "category": "arxiv",
+      "title": "Rethinking Tokenization for Clinical Time Series: When Less is More",
+      "link": "https://arxiv.org/abs/2512.05217",
+      "published": "2025-12-08T05:00:00+00:00",
+      "summary": "arXiv:2512.05217v1 Announce Type: new Abstract: Tokenization strategies shape how models process electronic health records, yet fair comparisons of their effectiveness remain limited. We present a systematic evaluation of tokenization approaches for clinical time series modeling using transformer-based architectures, revealing task-dependent and sometimes counterintuitive findings about temporal a..."
+    },
+    {
+      "source_id": "arxiv_cs_lg",
+      "source_name": "arXiv cs.LG (Machine Learning)",
+      "category": "arxiv",
+      "title": "Mitigating the Antigenic Data Bottleneck: Semi-supervised Learning with Protein Language Models for Influenza A Surveillance",
+      "link": "https://arxiv.org/abs/2512.05222",
+      "published": "2025-12-08T05:00:00+00:00",
+      "summary": "arXiv:2512.05222v1 Announce Type: new Abstract: Influenza A viruses (IAVs) evolve antigenically at a pace that requires frequent vaccine updates, yet the haemagglutination inhibition (HI) assays used to quantify antigenicity are labor-intensive and unscalable. As a result, genomic data vastly outpace available phenotypic labels, limiting the effectiveness of traditional supervised models. We hypot..."
+    },
+    {
+      "source_id": "arxiv_cs_lg",
+      "source_name": "arXiv cs.LG (Machine Learning)",
+      "category": "arxiv",
+      "title": "Variance Matters: Improving Domain Adaptation via Stratified Sampling",
+      "link": "https://arxiv.org/abs/2512.05226",
+      "published": "2025-12-08T05:00:00+00:00",
+      "summary": "arXiv:2512.05226v1 Announce Type: new Abstract: Domain shift remains a key challenge in deploying machine learning models to the real world. Unsupervised domain adaptation (UDA) aims to address this by minimising domain discrepancy during training, but the discrepancy estimates suffer from high variance in stochastic settings, which can stifle the theoretical benefits of the method. This paper pro..."
+    },
+    {
+      "source_id": "arxiv_cs_cl",
+      "source_name": "arXiv cs.CL (Computation and Language)",
+      "category": "arxiv",
+      "title": "Fine-Tuning BERT for Domain-Specific Question Answering: Toward Educational NLP Resources at University Scale",
+      "link": "https://arxiv.org/abs/2512.05179",
+      "published": "2025-12-08T05:00:00+00:00",
+      "summary": "arXiv:2512.05179v1 Announce Type: new Abstract: Prior work on scientific question answering has largely emphasized chatbot-style systems, with limited exploration of fine-tuning foundation models for domain-specific reasoning. In this study, we developed a chatbot for the University of Limerick's Department of Electronic and Computer Engineering to provide course information to students. A custom ..."
+    },
+    {
+      "source_id": "arxiv_cs_cl",
+      "source_name": "arXiv cs.CL (Computation and Language)",
+      "category": "arxiv",
+      "title": "Unveiling Affective Polarization Trends in Parliamentary Proceedings",
+      "link": "https://arxiv.org/abs/2512.05231",
+      "published": "2025-12-08T05:00:00+00:00",
+      "summary": "arXiv:2512.05231v1 Announce Type: new Abstract: Recent years have seen an increase in polarized discourse worldwide, on various platforms. We propose a novel method for quantifying polarization, based on the emotional style of the discourse rather than on differences in ideological stands. Using measures of Valence, Arousal and Dominance, we detect signals of emotional discourse and use them to op..."
+    },
+    {
+      "source_id": "arxiv_cs_cl",
+      "source_name": "arXiv cs.CL (Computation and Language)",
+      "category": "arxiv",
+      "title": "Decoding the Black Box: Discerning AI Rhetorics About and Through Poetic Prompting",
+      "link": "https://arxiv.org/abs/2512.05243",
+      "published": "2025-12-08T05:00:00+00:00",
+      "summary": "arXiv:2512.05243v1 Announce Type: new Abstract: Prompt engineering has emerged as a useful way studying the algorithmic tendencies and biases of large language models. Meanwhile creatives and academics have leveraged LLMs to develop creative works and explore the boundaries of their writing capabilities through text generation and code. This study suggests that creative text prompting, specificall..."
+    },
+    {
+      "source_id": "arxiv_cs_cl",
+      "source_name": "arXiv cs.CL (Computation and Language)",
+      "category": "arxiv",
+      "title": "Enhancing Clinical Note Generation with ICD-10, Clinical Ontology Knowledge Graphs, and Chain-of-Thought Prompting Using GPT-4",
+      "link": "https://arxiv.org/abs/2512.05256",
+      "published": "2025-12-08T05:00:00+00:00",
+      "summary": "arXiv:2512.05256v1 Announce Type: new Abstract: In the past decade a surge in the amount of electronic health record (EHR) data in the United States, attributed to a favorable policy environment created by the Health Information Technology for Economic and Clinical Health (HITECH) Act of 2009 and the 21st Century Cures Act of 2016. Clinical notes for patients' assessments, diagnoses, and treatment..."
+    },
+    {
+      "source_id": "arxiv_cs_cl",
+      "source_name": "arXiv cs.CL (Computation and Language)",
+      "category": "arxiv",
+      "title": "To Think or Not to Think: The Hidden Cost of Meta-Training with Excessive CoT Examples",
+      "link": "https://arxiv.org/abs/2512.05318",
+      "published": "2025-12-08T05:00:00+00:00",
+      "summary": "arXiv:2512.05318v1 Announce Type: new Abstract: Chain-of-thought (CoT) prompting combined with few-shot in-context learning (ICL) has unlocked significant reasoning capabilities in large language models (LLMs). However, ICL with CoT examples is ineffective on novel tasks when the pre-training knowledge is insufficient. We study this problem in a controlled setting using the CoT-ICL Lab framework, ..."
+    },
+    {
+      "source_id": "arxiv_cs_ai",
+      "source_name": "arXiv cs.AI (Artificial Intelligence)",
+      "category": "arxiv",
+      "title": "Documenting SME Processes with Conversational AI: From Tacit Knowledge to BPMN",
+      "link": "https://arxiv.org/abs/2512.05122",
+      "published": "2025-12-08T05:00:00+00:00",
+      "summary": "arXiv:2512.05122v1 Announce Type: new Abstract: Small and medium-sized enterprises (SMEs) still depend heavily on tacit, experience-based know-how that rarely makes its way into formal documentation. This paper introduces a large-language-model (LLM)-driven conversational assistant that captures such knowledge on the shop floor and converts it incrementally and interactively into standards-complia..."
+    },
+    {
+      "source_id": "arxiv_cs_ai",
+      "source_name": "arXiv cs.AI (Artificial Intelligence)",
+      "category": "arxiv",
+      "title": "Semantic Faithfulness and Entropy Production Measures to Tame Your LLM Demons and Manage Hallucinations",
+      "link": "https://arxiv.org/abs/2512.05156",
+      "published": "2025-12-08T05:00:00+00:00",
+      "summary": "arXiv:2512.05156v1 Announce Type: new Abstract: Evaluating faithfulness of Large Language Models (LLMs) to a given task is a complex challenge. We propose two new unsupervised metrics for faithfulness evaluation using insights from information theory and thermodynamics. Our approach treats an LLM as a bipartite information engine where hidden layers act as a Maxwell demon controlling transformatio..."
+    },
+    {
+      "source_id": "arxiv_cs_ai",
+      "source_name": "arXiv cs.AI (Artificial Intelligence)",
+      "category": "arxiv",
+      "title": "Bridging Traditional Machine Learning and Large Language Models: A Two-Part Course Design for Modern AI Education",
+      "link": "https://arxiv.org/abs/2512.05167",
+      "published": "2025-12-08T05:00:00+00:00",
+      "summary": "arXiv:2512.05167v1 Announce Type: new Abstract: This paper presents an innovative pedagogical approach for teaching artificial intelligence and data science that systematically bridges traditional machine learning techniques with modern Large Language Models (LLMs). We describe a course structured in two sequential and complementary parts: foundational machine learning concepts and contemporary LL..."
+    },
+    {
+      "source_id": "arxiv_cs_ai",
+      "source_name": "arXiv cs.AI (Artificial Intelligence)",
+      "category": "arxiv",
+      "title": "On the Computability of Artificial General Intelligence",
+      "link": "https://arxiv.org/abs/2512.05212",
+      "published": "2025-12-08T05:00:00+00:00",
+      "summary": "arXiv:2512.05212v1 Announce Type: new Abstract: In recent years we observed rapid and significant advancements in artificial intelligence (A.I.). So much so that many wonder how close humanity is to developing an A.I. model that can achieve human level of intelligence, also known as artificial general intelligence (A.G.I.). In this work we look at this question and we attempt to define the upper b..."
+    },
+    {
+      "source_id": "arxiv_cs_ai",
+      "source_name": "arXiv cs.AI (Artificial Intelligence)",
+      "category": "arxiv",
+      "title": "Resolving Zadehs Paradox Axiomatic Possibility Theory as a Foundation for Reliable Artificial Intelligence",
+      "link": "https://arxiv.org/abs/2512.05257",
+      "published": "2025-12-08T05:00:00+00:00",
+      "summary": "arXiv:2512.05257v1 Announce Type: new Abstract: This work advances and substantiates the thesis that the resolution of this crisis lies in the domain of possibility theory, specifically in the axiomatic approach developed in Bychkovs article. Unlike numerous attempts to fix Dempster rule, this approach builds from scratch a logically consistent and mathematically rigorous foundation for working wi..."
+    }
+  ]
+}
