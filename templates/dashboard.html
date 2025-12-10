@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>AI 研究可视化仪表盘</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background: #f7f7f7;
+        }
+        h1 { font-size: 32px; }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .item {
+            padding: 20px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .title {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .analysis {
+            margin-top: 12px;
+            padding: 12px;
+            border-radius: 8px;
+            background: #fafafa;
+            line-height: 1.6;
+        }
+
+        .link a {
+            color: #0077ff;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>AI 研究可视化面板 - {{ date }}</h1>
+
+<div class="card">
+    <h2>今日研究统计</h2>
+    <p>研究总数：{{ summary.count }}</p>
+
+    <h3>来源分布：</h3>
+    <ul>
+        {% for k, v in summary.sources.items() %}
+        <li>{{ k }}：{{ v }}</li>
+        {% endfor %}
+    </ul>
+</div>
+
+<div class="card">
+    <h2>关键词云</h2>
+    <img src="../wordcloud.png" width="800">
+</div>
+
+<div class="card">
+    <h2>研究内容列表</h2>
+
+    {% for item in items %}
+    <div class="item">
+        <div class="title">{{ item.title }}</div>
+
+        <!-- 🔥 在这里渲染分析报告 -->
+        <div class="analysis">
+            {{ item.analysis | safe }}
+        </div>
+
+        <div class="link">
+            <a href="{{ item.link }}" target="_blank">查看原文</a>
+        </div>
+    </div>
+    {% endfor %}
+
+</div>
+
+</body>
+</html>
