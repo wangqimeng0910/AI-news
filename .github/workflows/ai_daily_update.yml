@@ -9,6 +9,9 @@ jobs:
   update:
     runs-on: ubuntu-latest
 
+    env:
+      SKIP_ANALYSIS: ${{ inputs.skip_analysis || 'false' }}
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
