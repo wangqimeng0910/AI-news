@@ -1,0 +1,54 @@
+name: AI Daily Research Auto Update
+
+on:
+  schedule:
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      # ---- 缓存 pip 依赖 ----
+      - name: Cache pip
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      # ---- 安装依赖 ----
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Load API key
+        env:
+          DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
+        run: echo "API Key loaded."
+
+      - name: Fetch AI Research
+        run: python fetch_ai_research.py
+
+      - name: Analyze Research
+        run: python analyze_ai_research.py
+
+      - name: Visualize Dashboard
+        run: python visualize.py
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.email "237207431@qq.com"
+          git config --global user.name "wangqimeng0910"
+          git add .
+          git commit -m "Daily AI Research Update" || echo "No changes"
+          git push

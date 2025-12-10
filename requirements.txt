@@ -1,0 +1,6 @@
+feedparser
+jinja2
+markdown
+wordcloud
+requests
+openai
