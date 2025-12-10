@@ -1,186 +1,231 @@
 {
-  "generated_at": "2025-12-08T09:22:20.699094+00:00",
-  "count": 20,
+  "generated_at": "2025-12-10T12:42:53.300836+00:00",
+  "count": 25,
   "items": [
     {
       "source_id": "openai_news",
       "source_name": "OpenAI News",
       "category": "company",
-      "title": "Introducing OpenAI for Australia",
-      "link": "https://openai.com/global-affairs/openai-for-australia",
-      "published": "2025-12-04T19:00:00+00:00",
-      "summary": "OpenAI is launching OpenAI for Australia to build sovereign AI infrastructure, upskill more than 1.5 million workers, and accelerate innovation across the country’s growing AI ecosystem."
+      "title": "How Scout24 is building the next generation of real-estate search with AI",
+      "link": "https://openai.com/index/scout24",
+      "published": "2025-12-09T16:00:00+00:00",
+      "summary": "Scout24 has created a GPT-5 powered conversational assistant that reimagines real-estate search, guiding users with clarifying questions, summaries, and tailored listing recommendations."
     },
     {
       "source_id": "openai_news",
       "source_name": "OpenAI News",
       "category": "company",
-      "title": "OpenAI to acquire Neptune",
-      "link": "https://openai.com/index/openai-to-acquire-neptune",
-      "published": "2025-12-03T10:00:00+00:00",
-      "summary": "OpenAI is acquiring Neptune to deepen visibility into model behavior and strengthen the tools researchers use to track experiments and monitor training."
+      "title": "OpenAI co-founds Agentic AI Foundation, donates AGENTS.md",
+      "link": "https://openai.com/index/agentic-ai-foundation",
+      "published": "2025-12-09T09:00:00+00:00",
+      "summary": "OpenAI co-founds the Agentic AI Foundation under the Linux Foundation and donates AGENTS.md to support open, interoperable standards for safe agentic AI."
     },
     {
       "source_id": "openai_news",
       "source_name": "OpenAI News",
       "category": "company",
-      "title": "How confessions can keep language models honest",
-      "link": "https://openai.com/index/how-confessions-can-keep-language-models-honest",
-      "published": "2025-12-03T10:00:00+00:00",
-      "summary": "OpenAI researchers are testing “confessions,” a method that trains models to admit when they make mistakes or act undesirably, helping improve AI honesty, transparency, and trust in model outputs."
+      "title": "Launching our first OpenAI Certifications courses",
+      "link": "https://openai.com/index/openai-certificate-courses",
+      "published": "2025-12-09T06:00:00+00:00",
+      "summary": "Learn how OpenAI’s new certifications and AI Foundations courses help people build real-world AI skills, boost career opportunities, and prepare for the future of work."
     },
     {
       "source_id": "openai_news",
       "source_name": "OpenAI News",
       "category": "company",
-      "title": "Announcing the initial People-First AI Fund grantees",
-      "link": "https://openai.com/index/people-first-ai-fund-grantees",
-      "published": "2025-12-03T08:00:00+00:00",
-      "summary": "The OpenAI Foundation announces the initial recipients of the People-First AI Fund, awarding $40.5M in unrestricted grants to 208 nonprofits supporting community innovation and opportunity."
+      "title": "Bringing powerful AI to millions across Europe with Deutsche Telekom",
+      "link": "https://openai.com/index/deutsche-telekom-collaboration",
+      "published": "2025-12-09T00:00:00+00:00",
+      "summary": "OpenAI is collaborating with Deutsche Telekom to bring advanced, multilingual AI experiences to millions of people across Europe. ChatGPT Enterprise will also be deployed to help employees at Deutsche Telekom improve workflows and accelerate innovation."
     },
     {
       "source_id": "openai_news",
       "source_name": "OpenAI News",
       "category": "company",
-      "title": "Inside Mirakl's agentic commerce vision",
-      "link": "https://openai.com/index/mirakl",
-      "published": "2025-12-01T22:00:00+00:00",
-      "summary": "Mirakl is redefining commerce through AI agents and ChatGPT Enterprise—achieving faster documentation, smarter customer support, and building toward agent-native commerce with Mirakl Nexus."
+      "title": "OpenAI appoints Denise Dresser as Chief Revenue Officer",
+      "link": "https://openai.com/index/openai-appoints-denise-dresser",
+      "published": "2025-12-09T00:00:00+00:00",
+      "summary": "Denise Dresser is joining as Chief Revenue Officer, overseeing OpenAI’s global revenue strategy across enterprise and customer success. She will help more businesses put AI to work in their day-to-day operations as OpenAI continues to scale."
+    },
+    {
+      "source_id": "deepmind_news",
+      "source_name": "Google DeepMind",
+      "category": "company",
+      "title": "The latest AI news we announced in November",
+      "link": "https://blog.google/technology/ai/google-ai-updates-november-2025/",
+      "published": "2025-12-05T19:45:00+00:00",
+      "summary": "mp4 showing a carousel of images with text like \"Gemini 3\" \"Nano Banana Pro\" and \"Help me plan a trip\""
+    },
+    {
+      "source_id": "deepmind_news",
+      "source_name": "Google DeepMind",
+      "category": "company",
+      "title": "Watch ‘The Thinking Game,’ a documentary about Google DeepMind, for free on YouTube.",
+      "link": "https://blog.google/technology/google-deepmind/the-thinking-game/",
+      "published": "2025-11-25T16:00:00+00:00",
+      "summary": "We’re bringing “The Thinking Game\" to the Google DeepMind YouTube channel."
+    },
+    {
+      "source_id": "deepmind_news",
+      "source_name": "Google DeepMind",
+      "category": "company",
+      "title": "How we’re bringing AI image verification to the Gemini app",
+      "link": "https://blog.google/technology/ai/ai-image-verification-gemini-app/",
+      "published": "2025-11-20T15:00:00+00:00",
+      "summary": "Golden retriever catching frisbee over water. UI overlay shows Google AI watermark detected."
+    },
+    {
+      "source_id": "deepmind_news",
+      "source_name": "Google DeepMind",
+      "category": "company",
+      "title": "Google DeepMind is opening a new AI research lab in Singapore to advance AI in Asia Pacific.",
+      "link": "https://blog.google/around-the-globe/google-asia/google-deepmind-is-opening-a-new-ai-research-lab-in-singapore-to-advance-ai-in-asia-pacific/",
+      "published": "2025-11-19T02:30:00+00:00",
+      "summary": "Four individuals standing in front of a screen with the words “New Singapore AI research Lab” behind them"
+    },
+    {
+      "source_id": "deepmind_news",
+      "source_name": "Google DeepMind",
+      "category": "company",
+      "title": "A new era of intelligence with Gemini 3",
+      "link": "https://blog.google/products/gemini/gemini-3/",
+      "published": "2025-11-18T16:00:00+00:00",
+      "summary": "Gemini 3 logo in front of a black background with the number 3 in blue dots"
     },
     {
       "source_id": "arxiv_cs_lg",
       "source_name": "arXiv cs.LG (Machine Learning)",
       "category": "arxiv",
-      "title": "Advanced Unsupervised Learning: A Comprehensive Overview of Multi-View Clustering Techniques",
-      "link": "https://arxiv.org/abs/2512.05169",
-      "published": "2025-12-08T05:00:00+00:00",
-      "summary": "arXiv:2512.05169v1 Announce Type: new Abstract: Machine learning techniques face numerous challenges to achieve optimal performance. These include computational constraints, the limitations of single-view learning algorithms and the complexity of processing large datasets from different domains, sources or views. In this context, multi-view clustering (MVC), a class of unsupervised multi-view lear..."
+      "title": "ThreadWeaver: Adaptive Threading for Efficient Parallel Reasoning in Language Models",
+      "link": "https://arxiv.org/abs/2512.07843",
+      "published": "2025-12-10T05:00:00+00:00",
+      "summary": "arXiv:2512.07843v1 Announce Type: new Abstract: Scaling inference-time computation has enabled Large Language Models (LLMs) to achieve strong reasoning performance, but inherently sequential decoding leads to substantial latency, especially on complex tasks. Recent work on adaptive parallel reasoning aims to improve inference efficiency by decomposing the problem-solving process into concurrent re..."
     },
     {
       "source_id": "arxiv_cs_lg",
       "source_name": "arXiv cs.LG (Machine Learning)",
       "category": "arxiv",
-      "title": "Coefficient of Variation Masking: A Volatility-Aware Strategy for EHR Foundation Models",
-      "link": "https://arxiv.org/abs/2512.05216",
-      "published": "2025-12-08T05:00:00+00:00",
-      "summary": "arXiv:2512.05216v1 Announce Type: new Abstract: Masked autoencoders (MAEs) are increasingly applied to electronic health records (EHR) for learning general-purpose representations that support diverse clinical tasks. However, existing approaches typically rely on uniform random masking, implicitly assuming all features are equally predictable. In reality, laboratory tests exhibit substantial heter..."
+      "title": "Space Alignment Matters: The Missing Piece for Inducing Neural Collapse in Long-Tailed Learning",
+      "link": "https://arxiv.org/abs/2512.07844",
+      "published": "2025-12-10T05:00:00+00:00",
+      "summary": "arXiv:2512.07844v1 Announce Type: new Abstract: Recent studies on Neural Collapse (NC) reveal that, under class-balanced conditions, the class feature means and classifier weights spontaneously align into a simplex equiangular tight frame (ETF). In long-tailed regimes, however, severe sample imbalance tends to prevent the emergence of the NC phenomenon, resulting in poor generalization performance..."
     },
     {
       "source_id": "arxiv_cs_lg",
       "source_name": "arXiv cs.LG (Machine Learning)",
       "category": "arxiv",
-      "title": "Rethinking Tokenization for Clinical Time Series: When Less is More",
-      "link": "https://arxiv.org/abs/2512.05217",
-      "published": "2025-12-08T05:00:00+00:00",
-      "summary": "arXiv:2512.05217v1 Announce Type: new Abstract: Tokenization strategies shape how models process electronic health records, yet fair comparisons of their effectiveness remain limited. We present a systematic evaluation of tokenization approaches for clinical time series modeling using transformer-based architectures, revealing task-dependent and sometimes counterintuitive findings about temporal a..."
+      "title": "CarBench: A Comprehensive Benchmark for Neural Surrogates on High-Fidelity 3D Car Aerodynamics",
+      "link": "https://arxiv.org/abs/2512.07847",
+      "published": "2025-12-10T05:00:00+00:00",
+      "summary": "arXiv:2512.07847v1 Announce Type: new Abstract: Benchmarking has been the cornerstone of progress in computer vision, natural language processing, and the broader deep learning domain, driving algorithmic innovation through standardized datasets and reproducible evaluation protocols. The growing availability of large-scale Computational Fluid Dynamics (CFD) datasets has opened new opportunities fo..."
     },
     {
       "source_id": "arxiv_cs_lg",
       "source_name": "arXiv cs.LG (Machine Learning)",
       "category": "arxiv",
-      "title": "Mitigating the Antigenic Data Bottleneck: Semi-supervised Learning with Protein Language Models for Influenza A Surveillance",
-      "link": "https://arxiv.org/abs/2512.05222",
-      "published": "2025-12-08T05:00:00+00:00",
-      "summary": "arXiv:2512.05222v1 Announce Type: new Abstract: Influenza A viruses (IAVs) evolve antigenically at a pace that requires frequent vaccine updates, yet the haemagglutination inhibition (HI) assays used to quantify antigenicity are labor-intensive and unscalable. As a result, genomic data vastly outpace available phenotypic labels, limiting the effectiveness of traditional supervised models. We hypot..."
+      "title": "RaX-Crash: A Resource Efficient and Explainable Small Model Pipeline with an Application to City Scale Injury Severity Prediction",
+      "link": "https://arxiv.org/abs/2512.07848",
+      "published": "2025-12-10T05:00:00+00:00",
+      "summary": "arXiv:2512.07848v1 Announce Type: new Abstract: New York City reports over one hundred thousand motor vehicle collisions each year, creating substantial injury and public health burden. We present RaX-Crash, a resource efficient and explainable small model pipeline for structured injury severity prediction on the official NYC Motor Vehicle Collisions dataset. RaX-Crash integrates three linked tabl..."
     },
     {
       "source_id": "arxiv_cs_lg",
       "source_name": "arXiv cs.LG (Machine Learning)",
       "category": "arxiv",
-      "title": "Variance Matters: Improving Domain Adaptation via Stratified Sampling",
-      "link": "https://arxiv.org/abs/2512.05226",
-      "published": "2025-12-08T05:00:00+00:00",
-      "summary": "arXiv:2512.05226v1 Announce Type: new Abstract: Domain shift remains a key challenge in deploying machine learning models to the real world. Unsupervised domain adaptation (UDA) aims to address this by minimising domain discrepancy during training, but the discrepancy estimates suffer from high variance in stochastic settings, which can stifle the theoretical benefits of the method. This paper pro..."
+      "title": "SABER: Small Actions, Big Errors - Safeguarding Mutating Steps in LLM Agents",
+      "link": "https://arxiv.org/abs/2512.07850",
+      "published": "2025-12-10T05:00:00+00:00",
+      "summary": "arXiv:2512.07850v1 Announce Type: new Abstract: Despite rapid progress in LLM agents, performance on long-horizon, tool-using tasks remains fragile. To better understand this fragility, we ask a simple question: \\emph{do all actions contribute equally to failure?} Analyzing execution traces on $\\tau$-Bench (Airline/Retail) and SWE-Bench Verified, we decompose trajectories into \\emph{mutating} (env..."
     },
     {
       "source_id": "arxiv_cs_cl",
       "source_name": "arXiv cs.CL (Computation and Language)",
       "category": "arxiv",
-      "title": "Fine-Tuning BERT for Domain-Specific Question Answering: Toward Educational NLP Resources at University Scale",
-      "link": "https://arxiv.org/abs/2512.05179",
-      "published": "2025-12-08T05:00:00+00:00",
-      "summary": "arXiv:2512.05179v1 Announce Type: new Abstract: Prior work on scientific question answering has largely emphasized chatbot-style systems, with limited exploration of fine-tuning foundation models for domain-specific reasoning. In this study, we developed a chatbot for the University of Limerick's Department of Electronic and Computer Engineering to provide course information to students. A custom ..."
+      "title": "Short-Context Dominance: How Much Local Context Natural Language Actually Needs?",
+      "link": "https://arxiv.org/abs/2512.08082",
+      "published": "2025-12-10T05:00:00+00:00",
+      "summary": "arXiv:2512.08082v1 Announce Type: new Abstract: We investigate the short-context dominance hypothesis: that for most sequences, a small local prefix suffices to predict their next tokens. Using large language models as statistical oracles, we measure the minimum context length (MCL) needed to reproduce accurate full-context predictions across datasets with sequences of varying lengths. For sequenc..."
     },
     {
       "source_id": "arxiv_cs_cl",
       "source_name": "arXiv cs.CL (Computation and Language)",
       "category": "arxiv",
-      "title": "Unveiling Affective Polarization Trends in Parliamentary Proceedings",
-      "link": "https://arxiv.org/abs/2512.05231",
-      "published": "2025-12-08T05:00:00+00:00",
-      "summary": "arXiv:2512.05231v1 Announce Type: new Abstract: Recent years have seen an increase in polarized discourse worldwide, on various platforms. We propose a novel method for quantifying polarization, based on the emotional style of the discourse rather than on differences in ideological stands. Using measures of Valence, Arousal and Dominance, we detect signals of emotional discourse and use them to op..."
+      "title": "Adaptation of Embedding Models to Financial Filings via LLM Distillation",
+      "link": "https://arxiv.org/abs/2512.08088",
+      "published": "2025-12-10T05:00:00+00:00",
+      "summary": "arXiv:2512.08088v1 Announce Type: new Abstract: Despite advances in generative large language models (LLMs), practical application of specialized conversational AI agents remains constrained by computation costs, latency requirements, and the need for precise domain-specific relevance measures. While existing embedding models address the first two constraints, they underperform on information retr..."
     },
     {
       "source_id": "arxiv_cs_cl",
       "source_name": "arXiv cs.CL (Computation and Language)",
       "category": "arxiv",
-      "title": "Decoding the Black Box: Discerning AI Rhetorics About and Through Poetic Prompting",
-      "link": "https://arxiv.org/abs/2512.05243",
-      "published": "2025-12-08T05:00:00+00:00",
-      "summary": "arXiv:2512.05243v1 Announce Type: new Abstract: Prompt engineering has emerged as a useful way studying the algorithmic tendencies and biases of large language models. Meanwhile creatives and academics have leveraged LLMs to develop creative works and explore the boundaries of their writing capabilities through text generation and code. This study suggests that creative text prompting, specificall..."
+      "title": "Segment, Embed, and Align: A Universal Recipe for Aligning Subtitles to Signing",
+      "link": "https://arxiv.org/abs/2512.08094",
+      "published": "2025-12-10T05:00:00+00:00",
+      "summary": "arXiv:2512.08094v1 Announce Type: new Abstract: The goal of this work is to develop a universal approach for aligning subtitles (i.e., spoken language text with corresponding timestamps) to continuous sign language videos. Prior approaches typically rely on end-to-end training tied to a specific language or dataset, which limits their generality. In contrast, our method Segment, Embed, and Align (..."
     },
     {
       "source_id": "arxiv_cs_cl",
       "source_name": "arXiv cs.CL (Computation and Language)",
       "category": "arxiv",
-      "title": "Enhancing Clinical Note Generation with ICD-10, Clinical Ontology Knowledge Graphs, and Chain-of-Thought Prompting Using GPT-4",
-      "link": "https://arxiv.org/abs/2512.05256",
-      "published": "2025-12-08T05:00:00+00:00",
-      "summary": "arXiv:2512.05256v1 Announce Type: new Abstract: In the past decade a surge in the amount of electronic health record (EHR) data in the United States, attributed to a favorable policy environment created by the Health Information Technology for Economic and Clinical Health (HITECH) Act of 2009 and the 21st Century Cures Act of 2016. Clinical notes for patients' assessments, diagnoses, and treatment..."
+      "title": "Universal Adversarial Suffixes Using Calibrated Gumbel-Softmax Relaxation",
+      "link": "https://arxiv.org/abs/2512.08123",
+      "published": "2025-12-10T05:00:00+00:00",
+      "summary": "arXiv:2512.08123v1 Announce Type: new Abstract: Language models (LMs) are often used as zero-shot or few-shot classifiers by scoring label words, but they remain fragile to adversarial prompts. Prior work typically optimizes task- or model-specific triggers, making results difficult to compare and limiting transferability. We study universal adversarial suffixes: short token sequences (4-10 tokens..."
     },
     {
       "source_id": "arxiv_cs_cl",
       "source_name": "arXiv cs.CL (Computation and Language)",
       "category": "arxiv",
-      "title": "To Think or Not to Think: The Hidden Cost of Meta-Training with Excessive CoT Examples",
-      "link": "https://arxiv.org/abs/2512.05318",
-      "published": "2025-12-08T05:00:00+00:00",
-      "summary": "arXiv:2512.05318v1 Announce Type: new Abstract: Chain-of-thought (CoT) prompting combined with few-shot in-context learning (ICL) has unlocked significant reasoning capabilities in large language models (LLMs). However, ICL with CoT examples is ineffective on novel tasks when the pre-training knowledge is insufficient. We study this problem in a controlled setting using the CoT-ICL Lab framework, ..."
+      "title": "Universal Adversarial Suffixes for Language Models Using Reinforcement Learning with Calibrated Reward",
+      "link": "https://arxiv.org/abs/2512.08131",
+      "published": "2025-12-10T05:00:00+00:00",
+      "summary": "arXiv:2512.08131v1 Announce Type: new Abstract: Language models are vulnerable to short adversarial suffixes that can reliably alter predictions. Previous works usually find such suffixes with gradient search or rule-based methods, but these are brittle and often tied to a single task or model. In this paper, a reinforcement learning framework is used where the suffix is treated as a policy and tr..."
     },
     {
       "source_id": "arxiv_cs_ai",
       "source_name": "arXiv cs.AI (Artificial Intelligence)",
       "category": "arxiv",
-      "title": "Documenting SME Processes with Conversational AI: From Tacit Knowledge to BPMN",
-      "link": "https://arxiv.org/abs/2512.05122",
-      "published": "2025-12-08T05:00:00+00:00",
-      "summary": "arXiv:2512.05122v1 Announce Type: new Abstract: Small and medium-sized enterprises (SMEs) still depend heavily on tacit, experience-based know-how that rarely makes its way into formal documentation. This paper introduces a large-language-model (LLM)-driven conversational assistant that captures such knowledge on the shop floor and converts it incrementally and interactively into standards-complia..."
+      "title": "Impact of Data-Oriented and Object-Oriented Design on Performance and Cache Utilization with Artificial Intelligence Algorithms in Multi-Threaded CPUs",
+      "link": "https://arxiv.org/abs/2512.07841",
+      "published": "2025-12-10T05:00:00+00:00",
+      "summary": "arXiv:2512.07841v1 Announce Type: new Abstract: The growing performance gap between multi-core CPUs and main memory necessitates hardware-aware software design paradigms. This study provides a comprehensive performance analysis of Data Oriented Design (DOD) versus the traditional Object-Oriented Design (OOD), focusing on cache utilization and efficiency in multi-threaded environments. We developed..."
     },
     {
       "source_id": "arxiv_cs_ai",
       "source_name": "arXiv cs.AI (Artificial Intelligence)",
       "category": "arxiv",
-      "title": "Semantic Faithfulness and Entropy Production Measures to Tame Your LLM Demons and Manage Hallucinations",
-      "link": "https://arxiv.org/abs/2512.05156",
-      "published": "2025-12-08T05:00:00+00:00",
-      "summary": "arXiv:2512.05156v1 Announce Type: new Abstract: Evaluating faithfulness of Large Language Models (LLMs) to a given task is a complex challenge. We propose two new unsupervised metrics for faithfulness evaluation using insights from information theory and thermodynamics. Our approach treats an LLM as a bipartite information engine where hidden layers act as a Maxwell demon controlling transformatio..."
+      "title": "Can AI autonomously build, operate, and use the entire data stack?",
+      "link": "https://arxiv.org/abs/2512.07926",
+      "published": "2025-12-10T05:00:00+00:00",
+      "summary": "arXiv:2512.07926v1 Announce Type: new Abstract: Enterprise data management is a monumental task. It spans data architecture and systems, integration, quality, governance, and continuous improvement. While AI assistants can help specific persona, such as data engineers and stewards, to navigate and configure the data stack, they fall far short of full automation. However, as AI becomes increasingly..."
     },
     {
       "source_id": "arxiv_cs_ai",
       "source_name": "arXiv cs.AI (Artificial Intelligence)",
       "category": "arxiv",
-      "title": "Bridging Traditional Machine Learning and Large Language Models: A Two-Part Course Design for Modern AI Education",
-      "link": "https://arxiv.org/abs/2512.05167",
-      "published": "2025-12-08T05:00:00+00:00",
-      "summary": "arXiv:2512.05167v1 Announce Type: new Abstract: This paper presents an innovative pedagogical approach for teaching artificial intelligence and data science that systematically bridges traditional machine learning techniques with modern Large Language Models (LLMs). We describe a course structured in two sequential and complementary parts: foundational machine learning concepts and contemporary LL..."
+      "title": "SkipKV: Selective Skipping of KV Generation and Storage for Efficient Inference with Large Reasoning Models",
+      "link": "https://arxiv.org/abs/2512.07993",
+      "published": "2025-12-10T05:00:00+00:00",
+      "summary": "arXiv:2512.07993v1 Announce Type: new Abstract: Large reasoning models (LRMs) often cost significant key-value (KV) cache overhead, due to their linear growth with the verbose chain-of-thought (CoT) reasoning process. This costs both memory and throughput bottleneck limiting their efficient deployment. Towards reducing KV cache size during inference, we first investigate the effectiveness of exist..."
     },
     {
       "source_id": "arxiv_cs_ai",
       "source_name": "arXiv cs.AI (Artificial Intelligence)",
       "category": "arxiv",
-      "title": "On the Computability of Artificial General Intelligence",
-      "link": "https://arxiv.org/abs/2512.05212",
-      "published": "2025-12-08T05:00:00+00:00",
-      "summary": "arXiv:2512.05212v1 Announce Type: new Abstract: In recent years we observed rapid and significant advancements in artificial intelligence (A.I.). So much so that many wonder how close humanity is to developing an A.I. model that can achieve human level of intelligence, also known as artificial general intelligence (A.G.I.). In this work we look at this question and we attempt to define the upper b..."
+      "title": "Toward an AI Reasoning-Enabled System for Patient-Clinical Trial Matching",
+      "link": "https://arxiv.org/abs/2512.08026",
+      "published": "2025-12-10T05:00:00+00:00",
+      "summary": "arXiv:2512.08026v1 Announce Type: new Abstract: Screening patients for clinical trial eligibility remains a manual, time-consuming, and resource-intensive process. We present a secure, scalable proof-of-concept system for Artificial Intelligence (AI)-augmented patient-trial matching that addresses key implementation challenges: integrating heterogeneous electronic health record (EHR) data, facilit..."
     },
     {
       "source_id": "arxiv_cs_ai",
       "source_name": "arXiv cs.AI (Artificial Intelligence)",
       "category": "arxiv",
-      "title": "Resolving Zadehs Paradox Axiomatic Possibility Theory as a Foundation for Reliable Artificial Intelligence",
-      "link": "https://arxiv.org/abs/2512.05257",
-      "published": "2025-12-08T05:00:00+00:00",
-      "summary": "arXiv:2512.05257v1 Announce Type: new Abstract: This work advances and substantiates the thesis that the resolution of this crisis lies in the domain of possibility theory, specifically in the axiomatic approach developed in Bychkovs article. Unlike numerous attempts to fix Dempster rule, this approach builds from scratch a logically consistent and mathematically rigorous foundation for working wi..."
+      "title": "Large Language Models for Education and Research: An Empirical and User Survey-based Analysis",
+      "link": "https://arxiv.org/abs/2512.08057",
+      "published": "2025-12-10T05:00:00+00:00",
+      "summary": "arXiv:2512.08057v1 Announce Type: new Abstract: Pretrained Large Language Models (LLMs) have achieved remarkable success across diverse domains, with education and research emerging as particularly impactful areas. Among current state-of-the-art LLMs, ChatGPT and DeepSeek exhibit strong capabilities in mathematics, science, medicine, literature, and programming. In this study, we present a compreh..."
     }
   ]
 }
