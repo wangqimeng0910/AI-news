@@ -47,6 +47,7 @@ jobs:
         run: python fetch_ai_research.py
 
       - name: Analyze Research
+        if: ${{ env.SKIP_ANALYSIS != 'true' }}
         run: python analyze_ai_research.py
 
       - name: Visualize Dashboard
