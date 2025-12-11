@@ -1,7 +1,16 @@
 {
-  "generated_at": "2025-12-10T14:42:01.593688+00:00",
+  "generated_at": "2025-12-11T02:51:47.945462+00:00",
   "count": 25,
   "items": [
+    {
+      "source_id": "openai_news",
+      "source_name": "OpenAI News",
+      "category": "company",
+      "title": "Strengthening cyber resilience as AI capabilities advance",
+      "link": "https://openai.com/index/strengthening-cyber-resilience",
+      "published": "2025-12-10T12:00:00+00:00",
+      "summary": "OpenAI is investing in stronger safeguards and defensive capabilities as AI models become more powerful in cybersecurity. We explain how we assess risk, limit misuse, and work with the security community to strengthen cyber resilience."
+    },
     {
       "source_id": "openai_news",
       "source_name": "OpenAI News",
@@ -33,19 +42,10 @@
       "source_id": "openai_news",
       "source_name": "OpenAI News",
       "category": "company",
-      "title": "Bringing powerful AI to millions across Europe with Deutsche Telekom",
-      "link": "https://openai.com/index/deutsche-telekom-collaboration",
+      "title": "Building AI fluency at scale with ChatGPT Enterprise",
+      "link": "https://openai.com/index/commonwealth-bank-of-australia",
       "published": "2025-12-09T00:00:00+00:00",
-      "summary": "OpenAI is collaborating with Deutsche Telekom to bring advanced, multilingual AI experiences to millions of people across Europe. ChatGPT Enterprise will also be deployed to help employees at Deutsche Telekom improve workflows and accelerate innovation."
-    },
-    {
-      "source_id": "openai_news",
-      "source_name": "OpenAI News",
-      "category": "company",
-      "title": "OpenAI appoints Denise Dresser as Chief Revenue Officer",
-      "link": "https://openai.com/index/openai-appoints-denise-dresser",
-      "published": "2025-12-09T00:00:00+00:00",
-      "summary": "Denise Dresser is joining as Chief Revenue Officer, overseeing OpenAI’s global revenue strategy across enterprise and customer success. She will help more businesses put AI to work in their day-to-day operations as OpenAI continues to scale."
+      "summary": "Commonwealth Bank of Australia partners with OpenAI to roll out ChatGPT Enterprise to 50,000 employees, building AI fluency at scale to improve customer service and fraud response."
     },
     {
       "source_id": "deepmind_news",
