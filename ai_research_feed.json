@@ -1,51 +1,51 @@
 {
-  "generated_at": "2025-12-11T02:51:47.945462+00:00",
+  "generated_at": "2025-12-12T02:50:44.175523+00:00",
   "count": 25,
   "items": [
     {
       "source_id": "openai_news",
       "source_name": "OpenAI News",
       "category": "company",
-      "title": "Strengthening cyber resilience as AI capabilities advance",
-      "link": "https://openai.com/index/strengthening-cyber-resilience",
-      "published": "2025-12-10T12:00:00+00:00",
-      "summary": "OpenAI is investing in stronger safeguards and defensive capabilities as AI models become more powerful in cybersecurity. We explain how we assess risk, limit misuse, and work with the security community to strengthen cyber resilience."
+      "title": "Advancing science and math with GPT-5.2",
+      "link": "https://openai.com/index/gpt-5-2-for-science-and-math",
+      "published": "2025-12-11T10:00:00+00:00",
+      "summary": "GPT-5.2 is OpenAI’s strongest model yet for math and science, setting new state-of-the-art results on benchmarks like GPQA Diamond and FrontierMath. This post shows how those gains translate into real research progress, including solving an open theoretical problem and generating reliable mathematical proofs."
     },
     {
       "source_id": "openai_news",
       "source_name": "OpenAI News",
       "category": "company",
-      "title": "How Scout24 is building the next generation of real-estate search with AI",
-      "link": "https://openai.com/index/scout24",
-      "published": "2025-12-09T16:00:00+00:00",
-      "summary": "Scout24 has created a GPT-5 powered conversational assistant that reimagines real-estate search, guiding users with clarifying questions, summaries, and tailored listing recommendations."
+      "title": "Ten years",
+      "link": "https://openai.com/index/ten-years",
+      "published": "2025-12-11T00:00:00+00:00",
+      "summary": "OpenAI reflects on ten years of progress, from early research breakthroughs to widely used AI systems that reshaped what’s possible. We share lessons from the past decade and why we remain optimistic about building AGI that benefits all of humanity."
     },
     {
       "source_id": "openai_news",
       "source_name": "OpenAI News",
       "category": "company",
-      "title": "OpenAI co-founds Agentic AI Foundation, donates AGENTS.md",
-      "link": "https://openai.com/index/agentic-ai-foundation",
-      "published": "2025-12-09T09:00:00+00:00",
-      "summary": "OpenAI co-founds the Agentic AI Foundation under the Linux Foundation and donates AGENTS.md to support open, interoperable standards for safe agentic AI."
+      "title": "Introducing GPT-5.2",
+      "link": "https://openai.com/index/introducing-gpt-5-2",
+      "published": "2025-12-11T00:00:00+00:00",
+      "summary": "GPT-5.2 is our most advanced frontier model for everyday professional work, with state-of-the-art reasoning, long-context understanding, coding, and vision. Use it in ChatGPT and the OpenAI API to power faster, more reliable agentic workflows."
     },
     {
       "source_id": "openai_news",
       "source_name": "OpenAI News",
       "category": "company",
-      "title": "Launching our first OpenAI Certifications courses",
-      "link": "https://openai.com/index/openai-certificate-courses",
-      "published": "2025-12-09T06:00:00+00:00",
-      "summary": "Learn how OpenAI’s new certifications and AI Foundations courses help people build real-world AI skills, boost career opportunities, and prepare for the future of work."
+      "title": "The Walt Disney Company and OpenAI reach landmark agreement to bring beloved characters to Sora",
+      "link": "https://openai.com/index/disney-sora-agreement",
+      "published": "2025-12-11T00:00:00+00:00",
+      "summary": "Disney and OpenAI have reached an agreement to bring more than 200 Disney, Marvel, Pixar and Star Wars characters to Sora for fan-inspired short videos. The agreement emphasizes responsible AI in entertainment and includes Disney’s company-wide use of ChatGPT Enterprise and the OpenAI API."
     },
     {
       "source_id": "openai_news",
       "source_name": "OpenAI News",
       "category": "company",
-      "title": "Building AI fluency at scale with ChatGPT Enterprise",
-      "link": "https://openai.com/index/commonwealth-bank-of-australia",
-      "published": "2025-12-09T00:00:00+00:00",
-      "summary": "Commonwealth Bank of Australia partners with OpenAI to roll out ChatGPT Enterprise to 50,000 employees, building AI fluency at scale to improve customer service and fraud response."
+      "title": "Update to GPT-5 System Card: GPT-5.2",
+      "link": "https://openai.com/index/gpt-5-system-card-update-gpt-5-2",
+      "published": "2025-12-11T00:00:00+00:00",
+      "summary": "GPT-5.2 is the latest model family in the GPT-5 series. The comprehensive safety mitigation approach for these models is largely the same as that described in the GPT-5 System Card and GPT-5.1 System Card. Like OpenAI’s other models, the GPT-5.2 models were trained on diverse datasets, including information that is publicly available on the internet, information that we partner with third parties ..."
     },
     {
       "source_id": "deepmind_news",
@@ -96,136 +96,136 @@
       "source_id": "arxiv_cs_lg",
       "source_name": "arXiv cs.LG (Machine Learning)",
       "category": "arxiv",
-      "title": "ThreadWeaver: Adaptive Threading for Efficient Parallel Reasoning in Language Models",
-      "link": "https://arxiv.org/abs/2512.07843",
-      "published": "2025-12-10T05:00:00+00:00",
-      "summary": "arXiv:2512.07843v1 Announce Type: new Abstract: Scaling inference-time computation has enabled Large Language Models (LLMs) to achieve strong reasoning performance, but inherently sequential decoding leads to substantial latency, especially on complex tasks. Recent work on adaptive parallel reasoning aims to improve inference efficiency by decomposing the problem-solving process into concurrent re..."
+      "title": "Optimizing Algorithms for Mobile Health Interventions with Active Querying Optimization",
+      "link": "https://arxiv.org/abs/2512.08950",
+      "published": "2025-12-11T05:00:00+00:00",
+      "summary": "arXiv:2512.08950v1 Announce Type: new Abstract: Reinforcement learning in mobile health (mHealth) interventions requires balancing intervention efficacy with user burden, particularly when state measurements (for example, user surveys or feedback) are costly yet essential. The Act-Then-Measure (ATM) heuristic addresses this challenge by decoupling control and measurement actions within the Action-..."
     },
     {
       "source_id": "arxiv_cs_lg",
       "source_name": "arXiv cs.LG (Machine Learning)",
       "category": "arxiv",
-      "title": "Space Alignment Matters: The Missing Piece for Inducing Neural Collapse in Long-Tailed Learning",
-      "link": "https://arxiv.org/abs/2512.07844",
-      "published": "2025-12-10T05:00:00+00:00",
-      "summary": "arXiv:2512.07844v1 Announce Type: new Abstract: Recent studies on Neural Collapse (NC) reveal that, under class-balanced conditions, the class feature means and classifier weights spontaneously align into a simplex equiangular tight frame (ETF). In long-tailed regimes, however, severe sample imbalance tends to prevent the emergence of the NC phenomenon, resulting in poor generalization performance..."
+      "title": "Learning When to Ask: Simulation-Trained Humanoids for Mental-Health Diagnosis",
+      "link": "https://arxiv.org/abs/2512.08952",
+      "published": "2025-12-11T05:00:00+00:00",
+      "summary": "arXiv:2512.08952v1 Announce Type: new Abstract: Testing humanoid robots with users is slow, causes wear, and limits iteration and diversity. Yet screening agents must master conversational timing, prosody, backchannels, and what to attend to in faces and speech for Depression and PTSD. Most simulators omit policy learning with nonverbal dynamics; many controllers chase task accuracy while underwei..."
     },
     {
       "source_id": "arxiv_cs_lg",
       "source_name": "arXiv cs.LG (Machine Learning)",
       "category": "arxiv",
-      "title": "CarBench: A Comprehensive Benchmark for Neural Surrogates on High-Fidelity 3D Car Aerodynamics",
-      "link": "https://arxiv.org/abs/2512.07847",
-      "published": "2025-12-10T05:00:00+00:00",
-      "summary": "arXiv:2512.07847v1 Announce Type: new Abstract: Benchmarking has been the cornerstone of progress in computer vision, natural language processing, and the broader deep learning domain, driving algorithmic innovation through standardized datasets and reproducible evaluation protocols. The growing availability of large-scale Computational Fluid Dynamics (CFD) datasets has opened new opportunities fo..."
+      "title": "An Electrocardiogram Multi-task Benchmark with Comprehensive Evaluations and Insightful Findings",
+      "link": "https://arxiv.org/abs/2512.08954",
+      "published": "2025-12-11T05:00:00+00:00",
+      "summary": "arXiv:2512.08954v1 Announce Type: new Abstract: In the process of patient diagnosis, non-invasive measurements are widely used due to their low risks and quick results. Electrocardiogram (ECG), as a non-invasive method to collect heart activities, is used to diagnose cardiac conditions. Analyzing the ECG typically requires domain expertise, which is a roadblock to applying artificial intelligence ..."
     },
     {
       "source_id": "arxiv_cs_lg",
       "source_name": "arXiv cs.LG (Machine Learning)",
       "category": "arxiv",
-      "title": "RaX-Crash: A Resource Efficient and Explainable Small Model Pipeline with an Application to City Scale Injury Severity Prediction",
-      "link": "https://arxiv.org/abs/2512.07848",
-      "published": "2025-12-10T05:00:00+00:00",
-      "summary": "arXiv:2512.07848v1 Announce Type: new Abstract: New York City reports over one hundred thousand motor vehicle collisions each year, creating substantial injury and public health burden. We present RaX-Crash, a resource efficient and explainable small model pipeline for structured injury severity prediction on the official NYC Motor Vehicle Collisions dataset. RaX-Crash integrates three linked tabl..."
+      "title": "LLM4XCE: Large Language Models for Extremely Large-Scale Massive MIMO Channel Estimation",
+      "link": "https://arxiv.org/abs/2512.08955",
+      "published": "2025-12-11T05:00:00+00:00",
+      "summary": "arXiv:2512.08955v1 Announce Type: new Abstract: Extremely large-scale massive multiple-input multiple-output (XL-MIMO) is a key enabler for sixth-generation (6G) networks, offering massive spatial degrees of freedom. Despite these advantages, the coexistence of near-field and far-field effects in hybrid-field channels presents significant challenges for accurate estimation, where traditional metho..."
     },
     {
       "source_id": "arxiv_cs_lg",
       "source_name": "arXiv cs.LG (Machine Learning)",
       "category": "arxiv",
-      "title": "SABER: Small Actions, Big Errors - Safeguarding Mutating Steps in LLM Agents",
-      "link": "https://arxiv.org/abs/2512.07850",
-      "published": "2025-12-10T05:00:00+00:00",
-      "summary": "arXiv:2512.07850v1 Announce Type: new Abstract: Despite rapid progress in LLM agents, performance on long-horizon, tool-using tasks remains fragile. To better understand this fragility, we ask a simple question: \\emph{do all actions contribute equally to failure?} Analyzing execution traces on $\\tau$-Bench (Airline/Retail) and SWE-Bench Verified, we decompose trajectories into \\emph{mutating} (env..."
+      "title": "DW-KNN: A Transparent Local Classifier Integrating Distance Consistency and Neighbor Reliability",
+      "link": "https://arxiv.org/abs/2512.08956",
+      "published": "2025-12-11T05:00:00+00:00",
+      "summary": "arXiv:2512.08956v1 Announce Type: new Abstract: K-Nearest Neighbors (KNN) is one of the most used ML classifiers. However, if we observe closely, standard distance-weighted KNN and relative variants assume all 'k' neighbors are equally reliable. In heterogeneous feature space, this becomes a limitation that hinders reliability in predicting true levels of the observation. We propose DW-KNN (Double..."
     },
     {
       "source_id": "arxiv_cs_cl",
       "source_name": "arXiv cs.CL (Computation and Language)",
       "category": "arxiv",
-      "title": "Short-Context Dominance: How Much Local Context Natural Language Actually Needs?",
-      "link": "https://arxiv.org/abs/2512.08082",
-      "published": "2025-12-10T05:00:00+00:00",
-      "summary": "arXiv:2512.08082v1 Announce Type: new Abstract: We investigate the short-context dominance hypothesis: that for most sequences, a small local prefix suffices to predict their next tokens. Using large language models as statistical oracles, we measure the minimum context length (MCL) needed to reproduce accurate full-context predictions across datasets with sequences of varying lengths. For sequenc..."
+      "title": "Noise-Robust Abstractive Compression in Retrieval-Augmented Language Models",
+      "link": "https://arxiv.org/abs/2512.08943",
+      "published": "2025-12-11T05:00:00+00:00",
+      "summary": "arXiv:2512.08943v1 Announce Type: new Abstract: Abstractive compression utilizes smaller langauge models to condense query-relevant context, reducing computational costs in retrieval-augmented generation (RAG). However, retrieved documents often include information that is either irrelevant to answering the query or misleading due to factual incorrect content, despite having high relevance scores...."
     },
     {
       "source_id": "arxiv_cs_cl",
       "source_name": "arXiv cs.CL (Computation and Language)",
       "category": "arxiv",
-      "title": "Adaptation of Embedding Models to Financial Filings via LLM Distillation",
-      "link": "https://arxiv.org/abs/2512.08088",
-      "published": "2025-12-10T05:00:00+00:00",
-      "summary": "arXiv:2512.08088v1 Announce Type: new Abstract: Despite advances in generative large language models (LLMs), practical application of specialized conversational AI agents remains constrained by computation costs, latency requirements, and the need for precise domain-specific relevance measures. While existing embedding models address the first two constraints, they underperform on information retr..."
+      "title": "Enhancing Reliability across Short and Long-Form QA via Reinforcement Learning",
+      "link": "https://arxiv.org/abs/2512.08944",
+      "published": "2025-12-11T05:00:00+00:00",
+      "summary": "arXiv:2512.08944v1 Announce Type: new Abstract: While reinforcement learning has unlocked unprecedented complex reasoning in large language models, it has also amplified their propensity for hallucination, creating a critical trade-off between capability and reliability. This work confronts this challenge by introducing a targeted RL framework designed to mitigate both intrinsic and extrinsic hall..."
     },
     {
       "source_id": "arxiv_cs_cl",
       "source_name": "arXiv cs.CL (Computation and Language)",
       "category": "arxiv",
-      "title": "Segment, Embed, and Align: A Universal Recipe for Aligning Subtitles to Signing",
-      "link": "https://arxiv.org/abs/2512.08094",
-      "published": "2025-12-10T05:00:00+00:00",
-      "summary": "arXiv:2512.08094v1 Announce Type: new Abstract: The goal of this work is to develop a universal approach for aligning subtitles (i.e., spoken language text with corresponding timestamps) to continuous sign language videos. Prior approaches typically rely on end-to-end training tied to a specific language or dataset, which limits their generality. In contrast, our method Segment, Embed, and Align (..."
+      "title": "The Linguistic Architecture of Reflective Thought: Evaluation of a Large Language Model as a Tool to Isolate the Formal Structure of Mentalization",
+      "link": "https://arxiv.org/abs/2512.08945",
+      "published": "2025-12-11T05:00:00+00:00",
+      "summary": "arXiv:2512.08945v1 Announce Type: new Abstract: Background: Mentalization integrates cognitive, affective, and intersubjective components. Large Language Models (LLMs) display an increasing ability to generate reflective texts, raising questions regarding the relationship between linguistic form and mental representation. This study assesses the extent to which a single LLM can reproduce the lingu..."
     },
     {
       "source_id": "arxiv_cs_cl",
       "source_name": "arXiv cs.CL (Computation and Language)",
       "category": "arxiv",
-      "title": "Universal Adversarial Suffixes Using Calibrated Gumbel-Softmax Relaxation",
-      "link": "https://arxiv.org/abs/2512.08123",
-      "published": "2025-12-10T05:00:00+00:00",
-      "summary": "arXiv:2512.08123v1 Announce Type: new Abstract: Language models (LMs) are often used as zero-shot or few-shot classifiers by scoring label words, but they remain fragile to adversarial prompts. Prior work typically optimizes task- or model-specific triggers, making results difficult to compare and limiting transferability. We study universal adversarial suffixes: short token sequences (4-10 tokens..."
+      "title": "Luxical: High-Speed Lexical-Dense Text Embeddings",
+      "link": "https://arxiv.org/abs/2512.09015",
+      "published": "2025-12-11T05:00:00+00:00",
+      "summary": "arXiv:2512.09015v1 Announce Type: new Abstract: Frontier language model quality increasingly hinges on our ability to organize web-scale text corpora for training. Today's dominant tools trade off speed and flexibility: lexical classifiers (e.g., FastText) are fast but limited to producing classification output scores, while the vector-valued outputs of transformer text embedding models flexibly s..."
     },
     {
       "source_id": "arxiv_cs_cl",
       "source_name": "arXiv cs.CL (Computation and Language)",
       "category": "arxiv",
-      "title": "Universal Adversarial Suffixes for Language Models Using Reinforcement Learning with Calibrated Reward",
-      "link": "https://arxiv.org/abs/2512.08131",
-      "published": "2025-12-10T05:00:00+00:00",
-      "summary": "arXiv:2512.08131v1 Announce Type: new Abstract: Language models are vulnerable to short adversarial suffixes that can reliably alter predictions. Previous works usually find such suffixes with gradient search or rule-based methods, but these are brittle and often tied to a single task or model. In this paper, a reinforcement learning framework is used where the suffix is treated as a policy and tr..."
+      "title": "Knowledge-Guided Large Language Model for Automatic Pediatric Dental Record Understanding and Safe Antibiotic Recommendation",
+      "link": "https://arxiv.org/abs/2512.09127",
+      "published": "2025-12-11T05:00:00+00:00",
+      "summary": "arXiv:2512.09127v1 Announce Type: new Abstract: Accurate interpretation of pediatric dental clinical records and safe antibiotic prescribing remain persistent challenges in dental informatics. Traditional rule-based clinical decision support systems struggle with unstructured dental narratives, incomplete radiographic descriptions, and complex safety constraints. To address these limitations, this..."
     },
     {
       "source_id": "arxiv_cs_ai",
       "source_name": "arXiv cs.AI (Artificial Intelligence)",
       "category": "arxiv",
-      "title": "Impact of Data-Oriented and Object-Oriented Design on Performance and Cache Utilization with Artificial Intelligence Algorithms in Multi-Threaded CPUs",
-      "link": "https://arxiv.org/abs/2512.07841",
-      "published": "2025-12-10T05:00:00+00:00",
-      "summary": "arXiv:2512.07841v1 Announce Type: new Abstract: The growing performance gap between multi-core CPUs and main memory necessitates hardware-aware software design paradigms. This study provides a comprehensive performance analysis of Data Oriented Design (DOD) versus the traditional Object-Oriented Design (OOD), focusing on cache utilization and efficiency in multi-threaded environments. We developed..."
+      "title": "Calibrated Trust in Dealing with LLM Hallucinations: A Qualitative Study",
+      "link": "https://arxiv.org/abs/2512.09088",
+      "published": "2025-12-11T05:00:00+00:00",
+      "summary": "arXiv:2512.09088v1 Announce Type: new Abstract: Hallucinations are outputs by Large Language Models (LLMs) that are factually incorrect yet appear plausible [1]. This paper investigates how such hallucinations influence users' trust in LLMs and users' interaction with LLMs. To explore this in everyday use, we conducted a qualitative study with 192 participants. Our findings show that hallucination..."
     },
     {
       "source_id": "arxiv_cs_ai",
       "source_name": "arXiv cs.AI (Artificial Intelligence)",
       "category": "arxiv",
-      "title": "Can AI autonomously build, operate, and use the entire data stack?",
-      "link": "https://arxiv.org/abs/2512.07926",
-      "published": "2025-12-10T05:00:00+00:00",
-      "summary": "arXiv:2512.07926v1 Announce Type: new Abstract: Enterprise data management is a monumental task. It spans data architecture and systems, integration, quality, governance, and continuous improvement. While AI assistants can help specific persona, such as data engineers and stewards, to navigate and configure the data stack, they fall far short of full automation. However, as AI becomes increasingly..."
+      "title": "AI TIPS 2.0: A Comprehensive Framework for Operationalizing AI Governance",
+      "link": "https://arxiv.org/abs/2512.09114",
+      "published": "2025-12-11T05:00:00+00:00",
+      "summary": "arXiv:2512.09114v1 Announce Type: new Abstract: The deployment of AI systems faces three critical governance challenges that current frameworks fail to adequately address. First, organizations struggle with inadequate risk assessment at the use case level, exemplified by the Humana class action lawsuit and other high impact cases where an AI system deployed to production exhibited both significant..."
     },
     {
       "source_id": "arxiv_cs_ai",
       "source_name": "arXiv cs.AI (Artificial Intelligence)",
       "category": "arxiv",
-      "title": "SkipKV: Selective Skipping of KV Generation and Storage for Efficient Inference with Large Reasoning Models",
-      "link": "https://arxiv.org/abs/2512.07993",
-      "published": "2025-12-10T05:00:00+00:00",
-      "summary": "arXiv:2512.07993v1 Announce Type: new Abstract: Large reasoning models (LRMs) often cost significant key-value (KV) cache overhead, due to their linear growth with the verbose chain-of-thought (CoT) reasoning process. This costs both memory and throughput bottleneck limiting their efficient deployment. Towards reducing KV cache size during inference, we first investigate the effectiveness of exist..."
+      "title": "A Categorical Analysis of Large Language Models and Why LLMs Circumvent the Symbol Grounding Problem",
+      "link": "https://arxiv.org/abs/2512.09117",
+      "published": "2025-12-11T05:00:00+00:00",
+      "summary": "arXiv:2512.09117v1 Announce Type: new Abstract: This paper presents a formal, categorical framework for analysing how humans and large language models (LLMs) transform content into truth-evaluated propositions about a state space of possible worlds W , in order to argue that LLMs do not solve but circumvent the symbol grounding problem."
     },
     {
       "source_id": "arxiv_cs_ai",
       "source_name": "arXiv cs.AI (Artificial Intelligence)",
       "category": "arxiv",
-      "title": "Toward an AI Reasoning-Enabled System for Patient-Clinical Trial Matching",
-      "link": "https://arxiv.org/abs/2512.08026",
-      "published": "2025-12-10T05:00:00+00:00",
-      "summary": "arXiv:2512.08026v1 Announce Type: new Abstract: Screening patients for clinical trial eligibility remains a manual, time-consuming, and resource-intensive process. We present a secure, scalable proof-of-concept system for Artificial Intelligence (AI)-augmented patient-trial matching that addresses key implementation challenges: integrating heterogeneous electronic health record (EHR) data, facilit..."
+      "title": "SDialog: A Python Toolkit for End-to-End Agent Building, User Simulation, Dialog Generation, and Evaluation",
+      "link": "https://arxiv.org/abs/2512.09142",
+      "published": "2025-12-11T05:00:00+00:00",
+      "summary": "arXiv:2512.09142v1 Announce Type: new Abstract: We present SDialog, an MIT-licensed open-source Python toolkit that unifies dialog generation, evaluation and mechanistic interpretability into a single end-to-end framework for building and analyzing LLM-based conversational agents. Built around a standardized \\texttt{Dialog} representation, SDialog provides: (1) persona-driven multi-agent simulatio..."
     },
     {
       "source_id": "arxiv_cs_ai",
       "source_name": "arXiv cs.AI (Artificial Intelligence)",
       "category": "arxiv",
-      "title": "Large Language Models for Education and Research: An Empirical and User Survey-based Analysis",
-      "link": "https://arxiv.org/abs/2512.08057",
-      "published": "2025-12-10T05:00:00+00:00",
-      "summary": "arXiv:2512.08057v1 Announce Type: new Abstract: Pretrained Large Language Models (LLMs) have achieved remarkable success across diverse domains, with education and research emerging as particularly impactful areas. Among current state-of-the-art LLMs, ChatGPT and DeepSeek exhibit strong capabilities in mathematics, science, medicine, literature, and programming. In this study, we present a compreh..."
+      "title": "Visual Categorization Across Minds and Models: Cognitive Analysis of Human Labeling and Neuro-Symbolic Integration",
+      "link": "https://arxiv.org/abs/2512.09340",
+      "published": "2025-12-11T05:00:00+00:00",
+      "summary": "arXiv:2512.09340v1 Announce Type: new Abstract: Understanding how humans and AI systems interpret ambiguous visual stimuli offers critical insight into the nature of perception, reasoning, and decision-making. This paper examines image labeling performance across human participants and deep neural networks, focusing on low-resolution, perceptually degraded stimuli. Drawing from computational cogni..."
     }
   ]
 }
