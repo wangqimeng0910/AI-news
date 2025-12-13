@@ -1,7 +1,34 @@
 {
-  "generated_at": "2025-12-12T02:50:44.175523+00:00",
+  "generated_at": "2025-12-13T02:43:11.611677+00:00",
   "count": 25,
   "items": [
+    {
+      "source_id": "openai_news",
+      "source_name": "OpenAI News",
+      "category": "company",
+      "title": "BBVA and OpenAI collaborate to transform global banking",
+      "link": "https://openai.com/index/bbva-collaboration-expansion",
+      "published": "2025-12-12T00:00:00+00:00",
+      "summary": "BBVA is expanding its work with OpenAI through a multi-year AI transformation program, rolling out ChatGPT Enterprise to all 120,000 employees. Together, the companies will develop AI solutions that enhance customer interactions, streamline operations, and help build an AI-native banking experience."
+    },
+    {
+      "source_id": "openai_news",
+      "source_name": "OpenAI News",
+      "category": "company",
+      "title": "BNY builds “AI for everyone, everywhere” with OpenAI",
+      "link": "https://openai.com/index/bny",
+      "published": "2025-12-12T00:00:00+00:00",
+      "summary": "BNY is using OpenAI technology to expand AI adoption enterprise-wide. Through its Eliza platform, 20,000+ employees are building AI agents that enhance efficiency and improve client outcomes."
+    },
+    {
+      "source_id": "openai_news",
+      "source_name": "OpenAI News",
+      "category": "company",
+      "title": "How We Used Codex to Ship Sora for Android in 28 Days",
+      "link": "https://openai.com/index/shipping-sora-for-android-with-codex",
+      "published": "2025-12-12T00:00:00+00:00",
+      "summary": "OpenAI shipped Sora for Android in 28 days using Codex. AI-assisted planning, translation, and parallel coding workflows helped a nimble team deliver rapid, reliable development."
+    },
     {
       "source_id": "openai_news",
       "source_name": "OpenAI News",
@@ -15,37 +42,10 @@
       "source_id": "openai_news",
       "source_name": "OpenAI News",
       "category": "company",
-      "title": "Ten years",
-      "link": "https://openai.com/index/ten-years",
-      "published": "2025-12-11T00:00:00+00:00",
-      "summary": "OpenAI reflects on ten years of progress, from early research breakthroughs to widely used AI systems that reshaped what’s possible. We share lessons from the past decade and why we remain optimistic about building AGI that benefits all of humanity."
-    },
-    {
-      "source_id": "openai_news",
-      "source_name": "OpenAI News",
-      "category": "company",
       "title": "Introducing GPT-5.2",
       "link": "https://openai.com/index/introducing-gpt-5-2",
       "published": "2025-12-11T00:00:00+00:00",
       "summary": "GPT-5.2 is our most advanced frontier model for everyday professional work, with state-of-the-art reasoning, long-context understanding, coding, and vision. Use it in ChatGPT and the OpenAI API to power faster, more reliable agentic workflows."
-    },
-    {
-      "source_id": "openai_news",
-      "source_name": "OpenAI News",
-      "category": "company",
-      "title": "The Walt Disney Company and OpenAI reach landmark agreement to bring beloved characters to Sora",
-      "link": "https://openai.com/index/disney-sora-agreement",
-      "published": "2025-12-11T00:00:00+00:00",
-      "summary": "Disney and OpenAI have reached an agreement to bring more than 200 Disney, Marvel, Pixar and Star Wars characters to Sora for fan-inspired short videos. The agreement emphasizes responsible AI in entertainment and includes Disney’s company-wide use of ChatGPT Enterprise and the OpenAI API."
-    },
-    {
-      "source_id": "openai_news",
-      "source_name": "OpenAI News",
-      "category": "company",
-      "title": "Update to GPT-5 System Card: GPT-5.2",
-      "link": "https://openai.com/index/gpt-5-system-card-update-gpt-5-2",
-      "published": "2025-12-11T00:00:00+00:00",
-      "summary": "GPT-5.2 is the latest model family in the GPT-5 series. The comprehensive safety mitigation approach for these models is largely the same as that described in the GPT-5 System Card and GPT-5.1 System Card. Like OpenAI’s other models, the GPT-5.2 models were trained on diverse datasets, including information that is publicly available on the internet, information that we partner with third parties ..."
     },
     {
       "source_id": "deepmind_news",
@@ -96,136 +96,136 @@
       "source_id": "arxiv_cs_lg",
       "source_name": "arXiv cs.LG (Machine Learning)",
       "category": "arxiv",
-      "title": "Optimizing Algorithms for Mobile Health Interventions with Active Querying Optimization",
-      "link": "https://arxiv.org/abs/2512.08950",
-      "published": "2025-12-11T05:00:00+00:00",
-      "summary": "arXiv:2512.08950v1 Announce Type: new Abstract: Reinforcement learning in mobile health (mHealth) interventions requires balancing intervention efficacy with user burden, particularly when state measurements (for example, user surveys or feedback) are costly yet essential. The Act-Then-Measure (ATM) heuristic addresses this challenge by decoupling control and measurement actions within the Action-..."
+      "title": "HGC-Herd: Efficient Heterogeneous Graph Condensation via Representative Node Herding",
+      "link": "https://arxiv.org/abs/2512.09947",
+      "published": "2025-12-12T05:00:00+00:00",
+      "summary": "arXiv:2512.09947v1 Announce Type: new Abstract: Heterogeneous graph neural networks (HGNNs) have demonstrated strong capability in modeling complex semantics across multi-type nodes and relations. However, their scalability to large-scale graphs remains challenging due to structural redundancy and high-dimensional node features. Existing graph condensation approaches, such as GCond, are primarily ..."
     },
     {
       "source_id": "arxiv_cs_lg",
       "source_name": "arXiv cs.LG (Machine Learning)",
       "category": "arxiv",
-      "title": "Learning When to Ask: Simulation-Trained Humanoids for Mental-Health Diagnosis",
-      "link": "https://arxiv.org/abs/2512.08952",
-      "published": "2025-12-11T05:00:00+00:00",
-      "summary": "arXiv:2512.08952v1 Announce Type: new Abstract: Testing humanoid robots with users is slow, causes wear, and limits iteration and diversity. Yet screening agents must master conversational timing, prosody, backchannels, and what to attend to in faces and speech for Depression and PTSD. Most simulators omit policy learning with nonverbal dynamics; many controllers chase task accuracy while underwei..."
+      "title": "BAMBO: Construct Ability and Efficiency LLM Pareto Set via Bayesian Adaptive Multi-objective Block-wise Optimization",
+      "link": "https://arxiv.org/abs/2512.09972",
+      "published": "2025-12-12T05:00:00+00:00",
+      "summary": "arXiv:2512.09972v1 Announce Type: new Abstract: Constructing a Pareto set is pivotal for navigating the capability-efficiency trade-offs in Large Language Models (LLMs); however, existing merging techniques remain inadequate for this task. Coarse-grained, model-level methods yield only a sparse set of suboptimal solutions, while fine-grained, layer-wise approaches suffer from the \"curse of dimensi..."
     },
     {
       "source_id": "arxiv_cs_lg",
       "source_name": "arXiv cs.LG (Machine Learning)",
       "category": "arxiv",
-      "title": "An Electrocardiogram Multi-task Benchmark with Comprehensive Evaluations and Insightful Findings",
-      "link": "https://arxiv.org/abs/2512.08954",
-      "published": "2025-12-11T05:00:00+00:00",
-      "summary": "arXiv:2512.08954v1 Announce Type: new Abstract: In the process of patient diagnosis, non-invasive measurements are widely used due to their low risks and quick results. Electrocardiogram (ECG), as a non-invasive method to collect heart activities, is used to diagnose cardiac conditions. Analyzing the ECG typically requires domain expertise, which is a roadblock to applying artificial intelligence ..."
+      "title": "Latent Action World Models for Control with Unlabeled Trajectories",
+      "link": "https://arxiv.org/abs/2512.10016",
+      "published": "2025-12-12T05:00:00+00:00",
+      "summary": "arXiv:2512.10016v1 Announce Type: new Abstract: Inspired by how humans combine direct interaction with action-free experience (e.g., videos), we study world models that learn from heterogeneous data. Standard world models typically rely on action-conditioned trajectories, which limits effectiveness when action labels are scarce. We introduce a family of latent-action world models that jointly use ..."
     },
     {
       "source_id": "arxiv_cs_lg",
       "source_name": "arXiv cs.LG (Machine Learning)",
       "category": "arxiv",
-      "title": "LLM4XCE: Large Language Models for Extremely Large-Scale Massive MIMO Channel Estimation",
-      "link": "https://arxiv.org/abs/2512.08955",
-      "published": "2025-12-11T05:00:00+00:00",
-      "summary": "arXiv:2512.08955v1 Announce Type: new Abstract: Extremely large-scale massive multiple-input multiple-output (XL-MIMO) is a key enabler for sixth-generation (6G) networks, offering massive spatial degrees of freedom. Despite these advantages, the coexistence of near-field and far-field effects in hybrid-field channels presents significant challenges for accurate estimation, where traditional metho..."
+      "title": "Cluster-Dags as Powerful Background Knowledge For Causal Discovery",
+      "link": "https://arxiv.org/abs/2512.10032",
+      "published": "2025-12-12T05:00:00+00:00",
+      "summary": "arXiv:2512.10032v1 Announce Type: new Abstract: Finding cause-effect relationships is of key importance in science. Causal discovery aims to recover a graph from data that succinctly describes these cause-effect relationships. However, current methods face several challenges, especially when dealing with high-dimensional data and complex dependencies. Incorporating prior knowledge about the system..."
     },
     {
       "source_id": "arxiv_cs_lg",
       "source_name": "arXiv cs.LG (Machine Learning)",
       "category": "arxiv",
-      "title": "DW-KNN: A Transparent Local Classifier Integrating Distance Consistency and Neighbor Reliability",
-      "link": "https://arxiv.org/abs/2512.08956",
-      "published": "2025-12-11T05:00:00+00:00",
-      "summary": "arXiv:2512.08956v1 Announce Type: new Abstract: K-Nearest Neighbors (KNN) is one of the most used ML classifiers. However, if we observe closely, standard distance-weighted KNN and relative variants assume all 'k' neighbors are equally reliable. In heterogeneous feature space, this becomes a limitation that hinders reliability in predicting true levels of the observation. We propose DW-KNN (Double..."
+      "title": "Robust Gradient Descent via Heavy-Ball Momentum with Predictive Extrapolation",
+      "link": "https://arxiv.org/abs/2512.10033",
+      "published": "2025-12-12T05:00:00+00:00",
+      "summary": "arXiv:2512.10033v1 Announce Type: new Abstract: Accelerated gradient methods like Nesterov's Accelerated Gradient (NAG) achieve faster convergence on well-conditioned problems but often diverge on ill-conditioned or non-convex landscapes due to aggressive momentum accumulation. We propose Heavy-Ball Synthetic Gradient Extrapolation (HB-SGE), a robust first-order method that combines heavy-ball mom..."
     },
     {
       "source_id": "arxiv_cs_cl",
       "source_name": "arXiv cs.CL (Computation and Language)",
       "category": "arxiv",
-      "title": "Noise-Robust Abstractive Compression in Retrieval-Augmented Language Models",
-      "link": "https://arxiv.org/abs/2512.08943",
-      "published": "2025-12-11T05:00:00+00:00",
-      "summary": "arXiv:2512.08943v1 Announce Type: new Abstract: Abstractive compression utilizes smaller langauge models to condense query-relevant context, reducing computational costs in retrieval-augmented generation (RAG). However, retrieved documents often include information that is either irrelevant to answering the query or misleading due to factual incorrect content, despite having high relevance scores...."
+      "title": "What Kind of Reasoning (if any) is an LLM actually doing? On the Stochastic Nature and Abductive Appearance of Large Language Models",
+      "link": "https://arxiv.org/abs/2512.10080",
+      "published": "2025-12-12T05:00:00+00:00",
+      "summary": "arXiv:2512.10080v1 Announce Type: new Abstract: This article looks at how reasoning works in current Large Language Models (LLMs) that function using the token-completion method. It examines their stochastic nature and their similarity to human abductive reasoning. The argument is that these LLMs create text based on learned patterns rather than performing actual abductive reasoning. When their ou..."
     },
     {
       "source_id": "arxiv_cs_cl",
       "source_name": "arXiv cs.CL (Computation and Language)",
       "category": "arxiv",
-      "title": "Enhancing Reliability across Short and Long-Form QA via Reinforcement Learning",
-      "link": "https://arxiv.org/abs/2512.08944",
-      "published": "2025-12-11T05:00:00+00:00",
-      "summary": "arXiv:2512.08944v1 Announce Type: new Abstract: While reinforcement learning has unlocked unprecedented complex reasoning in large language models, it has also amplified their propensity for hallucination, creating a critical trade-off between capability and reliability. This work confronts this challenge by introducing a targeted RL framework designed to mitigate both intrinsic and extrinsic hall..."
+      "title": "Generate-Then-Validate: A Novel Question Generation Approach Using Small Language Models",
+      "link": "https://arxiv.org/abs/2512.10110",
+      "published": "2025-12-12T05:00:00+00:00",
+      "summary": "arXiv:2512.10110v1 Announce Type: new Abstract: We explore the use of small language models (SLMs) for automatic question generation as a complement to the prevalent use of their large counterparts in learning analytics research. We present a novel question generation pipeline that leverages both the text generation and the probabilistic reasoning abilities of SLMs to generate high-quality questio..."
     },
     {
       "source_id": "arxiv_cs_cl",
       "source_name": "arXiv cs.CL (Computation and Language)",
       "category": "arxiv",
-      "title": "The Linguistic Architecture of Reflective Thought: Evaluation of a Large Language Model as a Tool to Isolate the Formal Structure of Mentalization",
-      "link": "https://arxiv.org/abs/2512.08945",
-      "published": "2025-12-11T05:00:00+00:00",
-      "summary": "arXiv:2512.08945v1 Announce Type: new Abstract: Background: Mentalization integrates cognitive, affective, and intersubjective components. Large Language Models (LLMs) display an increasing ability to generate reflective texts, raising questions regarding the relationship between linguistic form and mental representation. This study assesses the extent to which a single LLM can reproduce the lingu..."
+      "title": "Workflow is All You Need: Escaping the \"Statistical Smoothing Trap\" via High-Entropy Information Foraging and Adversarial Pacing",
+      "link": "https://arxiv.org/abs/2512.10121",
+      "published": "2025-12-12T05:00:00+00:00",
+      "summary": "arXiv:2512.10121v1 Announce Type: new Abstract: Central to long-form text generation in vertical domains is the \"impossible trinity\" confronting current large language models (LLMs): the simultaneous achievement of low hallucination, deep logical coherence, and personalized expression. This study establishes that this bottleneck arises from existing generative paradigms succumbing to the Statistic..."
     },
     {
       "source_id": "arxiv_cs_cl",
       "source_name": "arXiv cs.CL (Computation and Language)",
       "category": "arxiv",
-      "title": "Luxical: High-Speed Lexical-Dense Text Embeddings",
-      "link": "https://arxiv.org/abs/2512.09015",
-      "published": "2025-12-11T05:00:00+00:00",
-      "summary": "arXiv:2512.09015v1 Announce Type: new Abstract: Frontier language model quality increasingly hinges on our ability to organize web-scale text corpora for training. Today's dominant tools trade off speed and flexibility: lexical classifiers (e.g., FastText) are fast but limited to producing classification output scores, while the vector-valued outputs of transformer text embedding models flexibly s..."
+      "title": "PARAN: Persona-Augmented Review ANswering system on Food Delivery Review Dataset",
+      "link": "https://arxiv.org/abs/2512.10148",
+      "published": "2025-12-12T05:00:00+00:00",
+      "summary": "arXiv:2512.10148v1 Announce Type: new Abstract: Personalized review response generation presents a significant challenge in domains where user information is limited, such as food delivery platforms. While large language models (LLMs) offer powerful text generation capabilities, they often produce generic responses when lacking contextual user data, reducing engagement and effectiveness. In this w..."
     },
     {
       "source_id": "arxiv_cs_cl",
       "source_name": "arXiv cs.CL (Computation and Language)",
       "category": "arxiv",
-      "title": "Knowledge-Guided Large Language Model for Automatic Pediatric Dental Record Understanding and Safe Antibiotic Recommendation",
-      "link": "https://arxiv.org/abs/2512.09127",
-      "published": "2025-12-11T05:00:00+00:00",
-      "summary": "arXiv:2512.09127v1 Announce Type: new Abstract: Accurate interpretation of pediatric dental clinical records and safe antibiotic prescribing remain persistent challenges in dental informatics. Traditional rule-based clinical decision support systems struggle with unstructured dental narratives, incomplete radiographic descriptions, and complex safety constraints. To address these limitations, this..."
+      "title": "Unforgotten Safety: Preserving Safety Alignment of Large Language Models with Continual Learning",
+      "link": "https://arxiv.org/abs/2512.10150",
+      "published": "2025-12-12T05:00:00+00:00",
+      "summary": "arXiv:2512.10150v1 Announce Type: new Abstract: The safety alignment of large language models (LLMs) is becoming increasingly important with their democratization. In this paper, we study the safety degradation that comes with adapting LLMs to new tasks. We attribute this safety compromise to catastrophic forgetting and frame the problem of preserving safety when fine-tuning as a continual learnin..."
     },
     {
       "source_id": "arxiv_cs_ai",
       "source_name": "arXiv cs.AI (Artificial Intelligence)",
       "category": "arxiv",
-      "title": "Calibrated Trust in Dealing with LLM Hallucinations: A Qualitative Study",
-      "link": "https://arxiv.org/abs/2512.09088",
-      "published": "2025-12-11T05:00:00+00:00",
-      "summary": "arXiv:2512.09088v1 Announce Type: new Abstract: Hallucinations are outputs by Large Language Models (LLMs) that are factually incorrect yet appear plausible [1]. This paper investigates how such hallucinations influence users' trust in LLMs and users' interaction with LLMs. To explore this in everyday use, we conducted a qualitative study with 192 participants. Our findings show that hallucination..."
+      "title": "ExaCraft: Dynamic Learning Context Adaptation for Personalized Educational Examples",
+      "link": "https://arxiv.org/abs/2512.09931",
+      "published": "2025-12-12T05:00:00+00:00",
+      "summary": "arXiv:2512.09931v1 Announce Type: new Abstract: Learning is most effective when it's connected to relevant, relatable examples that resonate with learners on a personal level. However, existing educational AI tools don't focus on generating examples or adapting to learners' changing understanding, struggles, or growing skills. We've developed ExaCraft, an AI system that generates personalized exam..."
     },
     {
       "source_id": "arxiv_cs_ai",
       "source_name": "arXiv cs.AI (Artificial Intelligence)",
       "category": "arxiv",
-      "title": "AI TIPS 2.0: A Comprehensive Framework for Operationalizing AI Governance",
-      "link": "https://arxiv.org/abs/2512.09114",
-      "published": "2025-12-11T05:00:00+00:00",
-      "summary": "arXiv:2512.09114v1 Announce Type: new Abstract: The deployment of AI systems faces three critical governance challenges that current frameworks fail to adequately address. First, organizations struggle with inadequate risk assessment at the use case level, exemplified by the Humana class action lawsuit and other high impact cases where an AI system deployed to production exhibited both significant..."
+      "title": "Suzume-chan: Your Personal Navigator as an Embodied Information Hub",
+      "link": "https://arxiv.org/abs/2512.09932",
+      "published": "2025-12-12T05:00:00+00:00",
+      "summary": "arXiv:2512.09932v1 Announce Type: new Abstract: Access to expert knowledge often requires real-time human communication. Digital tools improve access to information but rarely create the sense of connection needed for deep understanding. This study addresses this issue using Social Presence Theory, which explains how a feeling of \"being together\" enhances communication. An \"Embodied Information Hu..."
     },
     {
       "source_id": "arxiv_cs_ai",
       "source_name": "arXiv cs.AI (Artificial Intelligence)",
       "category": "arxiv",
-      "title": "A Categorical Analysis of Large Language Models and Why LLMs Circumvent the Symbol Grounding Problem",
-      "link": "https://arxiv.org/abs/2512.09117",
-      "published": "2025-12-11T05:00:00+00:00",
-      "summary": "arXiv:2512.09117v1 Announce Type: new Abstract: This paper presents a formal, categorical framework for analysing how humans and large language models (LLMs) transform content into truth-evaluated propositions about a state space of possible worlds W , in order to argue that LLMs do not solve but circumvent the symbol grounding problem."
+      "title": "Exploring Health Misinformation Detection with Multi-Agent Debate",
+      "link": "https://arxiv.org/abs/2512.09935",
+      "published": "2025-12-12T05:00:00+00:00",
+      "summary": "arXiv:2512.09935v1 Announce Type: new Abstract: Fact-checking health-related claims has become increasingly critical as misinformation proliferates online. Effective verification requires both the retrieval of high-quality evidence and rigorous reasoning processes. In this paper, we propose a two-stage framework for health misinformation detection: Agreement Score Prediction followed by Multi-Agen..."
     },
     {
       "source_id": "arxiv_cs_ai",
       "source_name": "arXiv cs.AI (Artificial Intelligence)",
       "category": "arxiv",
-      "title": "SDialog: A Python Toolkit for End-to-End Agent Building, User Simulation, Dialog Generation, and Evaluation",
-      "link": "https://arxiv.org/abs/2512.09142",
-      "published": "2025-12-11T05:00:00+00:00",
-      "summary": "arXiv:2512.09142v1 Announce Type: new Abstract: We present SDialog, an MIT-licensed open-source Python toolkit that unifies dialog generation, evaluation and mechanistic interpretability into a single end-to-end framework for building and analyzing LLM-based conversational agents. Built around a standardized \\texttt{Dialog} representation, SDialog provides: (1) persona-driven multi-agent simulatio..."
+      "title": "Echo-CoPilot: A Multi-View, Multi-Task Agent for Echocardiography Interpretation and Reporting",
+      "link": "https://arxiv.org/abs/2512.09944",
+      "published": "2025-12-12T05:00:00+00:00",
+      "summary": "arXiv:2512.09944v1 Announce Type: new Abstract: Echocardiography is central to contemporary cardiovascular care, but full-study interpretation remains a cognitively demanding, multi-view task that is still performed manually. While recent foundation models for echocardiography can achieve strong performance on individual perceptual subtasks such as view classification, segmentation, or disease pre..."
     },
     {
       "source_id": "arxiv_cs_ai",
       "source_name": "arXiv cs.AI (Artificial Intelligence)",
       "category": "arxiv",
-      "title": "Visual Categorization Across Minds and Models: Cognitive Analysis of Human Labeling and Neuro-Symbolic Integration",
-      "link": "https://arxiv.org/abs/2512.09340",
-      "published": "2025-12-11T05:00:00+00:00",
-      "summary": "arXiv:2512.09340v1 Announce Type: new Abstract: Understanding how humans and AI systems interpret ambiguous visual stimuli offers critical insight into the nature of perception, reasoning, and decision-making. This paper examines image labeling performance across human participants and deep neural networks, focusing on low-resolution, perceptually degraded stimuli. Drawing from computational cogni..."
+      "title": "Fuzzy Hierarchical Multiplex",
+      "link": "https://arxiv.org/abs/2512.09976",
+      "published": "2025-12-12T05:00:00+00:00",
+      "summary": "arXiv:2512.09976v1 Announce Type: new Abstract: A new fuzzy optimization framework that extends FCM causality is proposed. This model utilizes the dynamics to map data into metrics and create a framework that examines logical implication and hierarchy of concepts using a multiplex. Moreover, this is a white-theoretical paper introducing the framework and analyzing the logic and math behind it. Upo..."
     }
   ]
 }
