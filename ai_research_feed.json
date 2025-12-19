@@ -1,51 +1,60 @@
 {
-  "generated_at": "2025-12-18T02:47:55.042369+00:00",
+  "generated_at": "2025-12-19T02:51:03.083212+00:00",
   "count": 25,
   "items": [
     {
       "source_id": "openai_news",
       "source_name": "OpenAI News",
       "category": "company",
-      "title": "Introducing OpenAI Academy for News Organizations",
-      "link": "https://openai.com/index/openai-academy-for-news-organizations",
-      "published": "2025-12-17T06:00:00+00:00",
-      "summary": "OpenAI is launching the OpenAI Academy for News Organizations, a new learning hub built with the American Journalism Project and The Lenfest Institute to help newsrooms use AI effectively. The Academy offers training, practical use cases, and responsible-use guidance to support journalists, editors, and publishers as they adopt AI in their reporting and operations."
+      "title": "Evaluating chain-of-thought monitorability",
+      "link": "https://openai.com/index/evaluating-chain-of-thought-monitorability",
+      "published": "2025-12-18T12:00:00+00:00",
+      "summary": "OpenAI introduces a new framework and evaluation suite for chain-of-thought monitorability, covering 13 evaluations across 24 environments. Our findings show that monitoring a model’s internal reasoning is far more effective than monitoring outputs alone, offering a promising path toward scalable control as AI systems grow more capable."
     },
     {
       "source_id": "openai_news",
       "source_name": "OpenAI News",
       "category": "company",
-      "title": "Developers can now submit apps to ChatGPT",
-      "link": "https://openai.com/index/developers-can-now-submit-apps-to-chatgpt",
-      "published": "2025-12-17T00:00:00+00:00",
-      "summary": "Developers can now submit apps for review and publication in ChatGPT, with approved apps appearing in a new in-product directory for easy discovery. Updated tools, guidelines, and the Apps SDK help developers build powerful chat-native experiences that bring real-world actions into ChatGPT."
+      "title": "Updating our Model Spec with teen protections",
+      "link": "https://openai.com/index/updating-model-spec-with-teen-protections",
+      "published": "2025-12-18T11:00:00+00:00",
+      "summary": "OpenAI is updating its Model Spec with new Under-18 Principles that define how ChatGPT should support teens with safe, age-appropriate guidance grounded in developmental science. The update strengthens guardrails, clarifies expected model behavior in higher-risk situations, and builds on our broader work to improve teen safety across ChatGPT."
     },
     {
       "source_id": "openai_news",
       "source_name": "OpenAI News",
       "category": "company",
-      "title": "Evaluating AI’s ability to perform scientific research tasks",
-      "link": "https://openai.com/index/frontierscience",
-      "published": "2025-12-16T09:00:00+00:00",
-      "summary": "OpenAI introduces FrontierScience, a benchmark testing AI reasoning in physics, chemistry, and biology to measure progress toward real scientific research."
+      "title": "AI literacy resources for teens and parents",
+      "link": "https://openai.com/index/ai-literacy-resources-for-teens-and-parents",
+      "published": "2025-12-18T11:00:00+00:00",
+      "summary": "OpenAI shares new AI literacy resources to help teens and parents use ChatGPT thoughtfully, safely, and with confidence. The guides include expert-vetted tips for responsible use, critical thinking, healthy boundaries, and supporting teens through emotional or sensitive topics."
     },
     {
       "source_id": "openai_news",
       "source_name": "OpenAI News",
       "category": "company",
-      "title": "Measuring AI’s capability to accelerate biological research",
-      "link": "https://openai.com/index/accelerating-biological-research-in-the-wet-lab",
-      "published": "2025-12-16T08:00:00+00:00",
-      "summary": "OpenAI introduces a real-world evaluation framework to measure how AI can accelerate biological research in the wet lab. Using GPT-5 to optimize a molecular cloning protocol, the work explores both the promise and risks of AI-assisted experimentation."
+      "title": "Deepening our collaboration with the U.S. Department of Energy",
+      "link": "https://openai.com/index/us-department-of-energy-collaboration",
+      "published": "2025-12-18T11:00:00+00:00",
+      "summary": "OpenAI and the U.S. Department of Energy have signed a memorandum of understanding to deepen collaboration on AI and advanced computing in support of scientific discovery. The agreement builds on ongoing work with national laboratories and helps establish a framework for applying AI to high-impact research across the DOE ecosystem."
     },
     {
       "source_id": "openai_news",
       "source_name": "OpenAI News",
       "category": "company",
-      "title": "The new ChatGPT Images is here",
-      "link": "https://openai.com/index/new-chatgpt-images-is-here",
-      "published": "2025-12-16T00:00:00+00:00",
-      "summary": "The new ChatGPT Images is powered by our flagship image generation model, delivering more precise edits, consistent details, and image generation up to 4× faster. The upgraded model is rolling out to all ChatGPT users today and is also available in the API as GPT-Image-1.5."
+      "title": "Introducing GPT-5.2-Codex",
+      "link": "https://openai.com/index/introducing-gpt-5-2-codex",
+      "published": "2025-12-18T00:00:00+00:00",
+      "summary": "GPT-5.2-Codex is OpenAI’s most advanced coding model, offering long-horizon reasoning, large-scale code transformations, and enhanced cybersecurity capabilities."
+    },
+    {
+      "source_id": "deepmind_news",
+      "source_name": "Google DeepMind",
+      "category": "company",
+      "title": "Watch a podcast discussion about Gemini 3 and the future of Search.",
+      "link": "https://blog.google/technology/ai/release-notes-podcast-search/",
+      "published": "2025-12-18T00:00:00+00:00",
+      "summary": "Learn how Gemini 3 powers Google Search with Generative UI, Nano Banana, and interactive graphics."
     },
     {
       "source_id": "deepmind_news",
@@ -84,103 +93,94 @@
       "summary": "Golden retriever catching frisbee over water. UI overlay shows Google AI watermark detected."
     },
     {
-      "source_id": "deepmind_news",
-      "source_name": "Google DeepMind",
-      "category": "company",
-      "title": "Google DeepMind is opening a new AI research lab in Singapore to advance AI in Asia Pacific.",
-      "link": "https://blog.google/around-the-globe/google-asia/google-deepmind-is-opening-a-new-ai-research-lab-in-singapore-to-advance-ai-in-asia-pacific/",
-      "published": "2025-11-19T02:30:00+00:00",
-      "summary": "Four individuals standing in front of a screen with the words “New Singapore AI research Lab” behind them"
+      "source_id": "arxiv_cs_lg",
+      "source_name": "arXiv cs.LG (Machine Learning)",
+      "category": "arxiv",
+      "title": "LLM as a Neural Architect: Controlled Generation of Image Captioning Models Under Strict API Contracts",
+      "link": "https://arxiv.org/abs/2512.14706",
+      "published": "2025-12-18T05:00:00+00:00",
+      "summary": "arXiv:2512.14706v1 Announce Type: new Abstract: Neural architecture search (NAS) traditionally requires significant human expertise or automated trial-and-error to design deep learning models. We present NN-Caption, an LLM-guided neural architecture search pipeline that generates runnable image-captioning models by composing CNN encoders from LEMUR's classification backbones with sequence decoders..."
     },
     {
       "source_id": "arxiv_cs_lg",
       "source_name": "arXiv cs.LG (Machine Learning)",
       "category": "arxiv",
-      "title": "Physics-Guided Deep Learning for Heat Pump Stress Detection: A Comprehensive Analysis on When2Heat Dataset",
-      "link": "https://arxiv.org/abs/2512.13696",
-      "published": "2025-12-17T05:00:00+00:00",
-      "summary": "arXiv:2512.13696v1 Announce Type: new Abstract: Heat pump systems are critical components in modern energy-efficient buildings, yet their operational stress detection remains challenging due to complex thermodynamic interactions and limited real-world data. This paper presents a novel Physics-Guided Deep Neural Network (PG-DNN) approach for heat pump stress classification using the When2Heat datas..."
+      "title": "Autonomous Source Knowledge Selection in Multi-Domain Adaptation",
+      "link": "https://arxiv.org/abs/2512.14710",
+      "published": "2025-12-18T05:00:00+00:00",
+      "summary": "arXiv:2512.14710v1 Announce Type: new Abstract: Unsupervised multi-domain adaptation plays a key role in transfer learning by leveraging acquired rich source information from multiple source domains to solve target task from an unlabeled target domain. However, multiple source domains often contain much redundant or unrelated information which can harm transfer performance, especially when in mass..."
     },
     {
       "source_id": "arxiv_cs_lg",
       "source_name": "arXiv cs.LG (Machine Learning)",
       "category": "arxiv",
-      "title": "Scaling and Transferability of Annealing Strategies in Large Language Model Training",
-      "link": "https://arxiv.org/abs/2512.13705",
-      "published": "2025-12-17T05:00:00+00:00",
-      "summary": "arXiv:2512.13705v1 Announce Type: new Abstract: Learning rate scheduling is crucial for training large language models, yet understanding the optimal annealing strategies across different model configurations remains challenging. In this work, we investigate the transferability of annealing dynamics in large language model training and refine a generalized predictive framework for optimizing annea..."
+      "title": "SepsisSuite: Beyond Risk Stratification -- A Comparative Analysis of Deep Fusion vs. Expert Stacking for Prescriptive Sepsis AI",
+      "link": "https://arxiv.org/abs/2512.14712",
+      "published": "2025-12-18T05:00:00+00:00",
+      "summary": "arXiv:2512.14712v1 Announce Type: new Abstract: Sepsis accounts for nearly 20% of global ICU admissions, yet conventional prediction models often fail to effectively integrate heterogeneous data streams, remaining either siloed by modality or reliant on brittle early fusion. In this work, we present a rigorous architectural comparison between End-to-End Deep Fusion and Context-Aware Stacking for s..."
     },
     {
       "source_id": "arxiv_cs_lg",
       "source_name": "arXiv cs.LG (Machine Learning)",
       "category": "arxiv",
-      "title": "Mitigating Catastrophic Forgetting in Mathematical Reasoning Finetuning through Mixed Training",
-      "link": "https://arxiv.org/abs/2512.13706",
-      "published": "2025-12-17T05:00:00+00:00",
-      "summary": "arXiv:2512.13706v1 Announce Type: new Abstract: When finetuning large language models for specialized tasks such as mathematical reasoning, models exhibit catastrophic forgetting, losing previously learned capabilities. We investigate this by finetuning Flan-T5-Base (250M parameters) on the DeepMind Mathematics dataset and measuring forgetting on MultiNLI. Math-only training improves mathematical ..."
+      "title": "A Bayesian latent class reinforcement learning framework to capture adaptive, feedback-driven travel behaviour",
+      "link": "https://arxiv.org/abs/2512.14713",
+      "published": "2025-12-18T05:00:00+00:00",
+      "summary": "arXiv:2512.14713v1 Announce Type: new Abstract: Many travel decisions involve a degree of experience formation, where individuals learn their preferences over time. At the same time, there is extensive scope for heterogeneity across individual travellers, both in their underlying preferences and in how these evolve. The present paper puts forward a Latent Class Reinforcement Learning (LCRL) model ..."
     },
     {
       "source_id": "arxiv_cs_lg",
       "source_name": "arXiv cs.LG (Machine Learning)",
       "category": "arxiv",
-      "title": "Variational Physics-Informed Ansatz for Reconstructing Hidden Interaction Networks from Steady States",
-      "link": "https://arxiv.org/abs/2512.13708",
-      "published": "2025-12-17T05:00:00+00:00",
-      "summary": "arXiv:2512.13708v1 Announce Type: new Abstract: The interaction structure of a complex dynamical system governs its collective behavior, yet existing reconstruction methods struggle with nonlinear, heterogeneous, and higher-order couplings, especially when only steady states are observable. We propose a Variational Physics-Informed Ansatz (VPIA) that infers general interaction operators directly f..."
-    },
-    {
-      "source_id": "arxiv_cs_lg",
-      "source_name": "arXiv cs.LG (Machine Learning)",
-      "category": "arxiv",
-      "title": "Predictive Modeling of Flood-Prone Areas Using SAR and Environmental Variables",
-      "link": "https://arxiv.org/abs/2512.13710",
-      "published": "2025-12-17T05:00:00+00:00",
-      "summary": "arXiv:2512.13710v1 Announce Type: new Abstract: Flooding is one of the most destructive natural hazards worldwide, posing serious risks to ecosystems, infrastructure, and human livelihoods. This study combines Synthetic Aperture Radar (SAR) imagery with environmental and hydrological data to model flood susceptibility in the River Nyando watershed, western Kenya. Sentinel-1 dual-polarization SAR d..."
+      "title": "Improving Underwater Acoustic Classification Through Learnable Gabor Filter Convolution and Attention Mechanisms",
+      "link": "https://arxiv.org/abs/2512.14714",
+      "published": "2025-12-18T05:00:00+00:00",
+      "summary": "arXiv:2512.14714v1 Announce Type: new Abstract: Remotely detecting and classifying underwater acoustic targets is critical for environmental monitoring and defence. However, the complex nature of ship-radiated and environmental underwater noise poses significant challenges to accurate signal processing. While recent advancements in machine learning have improved classification accuracy, issues suc..."
     },
     {
       "source_id": "arxiv_cs_cl",
       "source_name": "arXiv cs.CL (Computation and Language)",
       "category": "arxiv",
-      "title": "FiNERweb: Datasets and Artifacts for Scalable Multilingual Named Entity Recognition",
-      "link": "https://arxiv.org/abs/2512.13884",
-      "published": "2025-12-17T05:00:00+00:00",
-      "summary": "arXiv:2512.13884v1 Announce Type: new Abstract: Recent multilingual named entity recognition (NER) work has shown that large language models (LLMs) can provide effective synthetic supervision, yet such datasets have mostly appeared as by-products of broader experiments rather than as systematic, reusable resources. We introduce FiNERweb, a dataset-creation pipeline that scales the teacher-student ..."
+      "title": "Incentives or Ontology? A Structural Rebuttal to OpenAI's Hallucination Thesis",
+      "link": "https://arxiv.org/abs/2512.14801",
+      "published": "2025-12-18T05:00:00+00:00",
+      "summary": "arXiv:2512.14801v1 Announce Type: new Abstract: OpenAI has recently argued that hallucinations in large language models result primarily from misaligned evaluation incentives that reward confident guessing rather than epistemic humility. On this view, hallucination is a contingent behavioral artifact, remediable through improved benchmarks and reward structures. In this paper, we challenge that in..."
     },
     {
       "source_id": "arxiv_cs_cl",
       "source_name": "arXiv cs.CL (Computation and Language)",
       "category": "arxiv",
-      "title": "Olmo 3",
-      "link": "https://arxiv.org/abs/2512.13961",
-      "published": "2025-12-17T05:00:00+00:00",
-      "summary": "arXiv:2512.13961v1 Announce Type: new Abstract: We introduce Olmo 3, a family of state-of-the-art, fully-open language models at the 7B and 32B parameter scales. Olmo 3 model construction targets long-context reasoning, function calling, coding, instruction following, general chat, and knowledge recall. This release includes the entire model flow, i.e., the full lifecycle of the family of models, ..."
+      "title": "T5Gemma 2: Seeing, Reading, and Understanding Longer",
+      "link": "https://arxiv.org/abs/2512.14856",
+      "published": "2025-12-18T05:00:00+00:00",
+      "summary": "arXiv:2512.14856v1 Announce Type: new Abstract: We introduce T5Gemma 2, the next generation of the T5Gemma family of lightweight open encoder-decoder models, featuring strong multilingual, multimodal and long-context capabilities. T5Gemma 2 follows the adaptation recipe (via UL2) in T5Gemma -- adapting a pretrained decoder-only model into an encoder-decoder model, and extends it from text-only reg..."
     },
     {
       "source_id": "arxiv_cs_cl",
       "source_name": "arXiv cs.CL (Computation and Language)",
       "category": "arxiv",
-      "title": "Structure-Aware Decoding Mechanisms for Complex Entity Extraction with Large-Scale Language Models",
-      "link": "https://arxiv.org/abs/2512.13980",
-      "published": "2025-12-17T05:00:00+00:00",
-      "summary": "arXiv:2512.13980v1 Announce Type: new Abstract: This paper proposes a structure-aware decoding method based on large language models to address the difficulty of traditional approaches in maintaining both semantic integrity and structural consistency in nested and overlapping entity extraction tasks. The method introduces a candidate span generation mechanism and structured attention modeling to a..."
+      "title": "Integrating Large Language Models and Knowledge Graphs to Capture Political Viewpoints in News Media",
+      "link": "https://arxiv.org/abs/2512.14887",
+      "published": "2025-12-18T05:00:00+00:00",
+      "summary": "arXiv:2512.14887v1 Announce Type: new Abstract: News sources play a central role in democratic societies by shaping political and social discourse through specific topics, viewpoints and voices. Understanding these dynamics is essential for assessing whether the media landscape offers a balanced and fair account of public debate. In earlier work, we introduced a pipeline that, given a news corpus,..."
     },
     {
       "source_id": "arxiv_cs_cl",
       "source_name": "arXiv cs.CL (Computation and Language)",
       "category": "arxiv",
-      "title": "What Affects the Effective Depth of Large Language Models?",
-      "link": "https://arxiv.org/abs/2512.14064",
-      "published": "2025-12-17T05:00:00+00:00",
-      "summary": "arXiv:2512.14064v1 Announce Type: new Abstract: The scaling of large language models (LLMs) emphasizes increasing depth, yet performance gains diminish with added layers. Prior work introduces the concept of \"effective depth\", arguing that deeper models fail to fully utilize their layers for meaningful computation. Building on this, we systematically study how effective depth varies with model sca..."
+      "title": "DrugRAG: Enhancing Pharmacy LLM Performance Through A Novel Retrieval-Augmented Generation Pipeline",
+      "link": "https://arxiv.org/abs/2512.14896",
+      "published": "2025-12-18T05:00:00+00:00",
+      "summary": "arXiv:2512.14896v1 Announce Type: new Abstract: Objectives: To evaluate large language model (LLM) performance on pharmacy licensure-style question-answering (QA) tasks and develop an external knowledge integration method to improve their accuracy. Methods: We benchmarked eleven existing LLMs with varying parameter sizes (8 billion to 70+ billion) using a 141-question pharmacy dataset. We measured..."
     },
     {
       "source_id": "arxiv_cs_cl",
       "source_name": "arXiv cs.CL (Computation and Language)",
       "category": "arxiv",
-      "title": "Efficient-DLM: From Autoregressive to Diffusion Language Models, and Beyond in Speed",
-      "link": "https://arxiv.org/abs/2512.14067",
-      "published": "2025-12-17T05:00:00+00:00",
-      "summary": "arXiv:2512.14067v1 Announce Type: new Abstract: Diffusion language models (dLMs) have emerged as a promising paradigm that enables parallel, non-autoregressive generation, but their learning efficiency lags behind that of autoregressive (AR) language models when trained from scratch. To this end, we study AR-to-dLM conversion to transform pretrained AR models into efficient dLMs that excel in spee..."
+      "title": "Multiscale Aggregated Hierarchical Attention (MAHA): A Game Theoretic and Optimization Driven Approach to Efficient Contextual Modeling in Large Language Models",
+      "link": "https://arxiv.org/abs/2512.14925",
+      "published": "2025-12-18T05:00:00+00:00",
+      "summary": "arXiv:2512.14925v1 Announce Type: new Abstract: The quadratic computational complexity of MultiHead SelfAttention (MHSA) remains a fundamental bottleneck in scaling Large Language Models (LLMs) for longcontext tasks. While sparse and linearized attention mechanisms attempt to mitigate this, they often compromise the representation of global dependencies or fail to capture multiscale semantic granu..."
     },
     {
       "source_id": "arxiv_cs_ai",
@@ -188,7 +188,7 @@
       "category": "arxiv",
       "title": "Leveraging LLMs for Structured Data Extraction from Unstructured Patient Records",
       "link": "https://arxiv.org/abs/2512.13700",
-      "published": "2025-12-17T05:00:00+00:00",
+      "published": "2025-12-18T05:00:00+00:00",
       "summary": "arXiv:2512.13700v1 Announce Type: new Abstract: Manual chart review remains an extremely time-consuming and resource-intensive component of clinical research, requiring experts to extract often complex information from unstructured electronic health record (EHR) narratives. We present a secure, modular framework for automated structured feature extraction from clinical notes leveraging locally dep..."
     },
     {
@@ -197,7 +197,7 @@
       "category": "arxiv",
       "title": "Blind Radio Mapping via Spatially Regularized Bayesian Trajectory Inference",
       "link": "https://arxiv.org/abs/2512.13701",
-      "published": "2025-12-17T05:00:00+00:00",
+      "published": "2025-12-18T05:00:00+00:00",
       "summary": "arXiv:2512.13701v1 Announce Type: new Abstract: Radio maps enable intelligent wireless applications by capturing the spatial distribution of channel characteristics. However, conventional construction methods demand extensive location-labeled data, which are costly and impractical in many real-world scenarios. This paper presents a blind radio map construction framework that infers user trajectori..."
     },
     {
@@ -206,7 +206,7 @@
       "category": "arxiv",
       "title": "Adjudicator: Correcting Noisy Labels with a KG-Informed Council of LLM Agents",
       "link": "https://arxiv.org/abs/2512.13704",
-      "published": "2025-12-17T05:00:00+00:00",
+      "published": "2025-12-18T05:00:00+00:00",
       "summary": "arXiv:2512.13704v1 Announce Type: new Abstract: The performance of production machine learning systems is fundamentally limited by the quality of their training data. In high-stakes industrial applications, noisy labels can degrade performance and erode user trust. This paper presents Adjudicator, a system that addresses the critical data mining challenge of automatically identifying and correctin..."
     },
     {
@@ -215,7 +215,7 @@
       "category": "arxiv",
       "title": "LoopBench: Discovering Emergent Symmetry Breaking Strategies with LLM Swarms",
       "link": "https://arxiv.org/abs/2512.13713",
-      "published": "2025-12-17T05:00:00+00:00",
+      "published": "2025-12-18T05:00:00+00:00",
       "summary": "arXiv:2512.13713v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly being utilized as autonomous agents, yet their ability to coordinate in distributed systems remains poorly understood. We introduce \\textbf{LoopBench}, a benchmark to evaluate LLM reasoning in distributed symmetry breaking and meta-cognitive thinking. The benchmark focuses on coloring odd cycle graphs ($C..."
     },
     {
@@ -224,7 +224,7 @@
       "category": "arxiv",
       "title": "AI-Powered Annotation Pipelines for Stabilizing Large Language Models: A Human-AI Synergy Approach",
       "link": "https://arxiv.org/abs/2512.13714",
-      "published": "2025-12-17T05:00:00+00:00",
+      "published": "2025-12-18T05:00:00+00:00",
       "summary": "arXiv:2512.13714v1 Announce Type: new Abstract: LLM implementations are failing in highly regulated industries owing to instability issues, inconsistent reasoning, hallucinations and performance variability, especially in workflows. These reliability issues restrict safe use of LLM in areas that need the precision of facts and consistent behavior (Aiyappa et al., 2023). The current methods of stab..."
     }
   ]
