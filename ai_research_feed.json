@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-19T02:51:03.083212+00:00",
+  "generated_at": "2025-12-20T02:42:33.065141+00:00",
   "count": 25,
   "items": [
     {
@@ -10,15 +10,6 @@
       "link": "https://openai.com/index/evaluating-chain-of-thought-monitorability",
       "published": "2025-12-18T12:00:00+00:00",
       "summary": "OpenAI introduces a new framework and evaluation suite for chain-of-thought monitorability, covering 13 evaluations across 24 environments. Our findings show that monitoring a model’s internal reasoning is far more effective than monitoring outputs alone, offering a promising path toward scalable control as AI systems grow more capable."
-    },
-    {
-      "source_id": "openai_news",
-      "source_name": "OpenAI News",
-      "category": "company",
-      "title": "Updating our Model Spec with teen protections",
-      "link": "https://openai.com/index/updating-model-spec-with-teen-protections",
-      "published": "2025-12-18T11:00:00+00:00",
-      "summary": "OpenAI is updating its Model Spec with new Under-18 Principles that define how ChatGPT should support teens with safe, age-appropriate guidance grounded in developmental science. The update strengthens guardrails, clarifies expected model behavior in higher-risk situations, and builds on our broader work to improve teen safety across ChatGPT."
     },
     {
       "source_id": "openai_news",
@@ -37,6 +28,15 @@
       "link": "https://openai.com/index/us-department-of-energy-collaboration",
       "published": "2025-12-18T11:00:00+00:00",
       "summary": "OpenAI and the U.S. Department of Energy have signed a memorandum of understanding to deepen collaboration on AI and advanced computing in support of scientific discovery. The agreement builds on ongoing work with national laboratories and helps establish a framework for applying AI to high-impact research across the DOE ecosystem."
+    },
+    {
+      "source_id": "openai_news",
+      "source_name": "OpenAI News",
+      "category": "company",
+      "title": "Updating our Model Spec with teen protections",
+      "link": "https://openai.com/index/updating-model-spec-with-teen-protections",
+      "published": "2025-12-18T11:00:00+00:00",
+      "summary": "OpenAI is updating its Model Spec with new Under-18 Principles that define how ChatGPT should support teens with safe, age-appropriate guidance grounded in developmental science. The update strengthens guardrails, clarifies expected model behavior in higher-risk situations, and builds on our broader work to improve teen safety across ChatGPT."
     },
     {
       "source_id": "openai_news",
@@ -96,136 +96,136 @@
       "source_id": "arxiv_cs_lg",
       "source_name": "arXiv cs.LG (Machine Learning)",
       "category": "arxiv",
-      "title": "LLM as a Neural Architect: Controlled Generation of Image Captioning Models Under Strict API Contracts",
-      "link": "https://arxiv.org/abs/2512.14706",
-      "published": "2025-12-18T05:00:00+00:00",
-      "summary": "arXiv:2512.14706v1 Announce Type: new Abstract: Neural architecture search (NAS) traditionally requires significant human expertise or automated trial-and-error to design deep learning models. We present NN-Caption, an LLM-guided neural architecture search pipeline that generates runnable image-captioning models by composing CNN encoders from LEMUR's classification backbones with sequence decoders..."
+      "title": "DiscoverDCP: A Data-Driven Approach for Construction of Disciplined Convex Programs via Symbolic Regression",
+      "link": "https://arxiv.org/abs/2512.15721",
+      "published": "2025-12-19T05:00:00+00:00",
+      "summary": "arXiv:2512.15721v1 Announce Type: new Abstract: We propose DiscoverDCP, a data-driven framework that integrates symbolic regression with the rule sets of Disciplined Convex Programming (DCP) to perform system identification. By enforcing that all discovered candidate model expressions adhere to DCP composition rules, we ensure that the output expressions are globally convex by construction, circum..."
     },
     {
       "source_id": "arxiv_cs_lg",
       "source_name": "arXiv cs.LG (Machine Learning)",
       "category": "arxiv",
-      "title": "Autonomous Source Knowledge Selection in Multi-Domain Adaptation",
-      "link": "https://arxiv.org/abs/2512.14710",
-      "published": "2025-12-18T05:00:00+00:00",
-      "summary": "arXiv:2512.14710v1 Announce Type: new Abstract: Unsupervised multi-domain adaptation plays a key role in transfer learning by leveraging acquired rich source information from multiple source domains to solve target task from an unlabeled target domain. However, multiple source domains often contain much redundant or unrelated information which can harm transfer performance, especially when in mass..."
+      "title": "Hybrid Quantum-Classical Ensemble Learning for S\\&P 500 Directional Prediction",
+      "link": "https://arxiv.org/abs/2512.15738",
+      "published": "2025-12-19T05:00:00+00:00",
+      "summary": "arXiv:2512.15738v1 Announce Type: new Abstract: Financial market prediction is a challenging application of machine learning, where even small improvements in directional accuracy can yield substantial value. Most models struggle to exceed 55--57\\% accuracy due to high noise, non-stationarity, and market efficiency. We introduce a hybrid ensemble framework combining quantum sentiment analysis, Dec..."
     },
     {
       "source_id": "arxiv_cs_lg",
       "source_name": "arXiv cs.LG (Machine Learning)",
       "category": "arxiv",
-      "title": "SepsisSuite: Beyond Risk Stratification -- A Comparative Analysis of Deep Fusion vs. Expert Stacking for Prescriptive Sepsis AI",
-      "link": "https://arxiv.org/abs/2512.14712",
-      "published": "2025-12-18T05:00:00+00:00",
-      "summary": "arXiv:2512.14712v1 Announce Type: new Abstract: Sepsis accounts for nearly 20% of global ICU admissions, yet conventional prediction models often fail to effectively integrate heterogeneous data streams, remaining either siloed by modality or reliant on brittle early fusion. In this work, we present a rigorous architectural comparison between End-to-End Deep Fusion and Context-Aware Stacking for s..."
+      "title": "SHARe-KAN: Holographic Vector Quantization for Memory-Bound Inference",
+      "link": "https://arxiv.org/abs/2512.15742",
+      "published": "2025-12-19T05:00:00+00:00",
+      "summary": "arXiv:2512.15742v1 Announce Type: new Abstract: Kolmogorov-Arnold Networks (KANs) face a fundamental memory wall: their learned basis functions create parameter counts that impose extreme bandwidth demands, hindering deployment in memory-constrained environments. We show that Vision KANs exhibit a holographic topology, where information is distributed across the interference of splines rather than..."
     },
     {
       "source_id": "arxiv_cs_lg",
       "source_name": "arXiv cs.LG (Machine Learning)",
       "category": "arxiv",
-      "title": "A Bayesian latent class reinforcement learning framework to capture adaptive, feedback-driven travel behaviour",
-      "link": "https://arxiv.org/abs/2512.14713",
-      "published": "2025-12-18T05:00:00+00:00",
-      "summary": "arXiv:2512.14713v1 Announce Type: new Abstract: Many travel decisions involve a degree of experience formation, where individuals learn their preferences over time. At the same time, there is extensive scope for heterogeneity across individual travellers, both in their underlying preferences and in how these evolve. The present paper puts forward a Latent Class Reinforcement Learning (LCRL) model ..."
+      "title": "How Do Graph Signals Affect Recommendation: Unveiling the Mystery of Low and High-Frequency Graph Signals",
+      "link": "https://arxiv.org/abs/2512.15744",
+      "published": "2025-12-19T05:00:00+00:00",
+      "summary": "arXiv:2512.15744v1 Announce Type: new Abstract: Spectral graph neural networks (GNNs) are highly effective in modeling graph signals, with their success in recommendation often attributed to low-pass filtering. However, recent studies highlight the importance of high-frequency signals. The role of low-frequency and high-frequency graph signals in recommendation remains unclear. This paper aims to ..."
     },
     {
       "source_id": "arxiv_cs_lg",
       "source_name": "arXiv cs.LG (Machine Learning)",
       "category": "arxiv",
-      "title": "Improving Underwater Acoustic Classification Through Learnable Gabor Filter Convolution and Attention Mechanisms",
-      "link": "https://arxiv.org/abs/2512.14714",
-      "published": "2025-12-18T05:00:00+00:00",
-      "summary": "arXiv:2512.14714v1 Announce Type: new Abstract: Remotely detecting and classifying underwater acoustic targets is critical for environmental monitoring and defence. However, the complex nature of ship-radiated and environmental underwater noise poses significant challenges to accurate signal processing. While recent advancements in machine learning have improved classification accuracy, issues suc..."
+      "title": "LLaDA2.0: Scaling Up Diffusion Language Models to 100B",
+      "link": "https://arxiv.org/abs/2512.15745",
+      "published": "2025-12-19T05:00:00+00:00",
+      "summary": "arXiv:2512.15745v1 Announce Type: new Abstract: This paper presents LLaDA2.0 -- a tuple of discrete diffusion large language models (dLLM) scaling up to 100B total parameters through systematic conversion from auto-regressive (AR) models -- establishing a new paradigm for frontier-scale deployment. Instead of costly training from scratch, LLaDA2.0 upholds knowledge inheritance, progressive adaptio..."
     },
     {
       "source_id": "arxiv_cs_cl",
       "source_name": "arXiv cs.CL (Computation and Language)",
       "category": "arxiv",
-      "title": "Incentives or Ontology? A Structural Rebuttal to OpenAI's Hallucination Thesis",
-      "link": "https://arxiv.org/abs/2512.14801",
-      "published": "2025-12-18T05:00:00+00:00",
-      "summary": "arXiv:2512.14801v1 Announce Type: new Abstract: OpenAI has recently argued that hallucinations in large language models result primarily from misaligned evaluation incentives that reward confident guessing rather than epistemic humility. On this view, hallucination is a contingent behavioral artifact, remediable through improved benchmarks and reward structures. In this paper, we challenge that in..."
+      "title": "TabReX : Tabular Referenceless eXplainable Evaluation",
+      "link": "https://arxiv.org/abs/2512.15907",
+      "published": "2025-12-19T05:00:00+00:00",
+      "summary": "arXiv:2512.15907v1 Announce Type: new Abstract: Evaluating the quality of tables generated by large language models (LLMs) remains an open challenge: existing metrics either flatten tables into text, ignoring structure, or rely on fixed references that limit generalization. We present TabReX, a reference-less, property-driven framework for evaluating tabular generation via graph-based reasoning. T..."
     },
     {
       "source_id": "arxiv_cs_cl",
       "source_name": "arXiv cs.CL (Computation and Language)",
       "category": "arxiv",
-      "title": "T5Gemma 2: Seeing, Reading, and Understanding Longer",
-      "link": "https://arxiv.org/abs/2512.14856",
-      "published": "2025-12-18T05:00:00+00:00",
-      "summary": "arXiv:2512.14856v1 Announce Type: new Abstract: We introduce T5Gemma 2, the next generation of the T5Gemma family of lightweight open encoder-decoder models, featuring strong multilingual, multimodal and long-context capabilities. T5Gemma 2 follows the adaptation recipe (via UL2) in T5Gemma -- adapting a pretrained decoder-only model into an encoder-decoder model, and extends it from text-only reg..."
+      "title": "Social Story Frames: Contextual Reasoning about Narrative Intent and Reception",
+      "link": "https://arxiv.org/abs/2512.15925",
+      "published": "2025-12-19T05:00:00+00:00",
+      "summary": "arXiv:2512.15925v1 Announce Type: new Abstract: Reading stories evokes rich interpretive, affective, and evaluative responses, such as inferences about narrative intent or judgments about characters. Yet, computational models of reader response are limited, preventing nuanced analyses. To address this gap, we introduce SocialStoryFrames, a formalism for distilling plausible inferences about reader..."
     },
     {
       "source_id": "arxiv_cs_cl",
       "source_name": "arXiv cs.CL (Computation and Language)",
       "category": "arxiv",
-      "title": "Integrating Large Language Models and Knowledge Graphs to Capture Political Viewpoints in News Media",
-      "link": "https://arxiv.org/abs/2512.14887",
-      "published": "2025-12-18T05:00:00+00:00",
-      "summary": "arXiv:2512.14887v1 Announce Type: new Abstract: News sources play a central role in democratic societies by shaping political and social discourse through specific topics, viewpoints and voices. Understanding these dynamics is essential for assessing whether the media landscape offers a balanced and fair account of public debate. In earlier work, we introduced a pipeline that, given a news corpus,..."
+      "title": "BRAID: Bounded Reasoning for Autonomous Inference and Decisions",
+      "link": "https://arxiv.org/abs/2512.15959",
+      "published": "2025-12-19T05:00:00+00:00",
+      "summary": "arXiv:2512.15959v1 Announce Type: new Abstract: Large Language Models (LLMs) exhibit nonlinear relationships between performance, cost, and token usage. This paper presents a quantitative study on structured prompting using BRAID (Bounded Reasoning for Au tonomous Inference and Decisions) across multiple GPT model tiers, eval uated on the AdvancedIF, GSM-Hard, and the SCALE MultiChallenge benchmar..."
     },
     {
       "source_id": "arxiv_cs_cl",
       "source_name": "arXiv cs.CL (Computation and Language)",
       "category": "arxiv",
-      "title": "DrugRAG: Enhancing Pharmacy LLM Performance Through A Novel Retrieval-Augmented Generation Pipeline",
-      "link": "https://arxiv.org/abs/2512.14896",
-      "published": "2025-12-18T05:00:00+00:00",
-      "summary": "arXiv:2512.14896v1 Announce Type: new Abstract: Objectives: To evaluate large language model (LLM) performance on pharmacy licensure-style question-answering (QA) tasks and develop an external knowledge integration method to improve their accuracy. Methods: We benchmarked eleven existing LLMs with varying parameter sizes (8 billion to 70+ billion) using a 141-question pharmacy dataset. We measured..."
+      "title": "Examining the Utility of Self-disclosure Types for Modeling Annotators of Social Norms",
+      "link": "https://arxiv.org/abs/2512.16034",
+      "published": "2025-12-19T05:00:00+00:00",
+      "summary": "arXiv:2512.16034v1 Announce Type: new Abstract: Recent work has explored the use of personal information in the form of persona sentences or self-disclosures to improve modeling of individual characteristics and prediction of annotator labels for subjective tasks. The volume of personal information has historically been restricted and thus little exploration has gone into understanding what kind o..."
     },
     {
       "source_id": "arxiv_cs_cl",
       "source_name": "arXiv cs.CL (Computation and Language)",
       "category": "arxiv",
-      "title": "Multiscale Aggregated Hierarchical Attention (MAHA): A Game Theoretic and Optimization Driven Approach to Efficient Contextual Modeling in Large Language Models",
-      "link": "https://arxiv.org/abs/2512.14925",
-      "published": "2025-12-18T05:00:00+00:00",
-      "summary": "arXiv:2512.14925v1 Announce Type: new Abstract: The quadratic computational complexity of MultiHead SelfAttention (MHSA) remains a fundamental bottleneck in scaling Large Language Models (LLMs) for longcontext tasks. While sparse and linearized attention mechanisms attempt to mitigate this, they often compromise the representation of global dependencies or fail to capture multiscale semantic granu..."
+      "title": "Are We on the Right Way to Assessing LLM-as-a-Judge?",
+      "link": "https://arxiv.org/abs/2512.16041",
+      "published": "2025-12-19T05:00:00+00:00",
+      "summary": "arXiv:2512.16041v1 Announce Type: new Abstract: LLM-as-a-Judge has been widely adopted as an evaluation method and served as supervised rewards in model training. However, existing benchmarks for LLM-as-a-Judge are mainly relying on human-annotated ground truth, which introduces human bias that undermines the assessment of reliability and imposes scalability constraints. To overcome these limitati..."
     },
     {
       "source_id": "arxiv_cs_ai",
       "source_name": "arXiv cs.AI (Artificial Intelligence)",
       "category": "arxiv",
-      "title": "Leveraging LLMs for Structured Data Extraction from Unstructured Patient Records",
-      "link": "https://arxiv.org/abs/2512.13700",
-      "published": "2025-12-18T05:00:00+00:00",
-      "summary": "arXiv:2512.13700v1 Announce Type: new Abstract: Manual chart review remains an extremely time-consuming and resource-intensive component of clinical research, requiring experts to extract often complex information from unstructured electronic health record (EHR) narratives. We present a secure, modular framework for automated structured feature extraction from clinical notes leveraging locally dep..."
+      "title": "Attention as Binding: A Vector-Symbolic Perspective on Transformer Reasoning",
+      "link": "https://arxiv.org/abs/2512.14709",
+      "published": "2025-12-19T05:00:00+00:00",
+      "summary": "arXiv:2512.14709v1 Announce Type: new Abstract: Transformer-based language models display impressive reasoning-like behavior, yet remain brittle on tasks that require stable symbolic manipulation. This paper develops a unified perspective on these phenomena by interpreting self-attention and residual streams as implementing an approximate Vector Symbolic Architecture (VSA). In this view, queries a..."
     },
     {
       "source_id": "arxiv_cs_ai",
       "source_name": "arXiv cs.AI (Artificial Intelligence)",
       "category": "arxiv",
-      "title": "Blind Radio Mapping via Spatially Regularized Bayesian Trajectory Inference",
-      "link": "https://arxiv.org/abs/2512.13701",
-      "published": "2025-12-18T05:00:00+00:00",
-      "summary": "arXiv:2512.13701v1 Announce Type: new Abstract: Radio maps enable intelligent wireless applications by capturing the spatial distribution of channel characteristics. However, conventional construction methods demand extensive location-labeled data, which are costly and impractical in many real-world scenarios. This paper presents a blind radio map construction framework that infers user trajectori..."
+      "title": "GR-Agent: Adaptive Graph Reasoning Agent under Incomplete Knowledge",
+      "link": "https://arxiv.org/abs/2512.14766",
+      "published": "2025-12-19T05:00:00+00:00",
+      "summary": "arXiv:2512.14766v1 Announce Type: new Abstract: Large language models (LLMs) achieve strong results on knowledge graph question answering (KGQA), but most benchmarks assume complete knowledge graphs (KGs) where direct supporting triples exist. This reduces evaluation to shallow retrieval and overlooks the reality of incomplete KGs, where many facts are missing and answers must be inferred from exi..."
     },
     {
       "source_id": "arxiv_cs_ai",
       "source_name": "arXiv cs.AI (Artificial Intelligence)",
       "category": "arxiv",
-      "title": "Adjudicator: Correcting Noisy Labels with a KG-Informed Council of LLM Agents",
-      "link": "https://arxiv.org/abs/2512.13704",
-      "published": "2025-12-18T05:00:00+00:00",
-      "summary": "arXiv:2512.13704v1 Announce Type: new Abstract: The performance of production machine learning systems is fundamentally limited by the quality of their training data. In high-stakes industrial applications, noisy labels can degrade performance and erode user trust. This paper presents Adjudicator, a system that addresses the critical data mining challenge of automatically identifying and correctin..."
+      "title": "IaC Generation with LLMs: An Error Taxonomy and A Study on Configuration Knowledge Injection",
+      "link": "https://arxiv.org/abs/2512.14792",
+      "published": "2025-12-19T05:00:00+00:00",
+      "summary": "arXiv:2512.14792v1 Announce Type: new Abstract: Large Language Models (LLMs) currently exhibit low success rates in generating correct and intent-aligned Infrastructure as Code (IaC). This research investigated methods to improve LLM-based IaC generation, specifically for Terraform, by systematically injecting structured configuration knowledge. To facilitate this, an existing IaC-Eval benchmark w..."
     },
     {
       "source_id": "arxiv_cs_ai",
       "source_name": "arXiv cs.AI (Artificial Intelligence)",
       "category": "arxiv",
-      "title": "LoopBench: Discovering Emergent Symmetry Breaking Strategies with LLM Swarms",
-      "link": "https://arxiv.org/abs/2512.13713",
-      "published": "2025-12-18T05:00:00+00:00",
-      "summary": "arXiv:2512.13713v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly being utilized as autonomous agents, yet their ability to coordinate in distributed systems remains poorly understood. We introduce \\textbf{LoopBench}, a benchmark to evaluate LLM reasoning in distributed symmetry breaking and meta-cognitive thinking. The benchmark focuses on coloring odd cycle graphs ($C..."
+      "title": "AgroAskAI: A Multi-Agentic AI Framework for Supporting Smallholder Farmers' Enquiries Globally",
+      "link": "https://arxiv.org/abs/2512.14910",
+      "published": "2025-12-19T05:00:00+00:00",
+      "summary": "arXiv:2512.14910v1 Announce Type: new Abstract: Agricultural regions in rural areas face damage from climate-related risks, including droughts, heavy rainfall, and shifting weather patterns. Prior research calls for adaptive risk-management solutions and decision-making strategies. To this end, artificial intelligence (AI), particularly agentic AI, offers a promising path forward. Agentic AI syste..."
     },
     {
       "source_id": "arxiv_cs_ai",
       "source_name": "arXiv cs.AI (Artificial Intelligence)",
       "category": "arxiv",
-      "title": "AI-Powered Annotation Pipelines for Stabilizing Large Language Models: A Human-AI Synergy Approach",
-      "link": "https://arxiv.org/abs/2512.13714",
-      "published": "2025-12-18T05:00:00+00:00",
-      "summary": "arXiv:2512.13714v1 Announce Type: new Abstract: LLM implementations are failing in highly regulated industries owing to instability issues, inconsistent reasoning, hallucinations and performance variability, especially in workflows. These reliability issues restrict safe use of LLM in areas that need the precision of facts and consistent behavior (Aiyappa et al., 2023). The current methods of stab..."
+      "title": "Beyond Accuracy: A Geometric Stability Analysis of Large Language Models in Chess Evaluation",
+      "link": "https://arxiv.org/abs/2512.15033",
+      "published": "2025-12-19T05:00:00+00:00",
+      "summary": "arXiv:2512.15033v1 Announce Type: new Abstract: The evaluation of Large Language Models (LLMs) in complex reasoning domains typically relies on performance alignment with ground-truth oracles. In the domain of chess, this standard manifests as accuracy benchmarks against strong engines like Stockfish. However, high scalar accuracy does not necessarily imply robust conceptual understanding. This pa..."
     }
   ]
 }
