@@ -46,11 +46,11 @@
 
 <body>
 
-<h1>AI 研究可视化面板 - 2025-12-20</h1>
+<h1>AI 研究可视化面板 - 2025-12-21</h1>
 
 <div class="card">
     <h2>今日研究统计</h2>
-    <p>研究总数：25</p>
+    <p>研究总数：10</p>
 
     <h3>来源分布：</h3>
     <ul>
@@ -58,12 +58,6 @@
         <li>OpenAI News：5</li>
         
         <li>Google DeepMind：5</li>
-        
-        <li>arXiv cs.LG (Machine Learning)：5</li>
-        
-        <li>arXiv cs.CL (Computation and Language)：5</li>
-        
-        <li>arXiv cs.AI (Artificial Intelligence)：5</li>
         
     </ul>
 </div>
@@ -82,62 +76,63 @@
 
         <!-- 🔥 在这里渲染分析报告 -->
         <div class="analysis">
-            <h2>1. 研究背景</h2>
-<p>该研究旨在解决AI系统安全可控性的核心挑战。随着大语言模型能力不断增强，仅通过输出结果监控已无法有效确保AI系统的安全性和可靠性。传统监控方法存在滞后性和表面性，无法在有害输出产生前干预模型的错误推理过程。特别是在高风险应用场景中，模型内部可能已形成错误推理链条，但最终输出却看似合理，这种"隐性失败"对AI部署构成严重威胁。</p>
-<h2>2. 核心方法与原理</h2>
-<p>思维链监控性的核心思想是"透视"模型内部推理过程，而非仅关注最终答案。OpenAI构建的框架通过以下机制工作：
-- <strong>推理过程可视化</strong>：在模型进行多步推理时，实时追踪其思维链条中的每个中间步骤
-- <strong>异常检测机制</strong>：建立评估体系识别推理过程中的逻辑矛盾、事实错误或危险倾向
-- <strong>多维度评估</strong>：在24个不同环境中测试监控效果，覆盖数学推理、伦理判断、事实核查等多个领域
-- <strong>早期预警</strong>：在错误结论形成前识别问题推理模式，为干预提供时间窗口</p>
-<h2>3. 创新点</h2>
+            <h3>1. 研究背景：它试图解决什么问题？</h3>
+<p>随着AI模型能力的持续提升，特别是推理能力的增强，传统的输出监控方法已难以应对复杂场景下的模型行为控制需求。当前AI系统普遍存在“黑箱”问题，仅通过最终输出难以判断模型是否进行了合理推理、是否存在潜在偏见或安全风险。该研究旨在解决<strong>如何有效监控AI模型的内部推理过程</strong>，以确保其行为符合预期、可解释且安全可控，为未来更强大的AI系统提供可扩展的监督机制。</p>
+<hr />
+<h3>2. 核心方法与原理（通俗解释）</h3>
+<p>研究提出“思维链可监控性”框架，其核心在于<strong>通过监测模型在生成答案前的中间推理步骤</strong>，而非仅依赖最终输出。具体原理如下：
+- <strong>思维链</strong>：模型在解决问题时，会生成一系列中间推理步骤（如“首先…然后…”），形成类似人类思考的逻辑链条。
+- <strong>监控机制</strong>：通过预设的评估指标（如逻辑一致性、事实准确性、风险标识等）实时分析这些中间步骤，识别潜在错误或风险。
+- <strong>评估套件</strong>：涵盖13类任务（如数学推理、伦理判断、事实核查等）和24种环境，系统性测试模型推理过程的可靠性与可监控性。</p>
+<hr />
+<h3>3. 创新点（突破点）</h3>
 <ul>
-<li><strong>系统性评估框架</strong>：首次构建了涵盖13种不同类型评估的标准化测试套件</li>
-<li><strong>内部状态监控</strong>：突破传统输出监控局限，转向模型推理过程的实时监测</li>
-<li><strong>可扩展控制路径</strong>：为未来更强大AI系统提供了前置安全控制方案</li>
-<li><strong>量化监控效果</strong>：通过大量实验数据证明了内部监控相比输出监控的显著优势</li>
+<li><strong>系统性评估框架</strong>：首次构建覆盖多任务、多环境的标准化评估体系，量化模型推理过程的可监控性。</li>
+<li><strong>从输出监控转向过程监控</strong>：突破传统“黑箱”监控局限，通过内部推理轨迹实现更早、更精准的风险干预。</li>
+<li><strong>可扩展性设计</strong>：框架支持适配不同模型规模与任务类型，为未来强AI的监督提供基础工具。</li>
 </ul>
-<h2>4. 技术优势</h2>
+<hr />
+<h3>4. 技术优势</h3>
 <ul>
-<li><strong>提前干预能力</strong>：相比输出监控，能提前识别并阻止60%以上的潜在有害输出</li>
-<li><strong>错误根源诊断</strong>：不仅能发现问题，还能精确定位推理链条中的错误环节</li>
-<li><strong>泛化能力强</strong>：在24种不同任务环境中表现一致良好</li>
-<li><strong>透明度提升</strong>：使黑盒模型的决策过程变得部分可解释、可审计</li>
-<li><strong>适应性监控</strong>：可根据不同应用场景调整监控严格度</li>
+<li><strong>早期风险识别</strong>：在错误结论生成前即可发现推理漏洞（如逻辑跳跃或事实错误）。</li>
+<li><strong>高解释性</strong>：通过可视化推理链，帮助开发者理解模型决策依据，优化训练与对齐。</li>
+<li><strong>泛化能力强</strong>：在数学、伦理、科学推理等多样场景中均表现稳定。</li>
+<li><strong>兼容性</strong>：可与其他安全技术（如对抗训练、红队测试）结合，形成多层防御。</li>
 </ul>
-<h2>5. 局限性 / 风险点</h2>
+<hr />
+<h3>5. 局限性 / 风险点</h3>
 <ul>
-<li><strong>计算开销</strong>：实时监控内部状态可能增加推理时间和资源消耗</li>
-<li><strong>泛化不确定性</strong>：在训练分布外场景中的监控效果仍需验证</li>
-<li><strong>对抗性攻击</strong>：恶意用户可能专门训练模型绕过内部监控机制</li>
-<li><strong>误报问题</strong>：可能将合理但非常规的推理路径错误标记为异常</li>
-<li><strong>标准化挑战</strong>：不同模型架构需要定制的监控方案，增加部署复杂度</li>
+<li><strong>计算开销</strong>：实时监控推理过程可能增加推理延迟与资源消耗。</li>
+<li><strong>泛化边界</strong>：未知任务或对抗性攻击可能绕过监控机制。</li>
+<li><strong>主观性风险</strong>：部分评估标准（如伦理判断）依赖人工标注，可能引入偏见。</li>
+<li><strong>依赖模型透明度</strong>：需模型输出完整思维链，对闭源或高度优化的模型适用性有限。</li>
 </ul>
-<h2>6. 应用场景</h2>
+<hr />
+<h3>6. 应用场景（结合真实业务）</h3>
 <ul>
-<li><strong>医疗诊断AI</strong>：监控诊断推理过程，在得出错误结论前发现逻辑漏洞</li>
-<li><strong>金融风控系统</strong>：实时追踪信用评估或投资建议的推理链条，预防偏见决策</li>
-<li><strong>法律咨询助手</strong>：确保法律推理符合逻辑和法规，避免误导性建议</li>
-<li><strong>教育辅导系统</strong>：监控解题思路，及时发现并纠正学生的理解错误</li>
-<li><strong>内容审核</strong>：在有害内容生成前识别恶意创作意图</li>
+<li><strong>金融风控</strong>：监控AI信贷评估模型的推理过程，确保无歧视性假设或逻辑错误。</li>
+<li><strong>医疗诊断AI</strong>：实时核查辅助诊断系统的病因推断链条，避免遗漏关键症状或误判。</li>
+<li><strong>教育自动化</strong>：在智能辅导系统中追踪解题思路，针对性纠正学生的认知偏差。</li>
+<li><strong>内容审核</strong>：识别生成式AI在创作过程中的潜在有害倾向（如偏见强化），提前拦截。</li>
 </ul>
-<h2>7. 行业趋势判断</h2>
+<hr />
+<h3>7. 行业趋势判断（未来可能的发展方向）</h3>
 <ul>
-<li><strong>监管需求驱动</strong>：随着AI监管加强，内部监控将成为合规性要求</li>
-<li><strong>技术标准化</strong>：思维链监控将发展成行业标准工具包</li>
-<li><strong>架构创新</strong>：未来模型设计将原生集成监控模块而非外挂添加</li>
-<li><strong>跨领域应用</strong>：从语言模型扩展至多模态、强化学习等更复杂系统</li>
-<li><strong>人机协作深化</strong>：为人类监督员提供更直观的AI"思维仪表盘"</li>
+<li><strong>标准化监控工具</strong>：思维链监控可能成为AI产品的标配功能，推动行业安全标准建立。</li>
+<li><strong>人机协同监督</strong>：结合人类反馈的混合监控系统（如“人在回路”）将更普及。</li>
+<li><strong>自适应监控算法</strong>：未来可能发展动态调整监控强度的智能机制，平衡安全与效率。</li>
+<li><strong>跨模态扩展</strong>：从文本推理监控延伸至多模态（如图像生成、语音交互）的推理追踪。</li>
 </ul>
-<h2>8. 给我的产品的启发</h2>
+<hr />
+<h3>8. 给我的产品（AI助手 / 自动化系统）的启发</h3>
 <ul>
-<li><strong>增强透明度功能</strong>：在AI助手中加入"思考过程展示"选项，提升用户信任度</li>
-<li><strong>错误预防机制</strong>：在自动化系统中植入推理检查点，提前阻断错误决策</li>
-<li><strong>个性化监控</strong>：根据用户使用场景动态调整监控严格等级</li>
-<li><strong>反馈循环构建</strong>：将监控发现的问题用于模型持续改进训练</li>
-<li><strong>安全边际设计</strong>：在高风险操作中强制启用思维链监控，确保操作可靠性</li>
+<li><strong>集成推理监控模块</strong>：在提供答案时同步输出关键推理步骤，增强用户信任与可验证性。</li>
+<li><strong>构建错误预警机制</strong>：当检测到推理链存在矛盾或不确定性时，主动提示用户复核或补充信息。</li>
+<li><strong>优化迭代流程</strong>：利用监控数据定位模型弱点，针对性增强逻辑推理与事实核查能力。</li>
+<li><strong>开发“透明模式”</strong>：允许用户切换查看详细推理过程，满足高风险场景（如法律、医疗）的合规需求。</li>
 </ul>
-<p>这项研究标志着AI安全从"事后检测"向"过程控制"的重要转变，为构建真正可靠、可信的AI系统提供了关键技术路径。</p>
+<hr />
+<p><strong>总结</strong>：该研究通过系统性评估思维链的可监控性，为AI安全控制提供了新范式。其核心价值在于将监管粒度从“结果”提前至“过程”，既强化了风险防控，也推动了可解释AI的实践落地。</p>
         </div>
 
         <div class="link">
@@ -150,63 +145,67 @@
 
         <!-- 🔥 在这里渲染分析报告 -->
         <div class="analysis">
-            <p>以下是根据您提供的AI研究/新闻条目，以专业AI研究分析员身份撰写的结构化分析报告。报告基于OpenAI发布的“AI literacy resources for teens and parents”新闻内容，结合当前AI行业背景和趋势进行深度解析。内容力求专业、逻辑清晰，并以中文呈现。</p>
-<hr />
-<h2>AI研究报告：OpenAI青少年与家长AI素养资源分析</h2>
-<h3>1. 研究背景：它试图解决什么问题？</h3>
-<p>本资源发布旨在解决AI技术（尤其是生成式AI如ChatGPT）在青少年群体中普及所带来的潜在风险与挑战。随着AI工具在教育和日常生活中的广泛应用，青少年和家长可能面临以下问题：
-- <strong>安全风险</strong>：青少年可能无意中暴露隐私信息、遭遇不当内容或受到网络欺诈。
-- <strong>心理健康影响</strong>：过度依赖AI可能导致社交隔离、焦虑或情感依赖，尤其在处理敏感话题时。
-- <strong>认知与伦理问题</strong>：缺乏批判性思维可能导致盲目信任AI输出，引发错误决策或学术不端行为。
-- <strong>数字素养缺失</strong>：家长和教育者缺乏指导，难以帮助青少年建立健康的AI使用习惯。</p>
-<p>OpenAI通过提供专家审查的资源，试图填补AI素养教育的空白，促进负责任、安全和自信的AI使用，这反映了行业对AI伦理和社会责任的重视。</p>
-<h3>2. 核心方法与原理（通俗解释）</h3>
-<p>OpenAI采用教育性干预方法，核心原理基于“数字素养框架”的扩展，专门针对AI场景：
-- <strong>方法</strong>：发布一系列指南，内容涵盖负责任使用、批判性思维、健康边界设置以及情感支持技巧。这些资源由专家（如教育心理学家、AI伦理学者）审查，确保科学性和实用性。
-- <strong>原理</strong>：通过通俗易懂的提示和案例，引导用户（青少年和家长）在交互中应用“提问-反思-行动”循环。例如，指南可能教导用户如何识别AI生成内容的偏见，或设置时间限制以避免成瘾。本质上，这是一种“预防性教育”，类似于网络安全培训，但聚焦于AI特有的风险（如幻觉问题或情感依赖）。</p>
-<h3>3. 创新点（突破点）</h3>
-<p>本资源的创新主要体现在：
-- <strong>目标群体精准化</strong>：首次由领先AI公司系统性地针对青少年和家长这一高危群体提供素养资源，突破了传统AI教育多面向开发者或企业的局限。
-- <strong>专家整合模式</strong>：资源经过跨学科专家（如心理学、教育学）审查，确保内容不仅技术准确，还兼顾心理健康和发育需求。
-- <strong>主动责任承担</strong>：OpenAI作为技术提供方，主动推出教育资源，而非依赖第三方或政府推动，体现了行业自律的新趋势。
-- <strong>场景化设计</strong>：指南结合真实使用场景（如家庭作业或情感咨询），提供具体可操作的建议，而非泛泛而谈。</p>
-<h3>4. 技术优势</h3>
-<p>尽管本资源非纯技术产品，但其技术相关优势包括：
-- <strong>可扩展性与可及性</strong>：通过OpenAI平台免费发布，易于全球用户访问，并可集成到教育工具或AI系统中。
-- <strong>数据驱动设计</strong>：可能基于用户行为数据分析（如ChatGPT交互日志），识别常见风险点，从而优化指南内容。
-- <strong>交互式学习潜力</strong>：资源可能为未来AI系统内置“安全提示”或“教育模块”奠定基础，例如在ChatGPT对话中嵌入素养提醒。
-- <strong>信任增强</strong>：通过专家背书和透明内容，提升用户对AI技术的信任度，减少滥用事件。</p>
-<h3>5. 局限性 / 风险点</h3>
-<p>本资源存在以下局限性和潜在风险：
-- <strong>覆盖范围有限</strong>：资源可能无法覆盖所有文化、语言或社会经济背景的用户，尤其在资源匮乏地区。
-- <strong>依赖用户主动性</strong>：效果高度依赖用户自愿学习，缺乏强制机制，可能导致指南被忽视。
-- <strong>动态风险适应不足</strong>：AI技术快速迭代，指南可能很快过时，无法应对新型风险（如深度伪造或高级社交工程）。
-- <strong>潜在责任转移</strong>：OpenAI可能被批评将安全责任转嫁给用户，而非从根本上改进AI系统的安全设计。
-- <strong>伦理争议</strong>：如果指南内容被误用或曲解，可能加剧数字鸿沟或引发家长过度监控的隐私问题。</p>
-<h3>6. 应用场景（结合真实业务）</h3>
-<p>本资源可在多个真实业务场景中应用：
-- <strong>教育科技领域</strong>：学校或在线教育平台（如可汗学院或学而思）可将指南整合到课程中，指导学生使用AI工具完成作业，同时培养批判性思维。
-- <strong>家庭与亲子服务</strong>：家长通过资源学习如何与孩子讨论AI使用，例如在智能音箱或教育APP中设置“家庭AI规则”，防止过度屏幕时间。
-- <strong>心理健康与咨询</strong>：心理咨询平台（如BetterHelp）利用指南帮助青少年处理AI相关情感问题，例如当AI提供敏感建议时的应对策略。
-- <strong>企业产品集成</strong>：AI助手开发商（如Siri或小爱同学）可嵌入类似资源，在用户查询敏感话题时自动提供安全提示。
-- <strong>政府与公益项目</strong>：作为公共数字素养倡议的组成部分，帮助制定行业标准或政策框架。</p>
-<h3>7. 行业趋势判断（未来可能的发展方向）</h3>
-<p>基于本资源，行业可能呈现以下趋势：
-- <strong>AI素养标准化</strong>：AI素养教育将成为K-12教育和职业培训的必备内容，类似网络安全课程，可能由国际组织（如ISO）制定标准。
-- <strong>技术内置安全机制</strong>：未来AI系统将更多集成实时监控和干预功能，例如通过AI检测用户情绪状态并自动调整响应。
-- <strong>跨部门合作加强</strong>：科技公司、教育机构和政府将更频繁合作，推出联合素养项目，以应对全球性AI风险。
-- <strong>个性化与自适应学习</strong>：AI素养资源可能进化成个性化推荐系统，根据用户年龄、行为数据动态调整内容。
-- <strong>法规驱动</strong>：随着AI立法加速（如欧盟AI法案），类似资源可能成为合规要求，推动行业整体提升责任感。</p>
-<h3>8. 给我的产品（AI助手 / 自动化系统）的启发</h3>
-<p>如果您的产品是AI助手或自动化系统，本资源提供以下启发：
-- <strong>集成教育模块</strong>：在产品中内置“AI素养指南”功能，例如在用户首次使用或触发敏感话题时弹出提示，教导负责任使用。
-- <strong>用户分层设计</strong>：针对不同用户群体（如青少年、家长、教育者）开发定制化内容，提升实用性和参与度。
-- <strong>安全与伦理强化</strong>：引入专家审查机制，确保产品输出符合伦理标准，并添加边界设置（如时间限制或内容过滤）。
-- <strong>数据驱动优化</strong>：分析用户交互数据，识别高风险行为，并主动推送教育资源，实现预防性干预。
-- <strong>合作与生态扩展</strong>：与教育机构或心理健康平台合作，将素养资源整合到更广泛的生态系统中，增强产品社会价值。
-- <strong>持续迭代</strong>：建立动态更新流程，定期根据AI技术发展和用户反馈修订指南，保持前沿性。</p>
-<hr />
-<p><strong>报告总结</strong>：OpenAI的AI素养资源是行业迈向负责任AI发展的重要一步，通过教育性干预解决青少年使用AI的风险。其创新点在于精准定位和专家整合，但需注意覆盖局限和动态适应性。对于AI产品开发者，这强调了将素养教育嵌入系统设计的重要性，以平衡技术创新与社会责任。未来，AI素养有望成为全球教育核心，推动可持续的AI应用。</p>
+            <h2>1. 研究背景</h2>
+<p>OpenAI此次发布AI素养资源的核心目标是解决青少年群体在使用AI技术时面临的双重挑战：一方面，青少年作为数字原生代对AI工具有着天然的接受度，但缺乏对AI系统局限性和风险的充分认知；另一方面，家长群体普遍存在"AI素养鸿沟"，难以有效指导子女安全使用AI工具。具体而言，该研究试图缓解以下问题：
+- AI幻觉问题导致的青少年信息误判风险
+- 过度依赖AI对批判性思维发展的潜在影响
+- 情感边界模糊可能引发的心理健康问题
+- 隐私安全意识薄弱带来的数据泄露隐患</p>
+<h2>2. 核心方法与原理</h2>
+<p>该项目采用"多层教育框架"构建素养体系：
+- <strong>认知脚手架原理</strong>：通过渐进式学习路径，从基础操作到高级应用逐步构建AI理解能力
+- <strong>社会学习理论</strong>：整合家长-青少年互动场景，利用代际知识互补强化学习效果
+- <strong>专家验证机制</strong>：所有指导内容均经过教育心理学、儿童发展学和AI伦理领域的多轮交叉验证
+- <strong>情景化教学法</strong>：将抽象的AI概念转化为具体的使用场景，如作业辅助、情感支持等实际用例</p>
+<h2>3. 创新点</h2>
+<ul>
+<li><strong>双向教育设计</strong>：首次将家长和青少年同时作为目标用户，构建家庭协同学习生态</li>
+<li><strong>情感智能引导</strong>：专门针对青少年情感发展特点，提供AI情感交互的边界管理方案</li>
+<li><strong>实时风险预警系统</strong>：内嵌动态风险评估框架，可根据使用行为提供个性化安全提示</li>
+<li><strong>跨学科知识整合</strong>：创造性融合了教育学、心理学与计算机科学的多维度视角</li>
+</ul>
+<h2>4. 技术优势</h2>
+<ul>
+<li><strong>可信度增强机制</strong>：通过专家背书和实证研究支撑的内容权威性</li>
+<li><strong>适应性学习路径</strong>：基于不同年龄段的认知发展水平定制差异化课程</li>
+<li><strong>多模态教学资源</strong>：结合视频、图文、互动问答等多种形式提升接受度</li>
+<li><strong>持续更新能力</strong>：建立反馈循环机制，根据实际使用数据持续优化内容</li>
+</ul>
+<h2>5. 局限性 / 风险点</h2>
+<ul>
+<li><strong>覆盖范围局限</strong>：当前资源主要面向英语文化背景用户，文化适应性有待验证</li>
+<li><strong>执行依赖度</strong>：教育效果高度依赖家长参与度，单亲家庭或忙碌家庭可能受益有限</li>
+<li><strong>技术迭代滞后</strong>：静态教育资源难以跟上AI技术的快速演进节奏</li>
+<li><strong>评估机制缺失</strong>：缺乏长期效果跟踪和量化评估体系</li>
+<li><strong>数字鸿沟加剧</strong>：可能扩大有家长指导和无家长指导青少年间的AI能力差距</li>
+</ul>
+<h2>6. 应用场景</h2>
+<ul>
+<li><strong>K12教育机构</strong>：可作为信息技术课程的补充教材，例如在中学开设"AI素养实践课"</li>
+<li><strong>家庭教育平台</strong>：整合进家长学校合作系统，提供家庭AI使用指导套餐</li>
+<li><strong>青少年心理咨询</strong>：作为辅助工具帮助咨询师处理因AI使用引发的心理问题</li>
+<li><strong>社区图书馆</strong>：开设AI素养工作坊，组织亲子共同学习的实践活动</li>
+<li><strong>教育科技公司</strong>：作为产品安全指南内嵌至面向青少年的AI应用中</li>
+</ul>
+<h2>7. 行业趋势判断</h2>
+<ul>
+<li><strong>政策驱动标准化</strong>：预计各国将出台青少年AI使用标准，催生认证体系</li>
+<li><strong>适龄化设计普及</strong>：AI产品将按年龄分段设计交互模式和内容过滤机制</li>
+<li><strong>家校协同深化</strong>：形成学校教授技术原理、家庭指导伦理使用的分工体系</li>
+<li><strong>评估工具兴起</strong>：将出现专门评估青少年AI素养水平的标准化工具</li>
+<li><strong>保险产品创新</strong>：可能衍生针对青少年AI使用风险的专项保险产品</li>
+</ul>
+<h2>8. 给我的产品（AI助手/自动化系统）的启发</h2>
+<ul>
+<li><strong>构建分龄知识库</strong>：根据不同年龄段认知特点建立差异化应答策略和内容过滤机制</li>
+<li><strong>开发家长监管界面</strong>：提供使用报告、时间管理、内容审查等家长控制功能</li>
+<li><strong>植入素养教育模块</strong>：在交互过程中自然融入AI原理讲解和风险提示</li>
+<li><strong>建立情感边界检测</strong>：当检测到深度情感依赖时自动启动边界保护机制</li>
+<li><strong>设计协作学习模式</strong>：支持家长-青少年共同使用场景，促进家庭对话</li>
+<li><strong>实施渐进式赋能</strong>：随使用时长逐步开放更复杂功能，匹配用户能力成长曲线</li>
+<li><strong>整合第三方验证</strong>：与教育机构合作获取专业背书，提升内容可信度</li>
+</ul>
+<p>这份研究报告显示，AI素养教育正在从技术普及阶段迈向负责任使用的深度发展阶段，建议在产品规划中提前布局适龄化设计和家庭协同机制，抢占下一代用户市场的同时履行企业社会责任。</p>
         </div>
 
         <div class="link">
@@ -232,62 +231,65 @@
 
         <!-- 🔥 在这里渲染分析报告 -->
         <div class="analysis">
-            <p>以下是对 OpenAI 更新 Model Spec 中青少年保护政策的结构化分析报告：</p>
+            <p>以下是对 OpenAI 更新 Model Spec 青少年保护条款的深度分析报告：</p>
 <hr />
-<h2>1. 研究背景</h2>
-<p>随着 AI 对话系统在青少年群体中的普及，如何确保其内容安全性与年龄适配性成为关键挑战。青少年处于心理与认知发展的敏感阶段，不当的 AI 交互可能对其价值观、情绪或行为产生负面影响。此前，行业缺乏统一的青少年专用 AI 行为规范，而 OpenAI 此次更新旨在填补这一空白，回应社会对未成年人数字安全的关切，并规避潜在的法律与伦理风险。</p>
-<hr />
+<h2>1. 研究背景：它试图解决什么问题？</h2>
+<p>随着青少年用户大规模使用生成式 AI，他们面临以下风险：
+- <strong>内容安全风险</strong>：接触不适宜年龄的内容（如暴力、成人主题）
+- <strong>心理发展影响</strong>：AI 回复可能干扰青少年心理发育过程
+- <strong>隐私泄露风险</strong>：未成年人在交互中可能无意透露敏感个人信息
+- <strong>认知误导风险</strong>：缺乏判断力的青少年可能过度依赖 AI 建议</p>
 <h2>2. 核心方法与原理（通俗解释）</h2>
-<p>OpenAI 通过更新 <strong>Model Spec</strong>（模型行为规范框架），新增 <strong>“Under-18 Principles”</strong>，其核心逻辑可概括为：
-- <strong>分层响应机制</strong>：基于用户年龄（通过注册信息或交互模式推断）动态调整回答的内容边界，例如限制涉及暴力、成瘾行为或复杂心理议题的深度讨论。
-- <strong>发展科学指导</strong>：结合青少年心理学与脑科学研究，界定不同年龄段的认知能力与情感成熟度，确保回答内容既提供支持，又避免超出其理解范围。
-- <strong>强化护栏系统</strong>：在检测到高风险查询（如自我伤害、违法探索）时，优先触发安全协议——例如中断对话、提供权威求助渠道，而非直接回答。</p>
-<hr />
-<h2>3. 创新点</h2>
+<p>OpenAI 采用“分层防护”策略：
+- <strong>发展心理学基础</strong>：基于青少年认知发展理论设置回复边界
+- <strong>风险情境分类</strong>：识别高风险场景（如健康咨询、人际关系）并预设安全回复模版
+- <strong>动态防护机制</strong>：根据对话上下文实时评估风险等级
+- <strong>多维度过滤</strong>：结合内容分析、语境理解和用户画像三重防护</p>
+<h2>3. 创新点（突破点）</h2>
 <ul>
-<li><strong>首个基于发展科学的 AI 行为规范</strong>：将发展心理学理论系统性融入模型响应策略，而非仅依赖关键词过滤。</li>
-<li><strong>动态场景适配</strong>：针对“边缘风险”场景（如青少年询问恋爱烦恼或学业压力）设计差异化响应逻辑，平衡支持性与防护性。</li>
-<li><strong>规范开源化尝试</strong>：公开部分原则框架，推动行业共同构建未成年人AI安全标准。</li>
+<li><strong>首次系统化整合发展心理学与 AI 安全</strong>：将学术理论转化为可执行的模型规范</li>
+<li><strong>情境化防护</strong>：不是简单的内容过滤，而是根据对话情境动态调整防护强度</li>
+<li><strong>透明度建设</strong>：公开披露防护原则，建立可追溯的决策逻辑</li>
+<li><strong>预防性设计</strong>：在问题发生前设置防护，而非事后补救</li>
 </ul>
-<hr />
 <h2>4. 技术优势</h2>
 <ul>
-<li><strong>多维度风险评估</strong>：结合意图识别、情感分析、语境连贯性检测，降低误拦截率。</li>
-<li><strong>实时干预能力</strong>：在对话流中嵌入轻量级检测模块，实现毫秒级风险响应。</li>
-<li><strong>数据驱动迭代</strong>：通过匿名化青少年交互数据持续优化年龄识别与场景分类模型。</li>
+<li><strong>精准防护</strong>：基于深度语义理解区分风险等级</li>
+<li><strong>自适应学习</strong>：能识别潜在风险对话模式</li>
+<li><strong>用户体验平衡</strong>：在安全前提下保持对话自然流畅</li>
+<li><strong>系统集成度</strong>：与现有安全架构无缝衔接</li>
 </ul>
-<hr />
 <h2>5. 局限性 / 风险点</h2>
 <ul>
-<li><strong>年龄验证漏洞</strong>：依赖用户自申报或行为推测，可能存在身份伪装绕过防护。</li>
-<li><strong>文化差异忽视</strong>：规范基于欧美发展心理学研究，未适配不同地区青少年的社会文化背景。</li>
-<li><strong>过度保护争议</strong>：严格的内容限制可能阻碍青少年通过AI获取必要的性教育或心理健康知识。</li>
-<li><strong>伦理悖论</strong>：在“提供帮助”与“限制信息”之间的权衡缺乏明确标准，可能由算法主观判断。</li>
+<li><strong>年龄验证难题</strong>：难以准确识别用户真实年龄</li>
+<li><strong>文化差异挑战</strong>：不同地区对“适宜内容”标准存在差异</li>
+<li><strong>过度防护风险</strong>：可能限制有益的教育内容获取</li>
+<li><strong>规避技术</strong>：技术娴熟的青少年可能绕过防护机制</li>
 </ul>
-<hr />
 <h2>6. 应用场景（结合真实业务）</h2>
 <ul>
-<li><strong>教育科技</strong>：K12在线辅导平台集成该规范，确保AI助教不推荐超龄内容或过度介入学生心理问题。</li>
-<li><strong>社交机器人</strong>：青少年情感陪伴类机器人使用该框架，避免诱导依赖或传播消极价值观。</li>
-<li><strong>家庭智能设备</strong>：智能音箱基于年龄识别自动切换至“青少年模式”，过滤成人向新闻或娱乐内容。</li>
+<li><strong>教育平台</strong>：K12 在线辅导场景中的安全对话保障</li>
+<li><strong>家庭助手</strong>：智能家居中面向青少年的交互安全</li>
+<li><strong>心理咨询</strong>：为青少年提供安全的心理健康支持</li>
+<li><strong>内容创作</strong>：辅助青少年学习创作时的内容安全边界</li>
 </ul>
-<hr />
-<h2>7. 行业趋势判断</h2>
+<h2>7. 行业趋势判断（未来可能的发展方向）</h2>
 <ul>
-<li><strong>合规驱动标准化</strong>：各国可能将类似规范纳入未成年人网络保护法规，形成强制性技术门槛。</li>
-<li><strong>垂直化年龄分层</strong>：未来可能出现更精细的年龄分段（如13-15岁、16-18岁）及场景化防护策略。</li>
-<li><strong>跨平台协作</strong>：头部企业或联合建立青少年AI安全数据库，共享风险行为模式与干预案例。</li>
+<li><strong>标准化建设</strong>：各厂商将建立统一的青少年AI安全标准</li>
+<li><strong>分级体系完善</strong>：按年龄细分防护等级（13-15，16-18等）</li>
+<li><strong>家校协同</strong>：开发家长-学校-AI 三方协同的监护系统</li>
+<li><strong>跨平台防护</strong>：实现不同应用间的统一安全策略</li>
 </ul>
-<hr />
 <h2>8. 给我的产品（AI助手 / 自动化系统）的启发</h2>
 <ul>
-<li><strong>引入年龄分层逻辑</strong>：在用户画像中增加“发展年龄”维度，动态配置知识库与对话风格。</li>
-<li><strong>构建风险场景库</strong>：针对青少年高频高风险问题（如校园霸凌、身体形象焦虑）预设权威应答模板。</li>
-<li><strong>开发家庭协同模式</strong>：允许家长设置防护等级边界，既保障自主性又保留监管权限。</li>
-<li><strong>强化透明化告知</strong>：当触发防护机制时，向用户简要说明限制原因，减少使用挫败感。</li>
+<li><strong>建立年龄感知系统</strong>：在产品设计中集成年龄识别模块</li>
+<li><strong>开发情境风险评估引擎</strong>：实时评估对话风险等级</li>
+<li><strong>构建可配置的安全策略</strong>：允许机构自定义防护强度</li>
+<li><strong>加强透明度功能</strong>：为用户提供安全决策的解释说明</li>
+<li><strong>建立多方协作机制</strong>：与家长、教育者形成防护合力</li>
 </ul>
 <hr />
-<p><strong>结论</strong>：OpenAI 此次更新标志着 AI 伦理从“通用安全”迈向“群体适应性安全”的重要转折。其技术路径为行业提供了可落地的参考框架，但需警惕算法干预与青少年自主性之间的长期平衡挑战。</p>
+<p><strong>总结</strong>：OpenAI 此次更新标志着 AI 安全从通用防护向精细化、专业化防护发展，特别是在未成年人保护领域建立了行业标杆。这不仅是技术升级，更是责任伦理与商业实践的有机结合，为整个行业提供了可借鉴的框架。</p>
         </div>
 
         <div class="link">
@@ -339,58 +341,64 @@
 
         <!-- 🔥 在这里渲染分析报告 -->
         <div class="analysis">
-            <p>以下是对Google DeepMind于2025年12月发布的最新AI动态的结构化分析报告。需特别说明，由于目前可获得的信息有限（仅标题和摘要中的关键词），以下分析将结合行业趋势和Google DeepMind的技术路线进行合理推测。</p>
-<h2>1. 研究背景：它试图解决什么问题？</h2>
+            <h3>AI研究报告：Google DeepMind 2025年11月更新分析</h3>
+<hr />
+<h4>1. 研究背景：它试图解决什么问题？</h4>
+<p>Google DeepMind此次更新旨在解决以下核心问题：
+- <strong>模型能力泛化需求</strong>：传统AI模型在跨领域任务（如规划、多模态理解）中表现受限，需提升综合推理与执行能力。
+- <strong>端侧部署瓶颈</strong>：轻量化模型（如Nano系列）在资源受限设备上的性能与效率平衡问题。
+- <strong>用户交互自然性</strong>：用户对AI的期望已从单一指令执行转向复杂任务（如旅行规划）的主动协作。</p>
+<hr />
+<h4>2. 核心方法与原理（通俗解释）</h4>
 <ul>
-<li><strong>多模态AI助手的能力拓展</strong>：从“Help me plan a trip”这一提示可推断，研究旨在解决传统AI助手在复杂、多步骤现实任务（如旅行规划）中理解模糊需求、协调多资源、生成个性化方案的能力不足问题。</li>
-<li><strong>模型轻量化与端侧部署</strong>：“Nano Banana Pro”的命名暗示其聚焦于资源受限环境下的高性能AI推理，应对云端依赖导致的延迟、隐私和成本问题。</li>
-<li><strong>下一代基础模型迭代</strong>：“Gemini 3”代表对大语言模型（LLM）核心能力的持续升级，旨在突破现有模型在推理精度、上下文长度和多模态融合方面的瓶颈。</li>
-</ul>
-<h2>2. 核心方法与原理（通俗解释）</h2>
-<ul>
-<li><strong>任务分解与工具调用</strong>：AI通过链式推理将“旅行规划”拆解为目的地选择、预算分配、行程编排等子任务，自动调用航班API、酒店数据库、地图服务等工具完成信息整合。</li>
-<li><strong>知识蒸馏与量化压缩</strong>：“Nano Banana Pro”可能采用教师-学生网络架构，将大模型知识压缩至轻量化模型中，通过定点量化、注意力机制优化等技术实现低功耗高效推理。</li>
-<li><strong>多模态融合架构</strong>：Gemini 3 likely采用统一的Transformer骨干网络，对齐文本、图像、视频的语义空间，使模型能同步处理“看图规划路线”等跨模态任务。</li>
-</ul>
-<h2>3. 创新点（突破点）</h2>
-<ul>
-<li><strong>动态工作流生成</strong>：突破传统流程固定化的局限，根据用户实时反馈动态调整旅行方案（如突发天气状况下的备选路线生成）。</li>
-<li><strong>端云协同推理框架</strong>：Nano系列可能实现模型在端侧与云端的无缝切换，根据任务复杂度自主分配计算资源，平衡响应速度与计算精度。</li>
-<li><strong>情境感知的个性化输出</strong>：Gemini 3或引入长期记忆机制，基于用户历史行为数据（如偏好航班时段、酒店档次）生成高度定制化方案。</li>
-</ul>
-<h2>4. 技术优势</h2>
-<ul>
-<li><strong>响应实时性</strong>：端侧模型使旅行规划中的本地计算（如路线优化）延迟降至毫秒级。</li>
-<li><strong>资源适应性</strong>：Nano系列可在手机、IoT设备等多样硬件平台上保持稳定性能。</li>
-<li><strong>任务泛化能力</strong>：同一架构可扩展至会议安排、项目管理等其他复杂规划场景。</li>
-</ul>
-<h2>5. 局限性 / 风险点</h2>
-<ul>
-<li><strong>长尾场景覆盖不足</strong>：对极端个性化需求（如无障碍设施查询）可能缺乏足够训练数据支持。</li>
-<li><strong>工具调用可靠性</strong>：API服务变更或数据源异常时，系统容错机制尚待验证。</li>
-<li><strong>隐私合规挑战</strong>：端侧数据采集与个性化服务间的边界需要符合全球各地数据保护法规。</li>
-</ul>
-<h2>6. 应用场景（结合真实业务）</h2>
-<ul>
-<li><strong>智能旅行平台</strong>：整合携程、Booking等第三方服务，为用户提供“一键生成全程攻略”服务。</li>
-<li><strong>企业差旅管理</strong>：自动合规检查（如预算控制）、智能报销单据生成。</li>
-<li><strong>车载智能系统</strong>：实时行程调整（服务区推荐、充电桩预约）与多乘客偏好平衡。</li>
-</ul>
-<h2>7. 行业趋势判断（未来可能的发展方向）</h2>
-<ul>
-<li><strong>具身智能集成</strong>：AI助手将逐步连接实体机器人（酒店接待、行李托运），实现线上线下服务闭环。</li>
-<li><strong>联邦学习普及</strong>：通过分布式训练在保护隐私的前提下持续优化端侧模型。</li>
-<li><strong>因果推理增强</strong>：从相关性推荐升级为因果决策（如根据油价波动预测推荐最优出行时间）。</li>
-</ul>
-<h2>8. 给我的产品（AI助手 / 自动化系统）的启发</h2>
-<ul>
-<li><strong>模块化任务架构</strong>：借鉴其动态工作流设计，将我们的产品从固定对话流程升级为可配置任务图谱。</li>
-<li><strong>分层推理引擎</strong>：开发“轻量版-专业版”双模型策略，根据用户设备性能自动切换服务模式。</li>
-<li><strong>多工具集成标准</strong>：建立统一的第三方服务接入规范，支持API、RPA、数据库等多种连接方式。</li>
-<li><strong>持续学习机制</strong>：引入用户反馈强化学习循环，使系统在服务过程中不断优化决策逻辑。</li>
+<li><strong>多模态融合技术</strong>：Gemini 3可能通过统一架构处理文本、图像等多类数据，类似“用同一大脑理解不同感官信息”。</li>
+<li><strong>轻量化模型优化</strong>：Nano Banana Pro或采用动态计算分配（如“注意力稀疏化”），在小型设备上选择性激活关键神经网络模块。</li>
+<li><strong>任务规划推理</strong>：“Help me plan a trip”功能可能结合大语言模型的逻辑链推理与外部工具调用（如地图API），模拟人类分步骤解决问题的思维过程。</li>
 </ul>
 <hr />
-<p><strong>报告说明</strong>：本分析基于有限公开信息进行技术推演，具体技术细节待官方发布完整论文后需进一步验证。建议持续关注Gemini系列技术报告及Nano家族的基准测试数据。</p>
+<h4>3. 创新点（突破点）</h4>
+<ul>
+<li><strong>动态架构适配</strong>：Gemini 3可能引入可变形网络结构，根据任务复杂度自动调整计算资源。</li>
+<li><strong>跨场景知识迁移</strong>：通过预训练泛化能力，使模型在陌生任务（如突发行程调整）中快速适应。</li>
+<li><strong>端-云协同推理</strong>：Nano系列与云端模型形成分层计算，实现“本地快速响应+云端深度分析”的混合模式。</li>
+</ul>
+<hr />
+<h4>4. 技术优势</h4>
+<ul>
+<li><strong>效率提升</strong>：轻量化模型在保持性能的同时降低能耗，适合移动设备长期部署。</li>
+<li><strong>任务泛化能力强</strong>：单一模型可覆盖规划、创作、分析等多元场景，减少定制化开发成本。</li>
+<li><strong>交互直觉化</strong>：用户可通过自然语言描述复杂目标，无需拆分子任务或学习专业指令。</li>
+</ul>
+<hr />
+<h4>5. 局限性 / 风险点</h4>
+<ul>
+<li><strong>长链条任务可靠性</strong>：多步规划可能因局部错误累积导致整体结果偏离（如旅行路线中的时间冲突）。</li>
+<li><strong>数据隐私与安全</strong>：端侧模型需处理敏感信息（如用户行程），本地化存储与计算的安全边界待验证。</li>
+<li><strong>领域知识滞后</strong>：依赖静态训练数据可能导致实时信息更新不足（如突发天气影响行程）。</li>
+</ul>
+<hr />
+<h4>6. 应用场景（结合真实业务）</h4>
+<ul>
+<li><strong>智能旅行助理</strong>：整合航班、酒店、景点数据，动态生成个性化行程并实时调整。</li>
+<li><strong>企业流程自动化</strong>：基于“规划”能力辅助项目管理、会议安排等跨部门协作任务。</li>
+<li><strong>教育定制化工具</strong>：根据学生水平自动生成学习路径，推荐习题与资源。</li>
+</ul>
+<hr />
+<h4>7. 行业趋势判断（未来可能的发展方向）</h4>
+<ul>
+<li><strong>AI Agent常态化</strong>：模型将从“工具”升级为“自主代理”，主动理解目标并执行全流程操作。</li>
+<li><strong>边缘计算普及</strong>：轻量化模型推动AI在IoT设备（如车载系统、智能家居）中大规模部署。</li>
+<li><strong>跨模态生成突破</strong>：文本、图像、音频的相互生成技术趋于无缝衔接，支撑元宇宙等场景落地。</li>
+</ul>
+<hr />
+<h4>8. 给我的产品（AI助手 / 自动化系统）的启发</h4>
+<ul>
+<li><strong>增强任务分解能力</strong>：引入逻辑链验证机制，将用户模糊需求（如“优化工作效率”）转化为可执行步骤。</li>
+<li><strong>探索分层模型策略</strong>：针对高频简单任务部署轻量化本地模型，复杂任务调用云端资源，平衡响应速度与精度。</li>
+<li><strong>构建反馈学习闭环</strong>：记录用户对规划结果的调整行为，反向优化模型的任务推理逻辑。</li>
+</ul>
+<hr />
+<p><strong>结论</strong>：此次更新标志着AI从“感知智能”向“行动智能”演进，通过架构创新与场景融合，为下一代人机协作系统奠定了技术基础。</p>
         </div>
 
         <div class="link">
@@ -421,201 +429,6 @@
 
         <div class="link">
             <a href="https://blog.google/technology/ai/ai-image-verification-gemini-app/" target="_blank">查看原文</a>
-        </div>
-    </div>
-    
-    <div class="item">
-        <div class="title">DiscoverDCP: A Data-Driven Approach for Construction of Disciplined Convex Programs via Symbolic Regression</div>
-
-        <!-- 🔥 在这里渲染分析报告 -->
-        <div class="analysis">
-            <p>（暂无分析报告）</p>
-        </div>
-
-        <div class="link">
-            <a href="https://arxiv.org/abs/2512.15721" target="_blank">查看原文</a>
-        </div>
-    </div>
-    
-    <div class="item">
-        <div class="title">Hybrid Quantum-Classical Ensemble Learning for S\&P 500 Directional Prediction</div>
-
-        <!-- 🔥 在这里渲染分析报告 -->
-        <div class="analysis">
-            <p>（暂无分析报告）</p>
-        </div>
-
-        <div class="link">
-            <a href="https://arxiv.org/abs/2512.15738" target="_blank">查看原文</a>
-        </div>
-    </div>
-    
-    <div class="item">
-        <div class="title">SHARe-KAN: Holographic Vector Quantization for Memory-Bound Inference</div>
-
-        <!-- 🔥 在这里渲染分析报告 -->
-        <div class="analysis">
-            <p>（暂无分析报告）</p>
-        </div>
-
-        <div class="link">
-            <a href="https://arxiv.org/abs/2512.15742" target="_blank">查看原文</a>
-        </div>
-    </div>
-    
-    <div class="item">
-        <div class="title">How Do Graph Signals Affect Recommendation: Unveiling the Mystery of Low and High-Frequency Graph Signals</div>
-
-        <!-- 🔥 在这里渲染分析报告 -->
-        <div class="analysis">
-            <p>（暂无分析报告）</p>
-        </div>
-
-        <div class="link">
-            <a href="https://arxiv.org/abs/2512.15744" target="_blank">查看原文</a>
-        </div>
-    </div>
-    
-    <div class="item">
-        <div class="title">LLaDA2.0: Scaling Up Diffusion Language Models to 100B</div>
-
-        <!-- 🔥 在这里渲染分析报告 -->
-        <div class="analysis">
-            <p>（暂无分析报告）</p>
-        </div>
-
-        <div class="link">
-            <a href="https://arxiv.org/abs/2512.15745" target="_blank">查看原文</a>
-        </div>
-    </div>
-    
-    <div class="item">
-        <div class="title">TabReX : Tabular Referenceless eXplainable Evaluation</div>
-
-        <!-- 🔥 在这里渲染分析报告 -->
-        <div class="analysis">
-            <p>（暂无分析报告）</p>
-        </div>
-
-        <div class="link">
-            <a href="https://arxiv.org/abs/2512.15907" target="_blank">查看原文</a>
-        </div>
-    </div>
-    
-    <div class="item">
-        <div class="title">Social Story Frames: Contextual Reasoning about Narrative Intent and Reception</div>
-
-        <!-- 🔥 在这里渲染分析报告 -->
-        <div class="analysis">
-            <p>（暂无分析报告）</p>
-        </div>
-
-        <div class="link">
-            <a href="https://arxiv.org/abs/2512.15925" target="_blank">查看原文</a>
-        </div>
-    </div>
-    
-    <div class="item">
-        <div class="title">BRAID: Bounded Reasoning for Autonomous Inference and Decisions</div>
-
-        <!-- 🔥 在这里渲染分析报告 -->
-        <div class="analysis">
-            <p>（暂无分析报告）</p>
-        </div>
-
-        <div class="link">
-            <a href="https://arxiv.org/abs/2512.15959" target="_blank">查看原文</a>
-        </div>
-    </div>
-    
-    <div class="item">
-        <div class="title">Examining the Utility of Self-disclosure Types for Modeling Annotators of Social Norms</div>
-
-        <!-- 🔥 在这里渲染分析报告 -->
-        <div class="analysis">
-            <p>（暂无分析报告）</p>
-        </div>
-
-        <div class="link">
-            <a href="https://arxiv.org/abs/2512.16034" target="_blank">查看原文</a>
-        </div>
-    </div>
-    
-    <div class="item">
-        <div class="title">Are We on the Right Way to Assessing LLM-as-a-Judge?</div>
-
-        <!-- 🔥 在这里渲染分析报告 -->
-        <div class="analysis">
-            <p>（暂无分析报告）</p>
-        </div>
-
-        <div class="link">
-            <a href="https://arxiv.org/abs/2512.16041" target="_blank">查看原文</a>
-        </div>
-    </div>
-    
-    <div class="item">
-        <div class="title">Attention as Binding: A Vector-Symbolic Perspective on Transformer Reasoning</div>
-
-        <!-- 🔥 在这里渲染分析报告 -->
-        <div class="analysis">
-            <p>（暂无分析报告）</p>
-        </div>
-
-        <div class="link">
-            <a href="https://arxiv.org/abs/2512.14709" target="_blank">查看原文</a>
-        </div>
-    </div>
-    
-    <div class="item">
-        <div class="title">GR-Agent: Adaptive Graph Reasoning Agent under Incomplete Knowledge</div>
-
-        <!-- 🔥 在这里渲染分析报告 -->
-        <div class="analysis">
-            <p>（暂无分析报告）</p>
-        </div>
-
-        <div class="link">
-            <a href="https://arxiv.org/abs/2512.14766" target="_blank">查看原文</a>
-        </div>
-    </div>
-    
-    <div class="item">
-        <div class="title">IaC Generation with LLMs: An Error Taxonomy and A Study on Configuration Knowledge Injection</div>
-
-        <!-- 🔥 在这里渲染分析报告 -->
-        <div class="analysis">
-            <p>（暂无分析报告）</p>
-        </div>
-
-        <div class="link">
-            <a href="https://arxiv.org/abs/2512.14792" target="_blank">查看原文</a>
-        </div>
-    </div>
-    
-    <div class="item">
-        <div class="title">AgroAskAI: A Multi-Agentic AI Framework for Supporting Smallholder Farmers' Enquiries Globally</div>
-
-        <!-- 🔥 在这里渲染分析报告 -->
-        <div class="analysis">
-            <p>（暂无分析报告）</p>
-        </div>
-
-        <div class="link">
-            <a href="https://arxiv.org/abs/2512.14910" target="_blank">查看原文</a>
-        </div>
-    </div>
-    
-    <div class="item">
-        <div class="title">Beyond Accuracy: A Geometric Stability Analysis of Large Language Models in Chess Evaluation</div>
-
-        <!-- 🔥 在这里渲染分析报告 -->
-        <div class="analysis">
-            <p>（暂无分析报告）</p>
-        </div>
-
-        <div class="link">
-            <a href="https://arxiv.org/abs/2512.15033" target="_blank">查看原文</a>
         </div>
     </div>
     
