@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-23T02:53:10.572811+00:00",
+  "generated_at": "2025-12-24T02:50:27.590757+00:00",
   "count": 25,
   "items": [
     {
@@ -33,19 +33,28 @@
       "source_id": "openai_news",
       "source_name": "OpenAI News",
       "category": "company",
+      "title": "AI literacy resources for teens and parents",
+      "link": "https://openai.com/index/ai-literacy-resources-for-teens-and-parents",
+      "published": "2025-12-18T11:00:00+00:00",
+      "summary": "OpenAI shares new AI literacy resources to help teens and parents use ChatGPT thoughtfully, safely, and with confidence. The guides include expert-vetted tips for responsible use, critical thinking, healthy boundaries, and supporting teens through emotional or sensitive topics."
+    },
+    {
+      "source_id": "openai_news",
+      "source_name": "OpenAI News",
+      "category": "company",
       "title": "Deepening our collaboration with the U.S. Department of Energy",
       "link": "https://openai.com/index/us-department-of-energy-collaboration",
       "published": "2025-12-18T11:00:00+00:00",
       "summary": "OpenAI and the U.S. Department of Energy have signed a memorandum of understanding to deepen collaboration on AI and advanced computing in support of scientific discovery. The agreement builds on ongoing work with national laboratories and helps establish a framework for applying AI to high-impact research across the DOE ecosystem."
     },
     {
-      "source_id": "openai_news",
-      "source_name": "OpenAI News",
+      "source_id": "deepmind_news",
+      "source_name": "Google DeepMind",
       "category": "company",
-      "title": "Updating our Model Spec with teen protections",
-      "link": "https://openai.com/index/updating-model-spec-with-teen-protections",
-      "published": "2025-12-18T11:00:00+00:00",
-      "summary": "OpenAI is updating its Model Spec with new Under-18 Principles that define how ChatGPT should support teens with safe, age-appropriate guidance grounded in developmental science. The update strengthens guardrails, clarifies expected model behavior in higher-risk situations, and builds on our broader work to improve teen safety across ChatGPT."
+      "title": "Google's year in review: 8 areas with research breakthroughs in 2025",
+      "link": "https://blog.google/technology/ai/2025-research-breakthroughs/",
+      "published": "2025-12-23T17:00:00+00:00",
+      "summary": "The image depicts a visual collage or mosaic of multiple different images, with one image in the center that is black and displays the text \"Gemini 3\"."
     },
     {
       "source_id": "deepmind_news",
@@ -84,148 +93,139 @@
       "summary": "We’re bringing “The Thinking Game\" to the Google DeepMind YouTube channel."
     },
     {
-      "source_id": "deepmind_news",
-      "source_name": "Google DeepMind",
-      "category": "company",
-      "title": "How we’re bringing AI image verification to the Gemini app",
-      "link": "https://blog.google/technology/ai/ai-image-verification-gemini-app/",
-      "published": "2025-11-20T15:00:00+00:00",
-      "summary": "Golden retriever catching frisbee over water. UI overlay shows Google AI watermark detected."
+      "source_id": "arxiv_cs_lg",
+      "source_name": "arXiv cs.LG (Machine Learning)",
+      "category": "arxiv",
+      "title": "Comparative Evaluation of Explainable Machine Learning Versus Linear Regression for Predicting County-Level Lung Cancer Mortality Rate in the United States",
+      "link": "https://arxiv.org/abs/2512.17934",
+      "published": "2025-12-23T05:00:00+00:00",
+      "summary": "arXiv:2512.17934v1 Announce Type: new Abstract: Lung cancer (LC) is a leading cause of cancer-related mortality in the United States. Accurate prediction of LC mortality rates is crucial for guiding targeted interventions and addressing health disparities. Although traditional regression-based models have been commonly used, explainable machine learning models may offer enhanced predictive accurac..."
     },
     {
       "source_id": "arxiv_cs_lg",
       "source_name": "arXiv cs.LG (Machine Learning)",
       "category": "arxiv",
-      "title": "Dion2: A Simple Method to Shrink Matrix in Muon",
-      "link": "https://arxiv.org/abs/2512.16928",
-      "published": "2025-12-22T05:00:00+00:00",
-      "summary": "arXiv:2512.16928v1 Announce Type: new Abstract: The Muon optimizer enjoys strong empirical performance and theoretical grounding. However, the super-linear cost of its orthonormalization step introduces increasing overhead with scale. To alleviate this cost, several works have attempted to reduce the size of the matrix entering the orthonormalization step. We introduce Dion2, a much simpler method..."
+      "title": "What's the Price of Monotonicity? A Multi-Dataset Benchmark of Monotone-Constrained Gradient Boosting for Credit PD",
+      "link": "https://arxiv.org/abs/2512.17945",
+      "published": "2025-12-23T05:00:00+00:00",
+      "summary": "arXiv:2512.17945v1 Announce Type: new Abstract: Financial institutions face a trade-off between predictive accuracy and interpretability when deploying machine learning models for credit risk. Monotonicity constraints align model behavior with domain knowledge, but their performance cost - the price of monotonicity - is not well quantified. This paper benchmarks monotone-constrained versus unconst..."
     },
     {
       "source_id": "arxiv_cs_lg",
       "source_name": "arXiv cs.LG (Machine Learning)",
       "category": "arxiv",
-      "title": "BIONIX: A Wireless, Low-Cost Prosthetic Arm with Dual-Signal EEG and EMG Control",
-      "link": "https://arxiv.org/abs/2512.16929",
-      "published": "2025-12-22T05:00:00+00:00",
-      "summary": "arXiv:2512.16929v1 Announce Type: new Abstract: Affordable upper-limb prostheses often lack intuitive control systems, limiting functionality and accessibility for amputees in low-resource settings. This project presents a low-cost, dual-mode neuro-muscular control system integrating electroencephalography (EEG) and electromyography (EMG) to enable real-time, multi-degree-of-freedom control of a p..."
+      "title": "Convolutional-neural-operator-based transfer learning for solving PDEs",
+      "link": "https://arxiv.org/abs/2512.17969",
+      "published": "2025-12-23T05:00:00+00:00",
+      "summary": "arXiv:2512.17969v1 Announce Type: new Abstract: Convolutional neural operator is a CNN-based architecture recently proposed to enforce structure-preserving continuous-discrete equivalence and enable the genuine, alias-free learning of solution operators of PDEs. This neural operator was demonstrated to outperform for certain cases some baseline models such as DeepONet, Fourier neural operator, and..."
     },
     {
       "source_id": "arxiv_cs_lg",
       "source_name": "arXiv cs.LG (Machine Learning)",
       "category": "arxiv",
-      "title": "QSMOTE-PGM/kPGM: QSMOTE Based PGM and kPGM for Imbalanced Dataset Classification",
-      "link": "https://arxiv.org/abs/2512.16960",
-      "published": "2025-12-22T05:00:00+00:00",
-      "summary": "arXiv:2512.16960v1 Announce Type: new Abstract: Quantum-inspired machine learning (QiML) leverages mathematical frameworks from quantum theory to enhance classical algorithms, with particular emphasis on inner product structures in high-dimensional feature spaces. Among the prominent approaches, the Kernel Trick, widely used in support vector machines, provides efficient similarity computation, wh..."
+      "title": "CodeGEMM: A Codebook-Centric Approach to Efficient GEMM in Quantized LLMs",
+      "link": "https://arxiv.org/abs/2512.17970",
+      "published": "2025-12-23T05:00:00+00:00",
+      "summary": "arXiv:2512.17970v1 Announce Type: new Abstract: Weight-only quantization is widely used to mitigate the memory-bound nature of LLM inference. Codebook-based methods extend this trend by achieving strong accuracy in the extremely low-bit regime (e.g., 2-bit). However, current kernels rely on dequantization, which repeatedly fetches centroids and reconstructs weights, incurring substantial latency a..."
     },
     {
       "source_id": "arxiv_cs_lg",
       "source_name": "arXiv cs.LG (Machine Learning)",
       "category": "arxiv",
-      "title": "Compression is Routing: Reconstruction Error as an Intrinsic Signal for Modular Language Models",
-      "link": "https://arxiv.org/abs/2512.16963",
-      "published": "2025-12-22T05:00:00+00:00",
-      "summary": "arXiv:2512.16963v1 Announce Type: new Abstract: Current Large Language Models (LLMs) face three major challenges: context length limitations, high inference costs, and catastrophic forgetting during continual learning. While Mixture-of-Experts (MoE) architectures mitigate some of these conflicts, their routing mechanisms typically rely on explicitly trained auxiliary classifiers. This not only inc..."
-    },
-    {
-      "source_id": "arxiv_cs_lg",
-      "source_name": "arXiv cs.LG (Machine Learning)",
-      "category": "arxiv",
-      "title": "Physics-Informed Lightweight Machine Learning for Aviation Visibility Nowcasting Across Multiple Climatic Regimes",
-      "link": "https://arxiv.org/abs/2512.16967",
-      "published": "2025-12-22T05:00:00+00:00",
-      "summary": "arXiv:2512.16967v1 Announce Type: new Abstract: Short-term prediction (nowcasting) of low-visibility and precipitation events is critical for aviation safety and operational efficiency. Current operational approaches rely on computationally intensive numerical weather prediction guidance and human-issued TAF products, which often exhibit conservative biases and limited temporal resolution. This st..."
+      "title": "Parameter-Efficient Fine-Tuning for HAR: Integrating LoRA and QLoRA into Transformer Models",
+      "link": "https://arxiv.org/abs/2512.17983",
+      "published": "2025-12-23T05:00:00+00:00",
+      "summary": "arXiv:2512.17983v1 Announce Type: new Abstract: Human Activity Recognition is a foundational task in pervasive computing. While recent advances in self-supervised learning and transformer-based architectures have significantly improved HAR performance, adapting large pretrained models to new domains remains a practical challenge due to limited computational resources on target devices. This papers..."
     },
     {
       "source_id": "arxiv_cs_cl",
       "source_name": "arXiv cs.CL (Computation and Language)",
       "category": "arxiv",
-      "title": "A Women's Health Benchmark for Large Language Models",
-      "link": "https://arxiv.org/abs/2512.17028",
-      "published": "2025-12-22T05:00:00+00:00",
-      "summary": "arXiv:2512.17028v1 Announce Type: new Abstract: As large language models (LLMs) become primary sources of health information for millions, their accuracy in women's health remains critically unexamined. We introduce the Women's Health Benchmark (WHB), the first benchmark evaluating LLM performance specifically in women's health. Our benchmark comprises 96 rigorously validated model stumps covering..."
+      "title": "Towards Reasoning-Preserving Unlearning in Multimodal Large Language Models",
+      "link": "https://arxiv.org/abs/2512.17911",
+      "published": "2025-12-23T05:00:00+00:00",
+      "summary": "arXiv:2512.17911v1 Announce Type: new Abstract: Machine unlearning aims to erase requested data from trained models without full retraining. For Reasoning Multimodal Large Language Models (RMLLMs), this is uniquely challenging: intermediate chain-of-thought steps can still leak sensitive information even when final answers are forgotten, and overly aggressive interventions easily damage general re..."
     },
     {
       "source_id": "arxiv_cs_cl",
       "source_name": "arXiv cs.CL (Computation and Language)",
       "category": "arxiv",
-      "title": "Knowledge Distillation with Structured Chain-of-Thought for Text-to-SQL",
-      "link": "https://arxiv.org/abs/2512.17053",
-      "published": "2025-12-22T05:00:00+00:00",
-      "summary": "arXiv:2512.17053v1 Announce Type: new Abstract: Deploying accurate Text-to-SQL systems at the enterprise level faces a difficult trilemma involving cost, security and performance. Current solutions force enterprises to choose between expensive, proprietary Large Language Models (LLMs) and low-performing Small Language Models (SLMs). Efforts to improve SLMs often rely on distilling reasoning from l..."
+      "title": "Graph-O1 : Monte Carlo Tree Search with Reinforcement Learning for Text-Attributed Graph Reasoning",
+      "link": "https://arxiv.org/abs/2512.17912",
+      "published": "2025-12-23T05:00:00+00:00",
+      "summary": "arXiv:2512.17912v1 Announce Type: new Abstract: ChatGPT said: Text-attributed graphs, where nodes and edges contain rich textual information, are widely used across diverse domains. A central challenge in this setting is question answering, which requires jointly leveraging unstructured text and the structured relational signals within the graph. Although Large Language Models (LLMs) have made sig..."
     },
     {
       "source_id": "arxiv_cs_cl",
       "source_name": "arXiv cs.CL (Computation and Language)",
       "category": "arxiv",
-      "title": "XLM: A Python package for non-autoregressive language models",
-      "link": "https://arxiv.org/abs/2512.17065",
-      "published": "2025-12-22T05:00:00+00:00",
-      "summary": "arXiv:2512.17065v1 Announce Type: new Abstract: In recent years, there has been a resurgence of interest in non-autoregressive text generation in the context of general language modeling. Unlike the well-established autoregressive language modeling paradigm, which has a plethora of standard training and inference libraries, implementations of non-autoregressive language modeling have largely been ..."
+      "title": "Q-KVComm: Efficient Multi-Agent Communication Via Adaptive KV Cache Compression",
+      "link": "https://arxiv.org/abs/2512.17914",
+      "published": "2025-12-23T05:00:00+00:00",
+      "summary": "arXiv:2512.17914v1 Announce Type: new Abstract: Multi-agent Large Language Model (LLM) systems face a critical bottleneck: redundant transmission of contextual information between agents consumes excessive bandwidth and computational resources. Traditional approaches discard internal semantic representations and transmit raw text, forcing receiving agents to recompute similar representations from ..."
     },
     {
       "source_id": "arxiv_cs_cl",
       "source_name": "arXiv cs.CL (Computation and Language)",
       "category": "arxiv",
-      "title": "Perturb Your Data: Paraphrase-Guided Training Data Watermarking",
-      "link": "https://arxiv.org/abs/2512.17075",
-      "published": "2025-12-22T05:00:00+00:00",
-      "summary": "arXiv:2512.17075v1 Announce Type: new Abstract: Training data detection is critical for enforcing copyright and data licensing, as Large Language Models (LLM) are trained on massive text corpora scraped from the internet. We present SPECTRA, a watermarking approach that makes training data reliably detectable even when it comprises less than 0.001% of the training corpus. SPECTRA works by paraphra..."
+      "title": "Supplementary Resources and Analysis for Automatic Speech Recognition Systems Trained on the Loquacious Dataset",
+      "link": "https://arxiv.org/abs/2512.17915",
+      "published": "2025-12-23T05:00:00+00:00",
+      "summary": "arXiv:2512.17915v1 Announce Type: new Abstract: The recently published Loquacious dataset aims to be a replacement for established English automatic speech recognition (ASR) datasets such as LibriSpeech or TED-Lium. The main goal of the Loquacious dataset is to provide properly defined training and test partitions across many acoustic and language domains, with an open license suitable for both ac..."
     },
     {
       "source_id": "arxiv_cs_cl",
       "source_name": "arXiv cs.CL (Computation and Language)",
       "category": "arxiv",
-      "title": "When F1 Fails: Granularity-Aware Evaluation for Dialogue Topic Segmentation",
-      "link": "https://arxiv.org/abs/2512.17083",
-      "published": "2025-12-22T05:00:00+00:00",
-      "summary": "arXiv:2512.17083v1 Announce Type: new Abstract: Dialogue topic segmentation supports summarization, retrieval, memory management, and conversational continuity. Despite decades of prior work, evaluation practice in dialogue topic segmentation remains dominated by strict boundary matching and F1-based metrics, even as modern LLM-based conversational systems increasingly rely on segmentation to mana..."
+      "title": "Learning to Prioritize IT Tickets: A Comparative Evaluation of Embedding-based Approaches and Fine-Tuned Transformer Models",
+      "link": "https://arxiv.org/abs/2512.17916",
+      "published": "2025-12-23T05:00:00+00:00",
+      "summary": "arXiv:2512.17916v1 Announce Type: new Abstract: Prioritizing service tickets in IT Service Management (ITSM) is critical for operational efficiency but remains challenging due to noisy textual inputs, subjective writing styles, and pronounced class imbalance. We evaluate two families of approaches for ticket prioritization: embedding-based pipelines that combine dimensionality reduction, clusterin..."
     },
     {
       "source_id": "arxiv_cs_ai",
       "source_name": "arXiv cs.AI (Artificial Intelligence)",
       "category": "arxiv",
-      "title": "Navigating Taxonomic Expansions of Entity Sets Driven by Knowledge Bases",
-      "link": "https://arxiv.org/abs/2512.16953",
-      "published": "2025-12-22T05:00:00+00:00",
-      "summary": "arXiv:2512.16953v1 Announce Type: new Abstract: Recognizing similarities among entities is central to both human cognition and computational intelligence. Within this broader landscape, Entity Set Expansion is one prominent task aimed at taking an initial set of (tuples of) entities and identifying additional ones that share relevant semantic properties with the former -- potentially repeating the..."
+      "title": "Conflict-Driven Clause Learning with VSIDS Heuristics for Discrete Facility Layout",
+      "link": "https://arxiv.org/abs/2512.18034",
+      "published": "2025-12-23T05:00:00+00:00",
+      "summary": "arXiv:2512.18034v1 Announce Type: new Abstract: This paper studies the use of Conflict-Driven Clause Learning (CDCL) with VSIDS heuristics as a computational engine for discrete facility layout problems. The facility layout problem is modeled as a combinatorial assignment problem with dense logical structure arising from adjacency, separation, and slot-availability constraints. We develop a CNF-ba..."
     },
     {
       "source_id": "arxiv_cs_ai",
       "source_name": "arXiv cs.AI (Artificial Intelligence)",
       "category": "arxiv",
-      "title": "Probing Scientific General Intelligence of LLMs with Scientist-Aligned Workflows",
-      "link": "https://arxiv.org/abs/2512.16969",
-      "published": "2025-12-22T05:00:00+00:00",
-      "summary": "arXiv:2512.16969v1 Announce Type: new Abstract: Despite advances in scientific AI, a coherent framework for Scientific General Intelligence (SGI)-the ability to autonomously conceive, investigate, and reason across scientific domains-remains lacking. We present an operational SGI definition grounded in the Practical Inquiry Model (PIM: Deliberation, Conception, Action, Perception) and operationali..."
+      "title": "Faithful and Stable Neuron Explanations for Trustworthy Mechanistic Interpretability",
+      "link": "https://arxiv.org/abs/2512.18092",
+      "published": "2025-12-23T05:00:00+00:00",
+      "summary": "arXiv:2512.18092v1 Announce Type: new Abstract: Neuron identification is a popular tool in mechanistic interpretability, aiming to uncover the human-interpretable concepts represented by individual neurons in deep networks. While algorithms such as Network Dissection and CLIP-Dissect achieve great empirical success, a rigorous theoretical foundation remains absent, which is crucial to enable trust..."
     },
     {
       "source_id": "arxiv_cs_ai",
       "source_name": "arXiv cs.AI (Artificial Intelligence)",
       "category": "arxiv",
-      "title": "PAACE: A Plan-Aware Automated Agent Context Engineering Framework",
-      "link": "https://arxiv.org/abs/2512.16970",
-      "published": "2025-12-22T05:00:00+00:00",
-      "summary": "arXiv:2512.16970v1 Announce Type: new Abstract: Large Language Model (LLM) agents are increasingly deployed in complex, multi-step workflows involving planning, tool use, reflection, and interaction with external knowledge systems. These workflows generate rapidly expanding contexts that must be curated, transformed, and compressed to maintain fidelity, avoid attention dilution, and reduce inferen..."
+      "title": "Rethinking Multi-Agent Intelligence Through the Lens of Small-World Networks",
+      "link": "https://arxiv.org/abs/2512.18094",
+      "published": "2025-12-23T05:00:00+00:00",
+      "summary": "arXiv:2512.18094v1 Announce Type: new Abstract: Large language models (LLMs) have enabled multi-agent systems (MAS) in which multiple agents argue, critique, and coordinate to solve complex tasks, making communication topology a first-class design choice. Yet most existing LLM-based MAS either adopt fully connected graphs, simple sparse rings, or ad-hoc dynamic selection, with little structural gu..."
     },
     {
       "source_id": "arxiv_cs_ai",
       "source_name": "arXiv cs.AI (Artificial Intelligence)",
       "category": "arxiv",
-      "title": "Security Risks of Agentic Vehicles: A Systematic Analysis of Cognitive and Cross-Layer Threats",
-      "link": "https://arxiv.org/abs/2512.17041",
-      "published": "2025-12-22T05:00:00+00:00",
-      "summary": "arXiv:2512.17041v1 Announce Type: new Abstract: Agentic AI is increasingly being explored and introduced in both manually driven and autonomous vehicles, leading to the notion of Agentic Vehicles (AgVs), with capabilities such as memory-based personalization, goal interpretation, strategic reasoning, and tool-mediated assistance. While frameworks such as the OWASP Agentic AI Security Risks highlig..."
+      "title": "Efficient Mixture-of-Agents Serving via Tree-Structured Routing, Adaptive Pruning, and Dependency-Aware Prefill-Decode Overlap",
+      "link": "https://arxiv.org/abs/2512.18126",
+      "published": "2025-12-23T05:00:00+00:00",
+      "summary": "arXiv:2512.18126v1 Announce Type: new Abstract: Mixture-of-Agents (MoA) inference can suffer from dense inter-agent communication and low hardware utilization, which jointly inflate serving latency. We present a serving design that targets these bottlenecks through an algorithm-system co-design. First, we replace dense agent interaction graphs with a hierarchical tree topology that induces structu..."
     },
     {
       "source_id": "arxiv_cs_ai",
       "source_name": "arXiv cs.AI (Artificial Intelligence)",
       "category": "arxiv",
-      "title": "UniRel-R1: RL-tuned LLM Reasoning for Knowledge Graph Relational Question Answering",
-      "link": "https://arxiv.org/abs/2512.17043",
-      "published": "2025-12-22T05:00:00+00:00",
-      "summary": "arXiv:2512.17043v1 Announce Type: new Abstract: Knowledge Graph Question Answering (KGQA) has traditionally focused on entity-centric queries that return a single answer entity. However, real-world queries are often relational, seeking to understand how entities are associated. In this work, we introduce relation-centric KGQA, a complementary setting where the answer is a subgraph capturing the se..."
+      "title": "Unifying Causal Reinforcement Learning: Survey, Taxonomy, Algorithms and Applications",
+      "link": "https://arxiv.org/abs/2512.18135",
+      "published": "2025-12-23T05:00:00+00:00",
+      "summary": "arXiv:2512.18135v1 Announce Type: new Abstract: Integrating causal inference (CI) with reinforcement learning (RL) has emerged as a powerful paradigm to address critical limitations in classical RL, including low explainability, lack of robustness and generalization failures. Traditional RL techniques, which typically rely on correlation-driven decision-making, struggle when faced with distributio..."
     }
   ]
 }
