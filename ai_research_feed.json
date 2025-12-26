@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-25T02:53:42.688124+00:00",
+  "generated_at": "2025-12-26T02:51:32.533564+00:00",
   "count": 25,
   "items": [
     {
@@ -96,91 +96,91 @@
       "source_id": "arxiv_cs_lg",
       "source_name": "arXiv cs.LG (Machine Learning)",
       "category": "arxiv",
-      "title": "Large Language Models for EDA Cloud Job Resource and Lifetime Prediction",
-      "link": "https://arxiv.org/abs/2512.19701",
-      "published": "2025-12-24T05:00:00+00:00",
-      "summary": "arXiv:2512.19701v1 Announce Type: new Abstract: The rapid growth of cloud computing in the Electronic Design Automation (EDA) industry has created a critical need for resource and job lifetime prediction to achieve optimal scheduling. Traditional machine learning methods often struggle with the complexity and heterogeneity of EDA workloads, requiring extensive feature engineering and domain expert..."
+      "title": "Parameter-Efficient Neural CDEs via Implicit Function Jacobians",
+      "link": "https://arxiv.org/abs/2512.20625",
+      "published": "2025-12-25T05:00:00+00:00",
+      "summary": "arXiv:2512.20625v1 Announce Type: new Abstract: Neural Controlled Differential Equations (Neural CDEs, NCDEs) are a unique branch of methods, specifically tailored for analysing temporal sequences. However, they come with drawbacks, the main one being the number of parameters, required for the method's operation. In this paper, we propose an alternative, parameter-efficient look at Neural CDEs. It..."
     },
     {
       "source_id": "arxiv_cs_lg",
       "source_name": "arXiv cs.LG (Machine Learning)",
       "category": "arxiv",
-      "title": "Reducing Label Dependency in Human Activity Recognition with Wearables: From Supervised Learning to Novel Weakly Self-Supervised Approaches",
-      "link": "https://arxiv.org/abs/2512.19713",
-      "published": "2025-12-24T05:00:00+00:00",
-      "summary": "arXiv:2512.19713v1 Announce Type: new Abstract: Human activity recognition (HAR) using wearable sensors has advanced through various machine learning paradigms, each with inherent trade-offs between performance and labeling requirements. While fully supervised techniques achieve high accuracy, they demand extensive labeled datasets that are costly to obtain. Conversely, unsupervised methods elimin..."
+      "title": "Learning Evolving Latent Strategies for Multi-Agent Language Systems without Model Fine-Tuning",
+      "link": "https://arxiv.org/abs/2512.20629",
+      "published": "2025-12-25T05:00:00+00:00",
+      "summary": "arXiv:2512.20629v1 Announce Type: new Abstract: This study proposes a multi-agent language framework that enables continual strategy evolution without fine-tuning the language model's parameters. The core idea is to liberate the latent vectors of abstract concepts from traditional static semantic representations, allowing them to be continuously updated through environmental interaction and reinfo..."
     },
     {
       "source_id": "arxiv_cs_lg",
       "source_name": "arXiv cs.LG (Machine Learning)",
       "category": "arxiv",
-      "title": "Development and external validation of a multimodal artificial intelligence mortality prediction model of critically ill patients using multicenter data",
-      "link": "https://arxiv.org/abs/2512.19716",
-      "published": "2025-12-24T05:00:00+00:00",
-      "summary": "arXiv:2512.19716v1 Announce Type: new Abstract: Early prediction of in-hospital mortality in critically ill patients can aid clinicians in optimizing treatment. The objective was to develop a multimodal deep learning model, using structured and unstructured clinical data, to predict in-hospital mortality risk among critically ill patients after their initial 24 hour intensive care unit (ICU) admis..."
+      "title": "Zero-Training Temporal Drift Detection for Transformer Sentiment Models: A Comprehensive Analysis on Authentic Social Media Streams",
+      "link": "https://arxiv.org/abs/2512.20631",
+      "published": "2025-12-25T05:00:00+00:00",
+      "summary": "arXiv:2512.20631v1 Announce Type: new Abstract: We present a comprehensive zero-training temporal drift analysis of transformer-based sentiment models validated on authentic social media data from major real-world events. Through systematic evaluation across three transformer architectures and rigorous statistical validation on 12,279 authentic social media posts, we demonstrate significant model ..."
     },
     {
       "source_id": "arxiv_cs_lg",
       "source_name": "arXiv cs.LG (Machine Learning)",
       "category": "arxiv",
-      "title": "Thermodynamic Focusing for Inference-Time Search: Practical Methods for Target-Conditioned Sampling and Prompted Inference",
-      "link": "https://arxiv.org/abs/2512.19717",
-      "published": "2025-12-24T05:00:00+00:00",
-      "summary": "arXiv:2512.19717v1 Announce Type: new Abstract: Finding rare but useful solutions in very large candidate spaces is a recurring practical challenge across language generation, planning, and reinforcement learning. We present a practical framework, \\emph{Inverted Causality Focusing Algorithm} (ICFA), that treats search as a target-conditioned reweighting process. ICFA reuses an available proposal s..."
+      "title": "Enhancing Lung Cancer Treatment Outcome Prediction through Semantic Feature Engineering Using Large Language Models",
+      "link": "https://arxiv.org/abs/2512.20633",
+      "published": "2025-12-25T05:00:00+00:00",
+      "summary": "arXiv:2512.20633v1 Announce Type: new Abstract: Accurate prediction of treatment outcomes in lung cancer remains challenging due to the sparsity, heterogeneity, and contextual overload of real-world electronic health data. Traditional models often fail to capture semantic information across multimodal streams, while large-scale fine-tuning approaches are impractical in clinical workflows. We intro..."
     },
     {
       "source_id": "arxiv_cs_lg",
       "source_name": "arXiv cs.LG (Machine Learning)",
       "category": "arxiv",
-      "title": "Synthetic Data Blueprint (SDB): A modular framework for the statistical, structural, and graph-based evaluation of synthetic tabular data",
-      "link": "https://arxiv.org/abs/2512.19718",
-      "published": "2025-12-24T05:00:00+00:00",
-      "summary": "arXiv:2512.19718v1 Announce Type: new Abstract: In the rapidly evolving era of Artificial Intelligence (AI), synthetic data are widely used to accelerate innovation while preserving privacy and enabling broader data accessibility. However, the evaluation of synthetic data remains fragmented across heterogeneous metrics, ad-hoc scripts, and incomplete reporting practices. To address this gap, we in..."
+      "title": "Real Time Detection and Quantitative Analysis of Spurious Forgetting in Continual Learning",
+      "link": "https://arxiv.org/abs/2512.20634",
+      "published": "2025-12-25T05:00:00+00:00",
+      "summary": "arXiv:2512.20634v1 Announce Type: new Abstract: Catastrophic forgetting remains a fundamental challenge in continual learning for large language models. Recent work revealed that performance degradation may stem from spurious forgetting caused by task alignment disruption rather than true knowledge loss. However, this work only qualitatively describes alignment, relies on post-hoc analysis, and la..."
     },
     {
       "source_id": "arxiv_cs_cl",
       "source_name": "arXiv cs.CL (Computation and Language)",
       "category": "arxiv",
-      "title": "HARMON-E: Hierarchical Agentic Reasoning for Multimodal Oncology Notes to Extract Structured Data",
-      "link": "https://arxiv.org/abs/2512.19864",
-      "published": "2025-12-24T05:00:00+00:00",
-      "summary": "arXiv:2512.19864v1 Announce Type: new Abstract: Unstructured notes within the electronic health record (EHR) contain rich clinical information vital for cancer treatment decision making and research, yet reliably extracting structured oncology data remains challenging due to extensive variability, specialized terminology, and inconsistent document formats. Manual abstraction, although accurate, is..."
+      "title": "Uncovering Competency Gaps in Large Language Models and Their Benchmarks",
+      "link": "https://arxiv.org/abs/2512.20638",
+      "published": "2025-12-25T05:00:00+00:00",
+      "summary": "arXiv:2512.20638v1 Announce Type: new Abstract: The evaluation of large language models (LLMs) relies heavily on standardized benchmarks. These benchmarks provide useful aggregated metrics for a given capability, but those aggregated metrics can obscure (i) particular sub-areas where the LLMs are weak (\"model gaps\") and (ii) imbalanced coverage in the benchmarks themselves (\"benchmark gaps\"). We p..."
     },
     {
       "source_id": "arxiv_cs_cl",
       "source_name": "arXiv cs.CL (Computation and Language)",
       "category": "arxiv",
-      "title": "How well do Large Language Models Recognize Instructional Moves? Establishing Baselines for Foundation Models in Educational Discourse",
-      "link": "https://arxiv.org/abs/2512.19903",
-      "published": "2025-12-24T05:00:00+00:00",
-      "summary": "arXiv:2512.19903v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly adopted in educational technologies for a variety of tasks, from generating instructional materials and assisting with assessment design to tutoring. While prior work has investigated how models can be adapted or optimized for specific tasks, far less is known about how well LLMs perform at interpreting a..."
+      "title": "SA-DiffuSeq: Addressing Computational and Scalability Challenges in Long-Document Generation with Sparse Attention",
+      "link": "https://arxiv.org/abs/2512.20724",
+      "published": "2025-12-25T05:00:00+00:00",
+      "summary": "arXiv:2512.20724v1 Announce Type: new Abstract: Diffusion based approaches to long form text generation suffer from prohibitive computational cost and memory overhead as sequence length increases. We introduce SA-DiffuSeq, a diffusion framework that integrates sparse attention to fundamentally improve scalability for long document modeling. By selectively allocating attention within the diffusion ..."
     },
     {
       "source_id": "arxiv_cs_cl",
       "source_name": "arXiv cs.CL (Computation and Language)",
       "category": "arxiv",
-      "title": "Counterfactual LLM-based Framework for Measuring Rhetorical Style",
-      "link": "https://arxiv.org/abs/2512.19908",
-      "published": "2025-12-24T05:00:00+00:00",
-      "summary": "arXiv:2512.19908v1 Announce Type: new Abstract: The rise of AI has fueled growing concerns about ``hype'' in machine learning papers, yet a reliable way to quantify rhetorical style independently of substantive content has remained elusive. Because bold language can stem from either strong empirical results or mere rhetorical style, it is often difficult to distinguish between the two. To disentan..."
+      "title": "TokSuite: Measuring the Impact of Tokenizer Choice on Language Model Behavior",
+      "link": "https://arxiv.org/abs/2512.20757",
+      "published": "2025-12-25T05:00:00+00:00",
+      "summary": "arXiv:2512.20757v1 Announce Type: new Abstract: Tokenizers provide the fundamental basis through which text is represented and processed by language models (LMs). Despite the importance of tokenization, its role in LM performance and behavior is poorly understood due to the challenge of measuring the impact of tokenization in isolation. To address this need, we present TokSuite, a collection of mo..."
     },
     {
       "source_id": "arxiv_cs_cl",
       "source_name": "arXiv cs.CL (Computation and Language)",
       "category": "arxiv",
-      "title": "PRISM: A Personality-Driven Multi-Agent Framework for Social Media Simulation",
-      "link": "https://arxiv.org/abs/2512.19933",
-      "published": "2025-12-24T05:00:00+00:00",
-      "summary": "arXiv:2512.19933v1 Announce Type: new Abstract: Traditional agent-based models (ABMs) of opinion dynamics often fail to capture the psychological heterogeneity driving online polarization due to simplistic homogeneity assumptions. This limitation obscures the critical interplay between individual cognitive biases and information propagation, thereby hindering a mechanistic understanding of how ide..."
+      "title": "Adversarial Training for Failure-Sensitive User Simulation in Mental Health Dialogue Optimization",
+      "link": "https://arxiv.org/abs/2512.20773",
+      "published": "2025-12-25T05:00:00+00:00",
+      "summary": "arXiv:2512.20773v1 Announce Type: new Abstract: Realistic user simulation is crucial for training and evaluating task-oriented dialogue (TOD) systems, yet creating simulators that accurately replicate human behavior remains challenging. A key property of effective simulators is their ability to expose failure modes of the systems they evaluate. We present an adversarial training framework that ite..."
     },
     {
       "source_id": "arxiv_cs_cl",
       "source_name": "arXiv cs.CL (Computation and Language)",
       "category": "arxiv",
-      "title": "Bias Beneath the Tone: Empirical Characterisation of Tone Bias in LLM-Driven UX Systems",
-      "link": "https://arxiv.org/abs/2512.19950",
-      "published": "2025-12-24T05:00:00+00:00",
-      "summary": "arXiv:2512.19950v1 Announce Type: new Abstract: Large Language Models are increasingly used in conversational systems such as digital personal assistants, shaping how people interact with technology through language. While their responses often sound fluent and natural, they can also carry subtle tone biases such as sounding overly polite, cheerful, or cautious even when neutrality is expected. Th..."
+      "title": "Large Language Models Approach Expert Pedagogical Quality in Math Tutoring but Differ in Instructional and Linguistic Profiles",
+      "link": "https://arxiv.org/abs/2512.20780",
+      "published": "2025-12-25T05:00:00+00:00",
+      "summary": "arXiv:2512.20780v1 Announce Type: new Abstract: Recent work has explored the use of large language models for generating tutoring responses in mathematics, yet it remains unclear how closely their instructional behavior aligns with expert human practice. We examine this question using a controlled, turn-level comparison in which expert human tutors, novice human tutors, and multiple large language..."
     },
     {
       "source_id": "arxiv_cs_ai",
@@ -188,7 +188,7 @@
       "category": "arxiv",
       "title": "PhysMaster: Building an Autonomous AI Physicist for Theoretical and Computational Physics Research",
       "link": "https://arxiv.org/abs/2512.19799",
-      "published": "2025-12-24T05:00:00+00:00",
+      "published": "2025-12-25T05:00:00+00:00",
       "summary": "arXiv:2512.19799v1 Announce Type: new Abstract: Advances in LLMs have produced agents with knowledge and operational capabilities comparable to human scientists, suggesting potential to assist, accelerate, and automate research. However, existing studies mainly evaluate such systems on well-defined benchmarks or general tasks like literature retrieval, limiting their end-to-end problem-solving abi..."
     },
     {
@@ -197,7 +197,7 @@
       "category": "arxiv",
       "title": "A Branch-and-Price Algorithm for Fast and Equitable Last-Mile Relief Aid Distribution",
       "link": "https://arxiv.org/abs/2512.19882",
-      "published": "2025-12-24T05:00:00+00:00",
+      "published": "2025-12-25T05:00:00+00:00",
       "summary": "arXiv:2512.19882v1 Announce Type: new Abstract: The distribution of relief supplies to shelters is a critical aspect of post-disaster humanitarian logistics. In major disasters, prepositioned supplies often fall short of meeting all demands. We address the problem of planning vehicle routes from a distribution center to shelters while allocating limited relief supplies. To balance efficiency and e..."
     },
     {
@@ -206,7 +206,7 @@
       "category": "arxiv",
       "title": "Interpolative Decoding: Exploring the Spectrum of Personality Traits in LLMs",
       "link": "https://arxiv.org/abs/2512.19937",
-      "published": "2025-12-24T05:00:00+00:00",
+      "published": "2025-12-25T05:00:00+00:00",
       "summary": "arXiv:2512.19937v1 Announce Type: new Abstract: Recent research has explored using very large language models (LLMs) as proxies for humans in tasks such as simulation, surveys, and studies. While LLMs do not possess a human psychology, they often can emulate human behaviors with sufficiently high fidelity to drive simulations to test human behavioral hypotheses, exhibiting more nuance and range th..."
     },
     {
@@ -215,7 +215,7 @@
       "category": "arxiv",
       "title": "Zero-Shot Segmentation through Prototype-Guidance for Multi-Label Plant Species Identification",
       "link": "https://arxiv.org/abs/2512.19957",
-      "published": "2025-12-24T05:00:00+00:00",
+      "published": "2025-12-25T05:00:00+00:00",
       "summary": "arXiv:2512.19957v1 Announce Type: new Abstract: This paper presents an approach developed to address the PlantClef 2025 challenge, which consists of a fine-grained multi-label species identification, over high-resolution images. Our solution focused on employing class prototypes obtained from the training dataset as a proxy guidance for training a segmentation Vision Transformer (ViT) on the test ..."
     },
     {
@@ -224,7 +224,7 @@
       "category": "arxiv",
       "title": "FGDCC: Fine-Grained Deep Cluster Categorization -- A Framework for Intra-Class Variability Problems in Plant Classification",
       "link": "https://arxiv.org/abs/2512.19960",
-      "published": "2025-12-24T05:00:00+00:00",
+      "published": "2025-12-25T05:00:00+00:00",
       "summary": "arXiv:2512.19960v1 Announce Type: new Abstract: Intra-class variability is given according to the significance in the degree of dissimilarity between images within a class. In that sense, depending on its intensity, intra-class variability can hinder the learning process for DL models, specially when such classes are also underrepresented, which is a very common scenario in Fine-Grained Visual Cat..."
     }
   ]
