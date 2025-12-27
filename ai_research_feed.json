@@ -1,6 +1,6 @@
 {
-  "generated_at": "2025-12-26T02:51:32.533564+00:00",
-  "count": 25,
+  "generated_at": "2025-12-27T02:48:59.563688+00:00",
+  "count": 15,
   "items": [
     {
       "source_id": "openai_news",
@@ -93,139 +93,49 @@
       "summary": "We’re bringing “The Thinking Game\" to the Google DeepMind YouTube channel."
     },
     {
-      "source_id": "arxiv_cs_lg",
-      "source_name": "arXiv cs.LG (Machine Learning)",
+      "source_id": "arxiv_cs_ai",
+      "source_name": "arXiv cs.AI (Artificial Intelligence)",
       "category": "arxiv",
-      "title": "Parameter-Efficient Neural CDEs via Implicit Function Jacobians",
-      "link": "https://arxiv.org/abs/2512.20625",
-      "published": "2025-12-25T05:00:00+00:00",
-      "summary": "arXiv:2512.20625v1 Announce Type: new Abstract: Neural Controlled Differential Equations (Neural CDEs, NCDEs) are a unique branch of methods, specifically tailored for analysing temporal sequences. However, they come with drawbacks, the main one being the number of parameters, required for the method's operation. In this paper, we propose an alternative, parameter-efficient look at Neural CDEs. It..."
-    },
-    {
-      "source_id": "arxiv_cs_lg",
-      "source_name": "arXiv cs.LG (Machine Learning)",
-      "category": "arxiv",
-      "title": "Learning Evolving Latent Strategies for Multi-Agent Language Systems without Model Fine-Tuning",
-      "link": "https://arxiv.org/abs/2512.20629",
-      "published": "2025-12-25T05:00:00+00:00",
-      "summary": "arXiv:2512.20629v1 Announce Type: new Abstract: This study proposes a multi-agent language framework that enables continual strategy evolution without fine-tuning the language model's parameters. The core idea is to liberate the latent vectors of abstract concepts from traditional static semantic representations, allowing them to be continuously updated through environmental interaction and reinfo..."
-    },
-    {
-      "source_id": "arxiv_cs_lg",
-      "source_name": "arXiv cs.LG (Machine Learning)",
-      "category": "arxiv",
-      "title": "Zero-Training Temporal Drift Detection for Transformer Sentiment Models: A Comprehensive Analysis on Authentic Social Media Streams",
-      "link": "https://arxiv.org/abs/2512.20631",
-      "published": "2025-12-25T05:00:00+00:00",
-      "summary": "arXiv:2512.20631v1 Announce Type: new Abstract: We present a comprehensive zero-training temporal drift analysis of transformer-based sentiment models validated on authentic social media data from major real-world events. Through systematic evaluation across three transformer architectures and rigorous statistical validation on 12,279 authentic social media posts, we demonstrate significant model ..."
-    },
-    {
-      "source_id": "arxiv_cs_lg",
-      "source_name": "arXiv cs.LG (Machine Learning)",
-      "category": "arxiv",
-      "title": "Enhancing Lung Cancer Treatment Outcome Prediction through Semantic Feature Engineering Using Large Language Models",
-      "link": "https://arxiv.org/abs/2512.20633",
-      "published": "2025-12-25T05:00:00+00:00",
-      "summary": "arXiv:2512.20633v1 Announce Type: new Abstract: Accurate prediction of treatment outcomes in lung cancer remains challenging due to the sparsity, heterogeneity, and contextual overload of real-world electronic health data. Traditional models often fail to capture semantic information across multimodal streams, while large-scale fine-tuning approaches are impractical in clinical workflows. We intro..."
-    },
-    {
-      "source_id": "arxiv_cs_lg",
-      "source_name": "arXiv cs.LG (Machine Learning)",
-      "category": "arxiv",
-      "title": "Real Time Detection and Quantitative Analysis of Spurious Forgetting in Continual Learning",
-      "link": "https://arxiv.org/abs/2512.20634",
-      "published": "2025-12-25T05:00:00+00:00",
-      "summary": "arXiv:2512.20634v1 Announce Type: new Abstract: Catastrophic forgetting remains a fundamental challenge in continual learning for large language models. Recent work revealed that performance degradation may stem from spurious forgetting caused by task alignment disruption rather than true knowledge loss. However, this work only qualitatively describes alignment, relies on post-hoc analysis, and la..."
-    },
-    {
-      "source_id": "arxiv_cs_cl",
-      "source_name": "arXiv cs.CL (Computation and Language)",
-      "category": "arxiv",
-      "title": "Uncovering Competency Gaps in Large Language Models and Their Benchmarks",
-      "link": "https://arxiv.org/abs/2512.20638",
-      "published": "2025-12-25T05:00:00+00:00",
-      "summary": "arXiv:2512.20638v1 Announce Type: new Abstract: The evaluation of large language models (LLMs) relies heavily on standardized benchmarks. These benchmarks provide useful aggregated metrics for a given capability, but those aggregated metrics can obscure (i) particular sub-areas where the LLMs are weak (\"model gaps\") and (ii) imbalanced coverage in the benchmarks themselves (\"benchmark gaps\"). We p..."
-    },
-    {
-      "source_id": "arxiv_cs_cl",
-      "source_name": "arXiv cs.CL (Computation and Language)",
-      "category": "arxiv",
-      "title": "SA-DiffuSeq: Addressing Computational and Scalability Challenges in Long-Document Generation with Sparse Attention",
-      "link": "https://arxiv.org/abs/2512.20724",
-      "published": "2025-12-25T05:00:00+00:00",
-      "summary": "arXiv:2512.20724v1 Announce Type: new Abstract: Diffusion based approaches to long form text generation suffer from prohibitive computational cost and memory overhead as sequence length increases. We introduce SA-DiffuSeq, a diffusion framework that integrates sparse attention to fundamentally improve scalability for long document modeling. By selectively allocating attention within the diffusion ..."
-    },
-    {
-      "source_id": "arxiv_cs_cl",
-      "source_name": "arXiv cs.CL (Computation and Language)",
-      "category": "arxiv",
-      "title": "TokSuite: Measuring the Impact of Tokenizer Choice on Language Model Behavior",
-      "link": "https://arxiv.org/abs/2512.20757",
-      "published": "2025-12-25T05:00:00+00:00",
-      "summary": "arXiv:2512.20757v1 Announce Type: new Abstract: Tokenizers provide the fundamental basis through which text is represented and processed by language models (LMs). Despite the importance of tokenization, its role in LM performance and behavior is poorly understood due to the challenge of measuring the impact of tokenization in isolation. To address this need, we present TokSuite, a collection of mo..."
-    },
-    {
-      "source_id": "arxiv_cs_cl",
-      "source_name": "arXiv cs.CL (Computation and Language)",
-      "category": "arxiv",
-      "title": "Adversarial Training for Failure-Sensitive User Simulation in Mental Health Dialogue Optimization",
-      "link": "https://arxiv.org/abs/2512.20773",
-      "published": "2025-12-25T05:00:00+00:00",
-      "summary": "arXiv:2512.20773v1 Announce Type: new Abstract: Realistic user simulation is crucial for training and evaluating task-oriented dialogue (TOD) systems, yet creating simulators that accurately replicate human behavior remains challenging. A key property of effective simulators is their ability to expose failure modes of the systems they evaluate. We present an adversarial training framework that ite..."
-    },
-    {
-      "source_id": "arxiv_cs_cl",
-      "source_name": "arXiv cs.CL (Computation and Language)",
-      "category": "arxiv",
-      "title": "Large Language Models Approach Expert Pedagogical Quality in Math Tutoring but Differ in Instructional and Linguistic Profiles",
-      "link": "https://arxiv.org/abs/2512.20780",
-      "published": "2025-12-25T05:00:00+00:00",
-      "summary": "arXiv:2512.20780v1 Announce Type: new Abstract: Recent work has explored the use of large language models for generating tutoring responses in mathematics, yet it remains unclear how closely their instructional behavior aligns with expert human practice. We examine this question using a controlled, turn-level comparison in which expert human tutors, novice human tutors, and multiple large language..."
+      "title": "BitRL-Light: 1-bit LLM Agents with Deep Reinforcement Learning for Energy-Efficient Smart Home Lighting Optimization",
+      "link": "https://arxiv.org/abs/2512.20623",
+      "published": "2025-12-26T05:00:00+00:00",
+      "summary": "arXiv:2512.20623v1 Announce Type: new Abstract: Smart home lighting systems consume 15-20% of residential energy but lack adaptive intelligence to optimize for user comfort and energy efficiency simultaneously. We present BitRL-Light, a novel framework combining 1-bit quantized Large Language Models (LLMs) with Deep Q-Network (DQN) reinforcement learning for real-time smart home lighting control o..."
     },
     {
       "source_id": "arxiv_cs_ai",
       "source_name": "arXiv cs.AI (Artificial Intelligence)",
       "category": "arxiv",
-      "title": "PhysMaster: Building an Autonomous AI Physicist for Theoretical and Computational Physics Research",
-      "link": "https://arxiv.org/abs/2512.19799",
-      "published": "2025-12-25T05:00:00+00:00",
-      "summary": "arXiv:2512.19799v1 Announce Type: new Abstract: Advances in LLMs have produced agents with knowledge and operational capabilities comparable to human scientists, suggesting potential to assist, accelerate, and automate research. However, existing studies mainly evaluate such systems on well-defined benchmarks or general tasks like literature retrieval, limiting their end-to-end problem-solving abi..."
+      "title": "Quantum-Inspired Multi Agent Reinforcement Learning for Exploration Exploitation Optimization in UAV-Assisted 6G Network Deployment",
+      "link": "https://arxiv.org/abs/2512.20624",
+      "published": "2025-12-26T05:00:00+00:00",
+      "summary": "arXiv:2512.20624v1 Announce Type: new Abstract: This study introduces a quantum inspired framework for optimizing the exploration exploitation tradeoff in multiagent reinforcement learning, applied to UAVassisted 6G network deployment. We consider a cooperative scenario where ten intelligent UAVs autonomously coordinate to maximize signal coverage and support efficient network expansion under part..."
     },
     {
       "source_id": "arxiv_cs_ai",
       "source_name": "arXiv cs.AI (Artificial Intelligence)",
       "category": "arxiv",
-      "title": "A Branch-and-Price Algorithm for Fast and Equitable Last-Mile Relief Aid Distribution",
-      "link": "https://arxiv.org/abs/2512.19882",
-      "published": "2025-12-25T05:00:00+00:00",
-      "summary": "arXiv:2512.19882v1 Announce Type: new Abstract: The distribution of relief supplies to shelters is a critical aspect of post-disaster humanitarian logistics. In major disasters, prepositioned supplies often fall short of meeting all demands. We address the problem of planning vehicle routes from a distribution center to shelters while allocating limited relief supplies. To balance efficiency and e..."
+      "title": "MegaRAG: Multimodal Knowledge Graph-Based Retrieval Augmented Generation",
+      "link": "https://arxiv.org/abs/2512.20626",
+      "published": "2025-12-26T05:00:00+00:00",
+      "summary": "arXiv:2512.20626v1 Announce Type: new Abstract: Retrieval-augmented generation (RAG) enables large language models (LLMs) to dynamically access external information, which is powerful for answering questions over previously unseen documents. Nonetheless, they struggle with high-level conceptual understanding and holistic comprehension due to limited context windows, which constrain their ability t..."
     },
     {
       "source_id": "arxiv_cs_ai",
       "source_name": "arXiv cs.AI (Artificial Intelligence)",
       "category": "arxiv",
-      "title": "Interpolative Decoding: Exploring the Spectrum of Personality Traits in LLMs",
-      "link": "https://arxiv.org/abs/2512.19937",
-      "published": "2025-12-25T05:00:00+00:00",
-      "summary": "arXiv:2512.19937v1 Announce Type: new Abstract: Recent research has explored using very large language models (LLMs) as proxies for humans in tasks such as simulation, surveys, and studies. While LLMs do not possess a human psychology, they often can emulate human behaviors with sufficiently high fidelity to drive simulations to test human behavioral hypotheses, exhibiting more nuance and range th..."
+      "title": "Proceedings of the 20th International Conference on Knowledge, Information and Creativity Support Systems (KICSS 2025)",
+      "link": "https://arxiv.org/abs/2512.20628",
+      "published": "2025-12-26T05:00:00+00:00",
+      "summary": "arXiv:2512.20628v1 Announce Type: new Abstract: This volume presents the proceedings of the 20th International Conference on Knowledge, Information and Creativity Support Systems (KICSS 2025), held in Nagaoka, Japan, on December 3-5, 2025. The conference, organized in cooperation with the IEICE Proceedings Series, provides a multidisciplinary forum for researchers in artificial intelligence, knowl..."
     },
     {
       "source_id": "arxiv_cs_ai",
       "source_name": "arXiv cs.AI (Artificial Intelligence)",
       "category": "arxiv",
-      "title": "Zero-Shot Segmentation through Prototype-Guidance for Multi-Label Plant Species Identification",
-      "link": "https://arxiv.org/abs/2512.19957",
-      "published": "2025-12-25T05:00:00+00:00",
-      "summary": "arXiv:2512.19957v1 Announce Type: new Abstract: This paper presents an approach developed to address the PlantClef 2025 challenge, which consists of a fine-grained multi-label species identification, over high-resolution images. Our solution focused on employing class prototypes obtained from the training dataset as a proxy guidance for training a segmentation Vision Transformer (ViT) on the test ..."
-    },
-    {
-      "source_id": "arxiv_cs_ai",
-      "source_name": "arXiv cs.AI (Artificial Intelligence)",
-      "category": "arxiv",
-      "title": "FGDCC: Fine-Grained Deep Cluster Categorization -- A Framework for Intra-Class Variability Problems in Plant Classification",
-      "link": "https://arxiv.org/abs/2512.19960",
-      "published": "2025-12-25T05:00:00+00:00",
-      "summary": "arXiv:2512.19960v1 Announce Type: new Abstract: Intra-class variability is given according to the significance in the degree of dissimilarity between images within a class. In that sense, depending on its intensity, intra-class variability can hinder the learning process for DL models, specially when such classes are also underrepresented, which is a very common scenario in Fine-Grained Visual Cat..."
+      "title": "MicroProbe: Efficient Reliability Assessment for Foundation Models with Minimal Data",
+      "link": "https://arxiv.org/abs/2512.20630",
+      "published": "2025-12-26T05:00:00+00:00",
+      "summary": "arXiv:2512.20630v1 Announce Type: new Abstract: Foundation model reliability assessment typically requires thousands of evaluation examples, making it computationally expensive and time-consuming for real-world deployment. We introduce microprobe, a novel approach that achieves comprehensive reliability assessment using only 100 strategically selected probe examples. Our method combines strategic ..."
     }
   ]
 }
