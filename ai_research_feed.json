@@ -1,6 +1,6 @@
 {
-  "generated_at": "2025-12-27T02:48:59.563688+00:00",
-  "count": 15,
+  "generated_at": "2025-12-28T03:04:19.425800+00:00",
+  "count": 10,
   "items": [
     {
       "source_id": "openai_news",
@@ -91,51 +91,6 @@
       "link": "https://blog.google/technology/google-deepmind/the-thinking-game/",
       "published": "2025-11-25T16:00:00+00:00",
       "summary": "We’re bringing “The Thinking Game\" to the Google DeepMind YouTube channel."
-    },
-    {
-      "source_id": "arxiv_cs_ai",
-      "source_name": "arXiv cs.AI (Artificial Intelligence)",
-      "category": "arxiv",
-      "title": "BitRL-Light: 1-bit LLM Agents with Deep Reinforcement Learning for Energy-Efficient Smart Home Lighting Optimization",
-      "link": "https://arxiv.org/abs/2512.20623",
-      "published": "2025-12-26T05:00:00+00:00",
-      "summary": "arXiv:2512.20623v1 Announce Type: new Abstract: Smart home lighting systems consume 15-20% of residential energy but lack adaptive intelligence to optimize for user comfort and energy efficiency simultaneously. We present BitRL-Light, a novel framework combining 1-bit quantized Large Language Models (LLMs) with Deep Q-Network (DQN) reinforcement learning for real-time smart home lighting control o..."
-    },
-    {
-      "source_id": "arxiv_cs_ai",
-      "source_name": "arXiv cs.AI (Artificial Intelligence)",
-      "category": "arxiv",
-      "title": "Quantum-Inspired Multi Agent Reinforcement Learning for Exploration Exploitation Optimization in UAV-Assisted 6G Network Deployment",
-      "link": "https://arxiv.org/abs/2512.20624",
-      "published": "2025-12-26T05:00:00+00:00",
-      "summary": "arXiv:2512.20624v1 Announce Type: new Abstract: This study introduces a quantum inspired framework for optimizing the exploration exploitation tradeoff in multiagent reinforcement learning, applied to UAVassisted 6G network deployment. We consider a cooperative scenario where ten intelligent UAVs autonomously coordinate to maximize signal coverage and support efficient network expansion under part..."
-    },
-    {
-      "source_id": "arxiv_cs_ai",
-      "source_name": "arXiv cs.AI (Artificial Intelligence)",
-      "category": "arxiv",
-      "title": "MegaRAG: Multimodal Knowledge Graph-Based Retrieval Augmented Generation",
-      "link": "https://arxiv.org/abs/2512.20626",
-      "published": "2025-12-26T05:00:00+00:00",
-      "summary": "arXiv:2512.20626v1 Announce Type: new Abstract: Retrieval-augmented generation (RAG) enables large language models (LLMs) to dynamically access external information, which is powerful for answering questions over previously unseen documents. Nonetheless, they struggle with high-level conceptual understanding and holistic comprehension due to limited context windows, which constrain their ability t..."
-    },
-    {
-      "source_id": "arxiv_cs_ai",
-      "source_name": "arXiv cs.AI (Artificial Intelligence)",
-      "category": "arxiv",
-      "title": "Proceedings of the 20th International Conference on Knowledge, Information and Creativity Support Systems (KICSS 2025)",
-      "link": "https://arxiv.org/abs/2512.20628",
-      "published": "2025-12-26T05:00:00+00:00",
-      "summary": "arXiv:2512.20628v1 Announce Type: new Abstract: This volume presents the proceedings of the 20th International Conference on Knowledge, Information and Creativity Support Systems (KICSS 2025), held in Nagaoka, Japan, on December 3-5, 2025. The conference, organized in cooperation with the IEICE Proceedings Series, provides a multidisciplinary forum for researchers in artificial intelligence, knowl..."
-    },
-    {
-      "source_id": "arxiv_cs_ai",
-      "source_name": "arXiv cs.AI (Artificial Intelligence)",
-      "category": "arxiv",
-      "title": "MicroProbe: Efficient Reliability Assessment for Foundation Models with Minimal Data",
-      "link": "https://arxiv.org/abs/2512.20630",
-      "published": "2025-12-26T05:00:00+00:00",
-      "summary": "arXiv:2512.20630v1 Announce Type: new Abstract: Foundation model reliability assessment typically requires thousands of evaluation examples, making it computationally expensive and time-consuming for real-world deployment. We introduce microprobe, a novel approach that achieves comprehensive reliability assessment using only 100 strategically selected probe examples. Our method combines strategic ..."
     }
   ]
 }
