@@ -1,6 +1,6 @@
 {
-  "generated_at": "2025-12-29T03:04:30.951793+00:00",
-  "count": 10,
+  "generated_at": "2025-12-30T02:54:29.393706+00:00",
+  "count": 25,
   "items": [
     {
       "source_id": "openai_news",
@@ -51,6 +51,15 @@
       "source_id": "deepmind_news",
       "source_name": "Google DeepMind",
       "category": "company",
+      "title": "The latest AI news we announced in December",
+      "link": "https://blog.google/technology/ai/google-ai-updates-december-2025/",
+      "published": "2025-12-29T18:15:00+00:00",
+      "summary": "Three application preview cards: AI chess interface, Gemini 3 Flash logo, Google search bar."
+    },
+    {
+      "source_id": "deepmind_news",
+      "source_name": "Google DeepMind",
+      "category": "company",
       "title": "Google's year in review: 8 areas with research breakthroughs in 2025",
       "link": "https://blog.google/technology/ai/2025-research-breakthroughs/",
       "published": "2025-12-23T17:00:00+00:00",
@@ -84,13 +93,139 @@
       "summary": "mp4 showing a carousel of images with text like \"Gemini 3\" \"Nano Banana Pro\" and \"Help me plan a trip\""
     },
     {
-      "source_id": "deepmind_news",
-      "source_name": "Google DeepMind",
-      "category": "company",
-      "title": "Watch ‘The Thinking Game,’ a documentary about Google DeepMind, for free on YouTube.",
-      "link": "https://blog.google/technology/google-deepmind/the-thinking-game/",
-      "published": "2025-11-25T16:00:00+00:00",
-      "summary": "We’re bringing “The Thinking Game\" to the Google DeepMind YouTube channel."
+      "source_id": "arxiv_cs_lg",
+      "source_name": "arXiv cs.LG (Machine Learning)",
+      "category": "arxiv",
+      "title": "Physics-Informed Neural Solvers for Periodic Quantum Eigenproblems",
+      "link": "https://arxiv.org/abs/2512.21349",
+      "published": "2025-12-29T05:00:00+00:00",
+      "summary": "arXiv:2512.21349v1 Announce Type: new Abstract: This thesis presents a physics-informed machine learning framework for solving the Floquet-Bloch eigenvalue problem associated with particles in two-dimensional periodic potentials, with a focus on honeycomb lattice geometry, due to its distinctive band topology featuring Dirac points and its relevance to materials such as graphene. By leveraging neu..."
+    },
+    {
+      "source_id": "arxiv_cs_lg",
+      "source_name": "arXiv cs.LG (Machine Learning)",
+      "category": "arxiv",
+      "title": "A Reinforcement Learning Approach to Synthetic Data Generation",
+      "link": "https://arxiv.org/abs/2512.21395",
+      "published": "2025-12-29T05:00:00+00:00",
+      "summary": "arXiv:2512.21395v1 Announce Type: new Abstract: Synthetic data generation (SDG) is a promising approach for enabling data sharing in biomedical studies while preserving patient privacy. Yet, state-of-the-art generative models often require large datasets and complex training procedures, limiting their applicability in small-sample settings. In this work, we reframe SDG as a reinforcement learning ..."
+    },
+    {
+      "source_id": "arxiv_cs_lg",
+      "source_name": "arXiv cs.LG (Machine Learning)",
+      "category": "arxiv",
+      "title": "kooplearn: A Scikit-Learn Compatible Library of Algorithms for Evolution Operator Learning",
+      "link": "https://arxiv.org/abs/2512.21409",
+      "published": "2025-12-29T05:00:00+00:00",
+      "summary": "arXiv:2512.21409v1 Announce Type: new Abstract: kooplearn is a machine-learning library that implements linear, kernel, and deep-learning estimators of dynamical operators and their spectral decompositions. kooplearn can model both discrete-time evolution operators (Koopman/Transfer) and continuous-time infinitesimal generators. By learning these operators, users can analyze dynamical systems via ..."
+    },
+    {
+      "source_id": "arxiv_cs_lg",
+      "source_name": "arXiv cs.LG (Machine Learning)",
+      "category": "arxiv",
+      "title": "A Survey of Freshness-Aware Wireless Networking with Reinforcement Learning",
+      "link": "https://arxiv.org/abs/2512.21412",
+      "published": "2025-12-29T05:00:00+00:00",
+      "summary": "arXiv:2512.21412v1 Announce Type: new Abstract: The age of information (AoI) has become a central measure of data freshness in modern wireless systems, yet existing surveys either focus on classical AoI formulations or provide broad discussions of reinforcement learning (RL) in wireless networks without addressing freshness as a unified learning problem. Motivated by this gap, this survey examines..."
+    },
+    {
+      "source_id": "arxiv_cs_lg",
+      "source_name": "arXiv cs.LG (Machine Learning)",
+      "category": "arxiv",
+      "title": "DeepCQ: General-Purpose Deep-Surrogate Framework for Lossy Compression Quality Prediction",
+      "link": "https://arxiv.org/abs/2512.21433",
+      "published": "2025-12-29T05:00:00+00:00",
+      "summary": "arXiv:2512.21433v1 Announce Type: new Abstract: Error-bounded lossy compression techniques have become vital for scientific data management and analytics, given the ever-increasing volume of data generated by modern scientific simulations and instruments. Nevertheless, assessing data quality post-compression remains computationally expensive due to the intensive nature of metric calculations. In t..."
+    },
+    {
+      "source_id": "arxiv_cs_cl",
+      "source_name": "arXiv cs.CL (Computation and Language)",
+      "category": "arxiv",
+      "title": "Teaching People LLM's Errors and Getting it Right",
+      "link": "https://arxiv.org/abs/2512.21422",
+      "published": "2025-12-29T05:00:00+00:00",
+      "summary": "arXiv:2512.21422v1 Announce Type: new Abstract: People use large language models (LLMs) when they should not. This is partly because they see LLMs compose poems and answer intricate questions, so they understandably, but incorrectly, assume LLMs won't stumble on basic tasks like simple arithmetic. Prior work has tried to address this by clustering instance embeddings into regions where an LLM is l..."
+    },
+    {
+      "source_id": "arxiv_cs_cl",
+      "source_name": "arXiv cs.CL (Computation and Language)",
+      "category": "arxiv",
+      "title": "Morality is Contextual: Learning Interpretable Moral Contexts from Human Data with Probabilistic Clustering and Large Language Models",
+      "link": "https://arxiv.org/abs/2512.21439",
+      "published": "2025-12-29T05:00:00+00:00",
+      "summary": "arXiv:2512.21439v1 Announce Type: new Abstract: Moral actions are judged not only by their outcomes but by the context in which they occur. We present COMETH (Contextual Organization of Moral Evaluation from Textual Human inputs), a framework that integrates a probabilistic context learner with LLM-based semantic abstraction and human moral evaluations to model how context shapes the acceptability..."
+    },
+    {
+      "source_id": "arxiv_cs_cl",
+      "source_name": "arXiv cs.CL (Computation and Language)",
+      "category": "arxiv",
+      "title": "Oogiri-Master: Benchmarking Humor Understanding via Oogiri",
+      "link": "https://arxiv.org/abs/2512.21494",
+      "published": "2025-12-29T05:00:00+00:00",
+      "summary": "arXiv:2512.21494v1 Announce Type: new Abstract: Humor is a salient testbed for human-like creative thinking in large language models (LLMs). We study humor using the Japanese creative response game Oogiri, in which participants produce witty responses to a given prompt, and ask the following research question: What makes such responses funny to humans? Previous work has offered only limited reliab..."
+    },
+    {
+      "source_id": "arxiv_cs_cl",
+      "source_name": "arXiv cs.CL (Computation and Language)",
+      "category": "arxiv",
+      "title": "Beyond Heuristics: A Decision-Theoretic Framework for Agent Memory Management",
+      "link": "https://arxiv.org/abs/2512.21567",
+      "published": "2025-12-29T05:00:00+00:00",
+      "summary": "arXiv:2512.21567v1 Announce Type: new Abstract: External memory is a key component of modern large language model (LLM) systems, enabling long-term interaction and personalization. Despite its importance, memory management is still largely driven by hand-designed heuristics, offering little insight into the long-term and uncertain consequences of memory decisions. In practice, choices about what t..."
+    },
+    {
+      "source_id": "arxiv_cs_cl",
+      "source_name": "arXiv cs.CL (Computation and Language)",
+      "category": "arxiv",
+      "title": "A Unified Definition of Hallucination, Or: It's the World Model, Stupid",
+      "link": "https://arxiv.org/abs/2512.21577",
+      "published": "2025-12-29T05:00:00+00:00",
+      "summary": "arXiv:2512.21577v1 Announce Type: new Abstract: Despite numerous attempts to solve the issue of hallucination since the inception of neural language models, it remains a problem in even frontier large language models today. Why is this the case? We walk through definitions of hallucination used in the literature from a historical perspective up to the current day, and fold them into a single defin..."
+    },
+    {
+      "source_id": "arxiv_cs_ai",
+      "source_name": "arXiv cs.AI (Artificial Intelligence)",
+      "category": "arxiv",
+      "title": "From Visual Perception to Deep Empathy: An Automated Assessment Framework for House-Tree-Person Drawings Using Multimodal LLMs and Multi-Agent Collaboration",
+      "link": "https://arxiv.org/abs/2512.21360",
+      "published": "2025-12-29T05:00:00+00:00",
+      "summary": "arXiv:2512.21360v1 Announce Type: new Abstract: Background: The House-Tree-Person (HTP) drawing test, introduced by John Buck in 1948, remains a widely used projective technique in clinical psychology. However, it has long faced challenges such as heterogeneous scoring standards, reliance on examiners subjective experience, and a lack of a unified quantitative coding system. Results: Quantitative ..."
+    },
+    {
+      "source_id": "arxiv_cs_ai",
+      "source_name": "arXiv cs.AI (Artificial Intelligence)",
+      "category": "arxiv",
+      "title": "A Study of Solving Life-and-Death Problems in Go Using Relevance-Zone Based Solvers",
+      "link": "https://arxiv.org/abs/2512.21365",
+      "published": "2025-12-29T05:00:00+00:00",
+      "summary": "arXiv:2512.21365v1 Announce Type: new Abstract: This paper analyzes the behavior of solving Life-and-Death (L&amp;D) problems in the game of Go using current state-of-the-art computer Go solvers with two techniques: the Relevance-Zone Based Search (RZS) and the relevance-zone pattern table. We examined the solutions derived by relevance-zone based solvers on seven L&amp;D problems from the renowne..."
+    },
+    {
+      "source_id": "arxiv_cs_ai",
+      "source_name": "arXiv cs.AI (Artificial Intelligence)",
+      "category": "arxiv",
+      "title": "Three-way conflict analysis based on alliance and conflict functions",
+      "link": "https://arxiv.org/abs/2512.21419",
+      "published": "2025-12-29T05:00:00+00:00",
+      "summary": "arXiv:2512.21419v1 Announce Type: new Abstract: Trisecting agents, issues, and agent pairs are essential topics of three-way conflict analysis. They have been commonly studied based on either a rating or an auxiliary function. A rating function defines the positive, negative, or neutral ratings of agents on issues. An auxiliary function defines the alliance, conflict, and neutrality relations betw..."
+    },
+    {
+      "source_id": "arxiv_cs_ai",
+      "source_name": "arXiv cs.AI (Artificial Intelligence)",
+      "category": "arxiv",
+      "title": "Feasible strategies in three-way conflict analysis with three-valued ratings",
+      "link": "https://arxiv.org/abs/2512.21420",
+      "published": "2025-12-29T05:00:00+00:00",
+      "summary": "arXiv:2512.21420v1 Announce Type: new Abstract: Most existing work on three-way conflict analysis has focused on trisecting agent pairs, agents, or issues, which contributes to understanding the nature of conflicts but falls short in addressing their resolution. Specifically, the formulation of feasible strategies, as an essential component of conflict resolution and mitigation, has received insuf..."
+    },
+    {
+      "source_id": "arxiv_cs_ai",
+      "source_name": "arXiv cs.AI (Artificial Intelligence)",
+      "category": "arxiv",
+      "title": "Three-way decision with incomplete information based on similarity and satisfiability",
+      "link": "https://arxiv.org/abs/2512.21421",
+      "published": "2025-12-29T05:00:00+00:00",
+      "summary": "arXiv:2512.21421v1 Announce Type: new Abstract: Three-way decision is widely applied with rough set theory to learn classification or decision rules. The approaches dealing with complete information are well established in the literature, including the two complementary computational and conceptual formulations. The computational formulation uses equivalence relations, and the conceptual formulati..."
     }
   ]
 }
