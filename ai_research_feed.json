@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-30T02:54:29.393706+00:00",
+  "generated_at": "2025-12-31T02:53:27.626196+00:00",
   "count": 25,
   "items": [
     {
@@ -96,91 +96,91 @@
       "source_id": "arxiv_cs_lg",
       "source_name": "arXiv cs.LG (Machine Learning)",
       "category": "arxiv",
-      "title": "Physics-Informed Neural Solvers for Periodic Quantum Eigenproblems",
-      "link": "https://arxiv.org/abs/2512.21349",
-      "published": "2025-12-29T05:00:00+00:00",
-      "summary": "arXiv:2512.21349v1 Announce Type: new Abstract: This thesis presents a physics-informed machine learning framework for solving the Floquet-Bloch eigenvalue problem associated with particles in two-dimensional periodic potentials, with a focus on honeycomb lattice geometry, due to its distinctive band topology featuring Dirac points and its relevance to materials such as graphene. By leveraging neu..."
+      "title": "Pruning Graphs by Adversarial Robustness Evaluation to Strengthen GNN Defenses",
+      "link": "https://arxiv.org/abs/2512.22128",
+      "published": "2025-12-30T05:00:00+00:00",
+      "summary": "arXiv:2512.22128v1 Announce Type: new Abstract: Graph Neural Networks (GNNs) have emerged as a dominant paradigm for learning on graph-structured data, thanks to their ability to jointly exploit node features and relational information encoded in the graph topology. This joint modeling, however, also introduces a critical weakness: perturbations or noise in either the structure or the features can..."
     },
     {
       "source_id": "arxiv_cs_lg",
       "source_name": "arXiv cs.LG (Machine Learning)",
       "category": "arxiv",
-      "title": "A Reinforcement Learning Approach to Synthetic Data Generation",
-      "link": "https://arxiv.org/abs/2512.21395",
-      "published": "2025-12-29T05:00:00+00:00",
-      "summary": "arXiv:2512.21395v1 Announce Type: new Abstract: Synthetic data generation (SDG) is a promising approach for enabling data sharing in biomedical studies while preserving patient privacy. Yet, state-of-the-art generative models often require large datasets and complex training procedures, limiting their applicability in small-sample settings. In this work, we reframe SDG as a reinforcement learning ..."
+      "title": "Towards Unsupervised Causal Representation Learning via Latent Additive Noise Model Causal Autoencoders",
+      "link": "https://arxiv.org/abs/2512.22150",
+      "published": "2025-12-30T05:00:00+00:00",
+      "summary": "arXiv:2512.22150v1 Announce Type: new Abstract: Unsupervised representation learning seeks to recover latent generative factors, yet standard methods relying on statistical independence often fail to capture causal dependencies. A central challenge is identifiability: as established in disentangled representation learning and nonlinear ICA literature, disentangling causal variables from observatio..."
     },
     {
       "source_id": "arxiv_cs_lg",
       "source_name": "arXiv cs.LG (Machine Learning)",
       "category": "arxiv",
-      "title": "kooplearn: A Scikit-Learn Compatible Library of Algorithms for Evolution Operator Learning",
-      "link": "https://arxiv.org/abs/2512.21409",
-      "published": "2025-12-29T05:00:00+00:00",
-      "summary": "arXiv:2512.21409v1 Announce Type: new Abstract: kooplearn is a machine-learning library that implements linear, kernel, and deep-learning estimators of dynamical operators and their spectral decompositions. kooplearn can model both discrete-time evolution operators (Koopman/Transfer) and continuous-time infinitesimal generators. By learning these operators, users can analyze dynamical systems via ..."
+      "title": "SoliReward: Mitigating Susceptibility to Reward Hacking and Annotation Noise in Video Generation Reward Models",
+      "link": "https://arxiv.org/abs/2512.22170",
+      "published": "2025-12-30T05:00:00+00:00",
+      "summary": "arXiv:2512.22170v1 Announce Type: new Abstract: Post-training alignment of video generation models with human preferences is a critical goal. Developing effective Reward Models (RMs) for this process faces significant methodological hurdles. Current data collection paradigms, reliant on in-prompt pairwise annotations, suffer from labeling noise. Concurrently, the architectural design of VLM-based ..."
     },
     {
       "source_id": "arxiv_cs_lg",
       "source_name": "arXiv cs.LG (Machine Learning)",
       "category": "arxiv",
-      "title": "A Survey of Freshness-Aware Wireless Networking with Reinforcement Learning",
-      "link": "https://arxiv.org/abs/2512.21412",
-      "published": "2025-12-29T05:00:00+00:00",
-      "summary": "arXiv:2512.21412v1 Announce Type: new Abstract: The age of information (AoI) has become a central measure of data freshness in modern wireless systems, yet existing surveys either focus on classical AoI formulations or provide broad discussions of reinforcement learning (RL) in wireless networks without addressing freshness as a unified learning problem. Motivated by this gap, this survey examines..."
+      "title": "Wireless Traffic Prediction with Large Language Model",
+      "link": "https://arxiv.org/abs/2512.22178",
+      "published": "2025-12-30T05:00:00+00:00",
+      "summary": "arXiv:2512.22178v1 Announce Type: new Abstract: The growing demand for intelligent, adaptive resource management in next-generation wireless networks has underscored the importance of accurate and scalable wireless traffic prediction. While recent advancements in deep learning and foundation models such as large language models (LLMs) have demonstrated promising forecasting capabilities, they larg..."
     },
     {
       "source_id": "arxiv_cs_lg",
       "source_name": "arXiv cs.LG (Machine Learning)",
       "category": "arxiv",
-      "title": "DeepCQ: General-Purpose Deep-Surrogate Framework for Lossy Compression Quality Prediction",
-      "link": "https://arxiv.org/abs/2512.21433",
-      "published": "2025-12-29T05:00:00+00:00",
-      "summary": "arXiv:2512.21433v1 Announce Type: new Abstract: Error-bounded lossy compression techniques have become vital for scientific data management and analytics, given the ever-increasing volume of data generated by modern scientific simulations and instruments. Nevertheless, assessing data quality post-compression remains computationally expensive due to the intensive nature of metric calculations. In t..."
+      "title": "Latent Sculpting for Zero-Shot Generalization: A Manifold Learning Approach to Out-of-Distribution Anomaly Detection",
+      "link": "https://arxiv.org/abs/2512.22179",
+      "published": "2025-12-30T05:00:00+00:00",
+      "summary": "arXiv:2512.22179v1 Announce Type: new Abstract: A fundamental limitation of supervised deep learning in high-dimensional tabular domains is \"Generalization Collapse\": models learn precise decision boundaries for known distributions but fail catastrophically when facing Out-of-Distribution (OOD) data. We hypothesize that this failure stems from the lack of topological constraints in the latent spac..."
     },
     {
       "source_id": "arxiv_cs_cl",
       "source_name": "arXiv cs.CL (Computation and Language)",
       "category": "arxiv",
-      "title": "Teaching People LLM's Errors and Getting it Right",
-      "link": "https://arxiv.org/abs/2512.21422",
-      "published": "2025-12-29T05:00:00+00:00",
-      "summary": "arXiv:2512.21422v1 Announce Type: new Abstract: People use large language models (LLMs) when they should not. This is partly because they see LLMs compose poems and answer intricate questions, so they understandably, but incorrectly, assume LLMs won't stumble on basic tasks like simple arithmetic. Prior work has tried to address this by clustering instance embeddings into regions where an LLM is l..."
+      "title": "Open-Source Multimodal Moxin Models with Moxin-VLM and Moxin-VLA",
+      "link": "https://arxiv.org/abs/2512.22208",
+      "published": "2025-12-30T05:00:00+00:00",
+      "summary": "arXiv:2512.22208v1 Announce Type: new Abstract: Recently, Large Language Models (LLMs) have undergone a significant transformation, marked by a rapid rise in both their popularity and capabilities. Leading this evolution are proprietary LLMs like GPT-4 and GPT-o1, which have captured widespread attention in the AI community due to their remarkable performance and versatility. Simultaneously, open-..."
     },
     {
       "source_id": "arxiv_cs_cl",
       "source_name": "arXiv cs.CL (Computation and Language)",
       "category": "arxiv",
-      "title": "Morality is Contextual: Learning Interpretable Moral Contexts from Human Data with Probabilistic Clustering and Large Language Models",
-      "link": "https://arxiv.org/abs/2512.21439",
-      "published": "2025-12-29T05:00:00+00:00",
-      "summary": "arXiv:2512.21439v1 Announce Type: new Abstract: Moral actions are judged not only by their outcomes but by the context in which they occur. We present COMETH (Contextual Organization of Moral Evaluation from Textual Human inputs), a framework that integrates a probabilistic context learner with LLM-based semantic abstraction and human moral evaluations to model how context shapes the acceptability..."
+      "title": "Hierarchical Geometry of Cognitive States in Transformer Embedding Spaces",
+      "link": "https://arxiv.org/abs/2512.22227",
+      "published": "2025-12-30T05:00:00+00:00",
+      "summary": "arXiv:2512.22227v1 Announce Type: new Abstract: Recent work has shown that transformer-based language models learn rich geometric structure in their embedding spaces, yet the presence of higher-level cognitive organization within these representations remains underexplored. In this work, we investigate whether sentence embeddings encode a graded, hierarchical structure aligned with human-interpret..."
     },
     {
       "source_id": "arxiv_cs_cl",
       "source_name": "arXiv cs.CL (Computation and Language)",
       "category": "arxiv",
-      "title": "Oogiri-Master: Benchmarking Humor Understanding via Oogiri",
-      "link": "https://arxiv.org/abs/2512.21494",
-      "published": "2025-12-29T05:00:00+00:00",
-      "summary": "arXiv:2512.21494v1 Announce Type: new Abstract: Humor is a salient testbed for human-like creative thinking in large language models (LLMs). We study humor using the Japanese creative response game Oogiri, in which participants produce witty responses to a given prompt, and ask the following research question: What makes such responses funny to humans? Previous work has offered only limited reliab..."
+      "title": "SmartSnap: Proactive Evidence Seeking for Self-Verifying Agents",
+      "link": "https://arxiv.org/abs/2512.22322",
+      "published": "2025-12-30T05:00:00+00:00",
+      "summary": "arXiv:2512.22322v1 Announce Type: new Abstract: Agentic reinforcement learning (RL) holds great promise for the development of autonomous agents under complex GUI tasks, but its scalability remains severely hampered by the verification of task completion. Existing task verification is treated as a passive, post-hoc process: a verifier (i.e., rule-based scoring script, reward or critic model, and L..."
     },
     {
       "source_id": "arxiv_cs_cl",
       "source_name": "arXiv cs.CL (Computation and Language)",
       "category": "arxiv",
-      "title": "Beyond Heuristics: A Decision-Theoretic Framework for Agent Memory Management",
-      "link": "https://arxiv.org/abs/2512.21567",
-      "published": "2025-12-29T05:00:00+00:00",
-      "summary": "arXiv:2512.21567v1 Announce Type: new Abstract: External memory is a key component of modern large language model (LLM) systems, enabling long-term interaction and personalization. Despite its importance, memory management is still largely driven by hand-designed heuristics, offering little insight into the long-term and uncertain consequences of memory decisions. In practice, choices about what t..."
+      "title": "The Syntax of qulk-clauses in Yemeni Ibbi Arabic: A Minimalist Approach",
+      "link": "https://arxiv.org/abs/2512.22376",
+      "published": "2025-12-30T05:00:00+00:00",
+      "summary": "arXiv:2512.22376v1 Announce Type: new Abstract: This study investigates the syntax of qulk-clauses in Yemeni Ibbi Arabic (YIA) within the Minimalist Program. The construction qulk-clause, a morphologically fused form meaning 'I said,' introduces embedded declarative interrogative, and imperative clauses, often eithout complementizer. The central proposal of this paper is that qulk-clauses are bicl..."
     },
     {
       "source_id": "arxiv_cs_cl",
       "source_name": "arXiv cs.CL (Computation and Language)",
       "category": "arxiv",
-      "title": "A Unified Definition of Hallucination, Or: It's the World Model, Stupid",
-      "link": "https://arxiv.org/abs/2512.21577",
-      "published": "2025-12-29T05:00:00+00:00",
-      "summary": "arXiv:2512.21577v1 Announce Type: new Abstract: Despite numerous attempts to solve the issue of hallucination since the inception of neural language models, it remains a problem in even frontier large language models today. Why is this the case? We walk through definitions of hallucination used in the literature from a historical perspective up to the current day, and fold them into a single defin..."
+      "title": "Towards Efficient Post-Training via Fourier-Driven Adapter Architectures",
+      "link": "https://arxiv.org/abs/2512.22378",
+      "published": "2025-12-30T05:00:00+00:00",
+      "summary": "arXiv:2512.22378v1 Announce Type: new Abstract: We propose a novel framework, termed Fourier-Activated Adapter (FAA), for parameter-efficient fine-tuning of large pre-trained language models. By incorporating random Fourier features into lightweight adapter modules, FAA decomposes intermediate representations into complementary low- and high-frequency components, enabling frequency-aware modulatio..."
     },
     {
       "source_id": "arxiv_cs_ai",
@@ -188,7 +188,7 @@
       "category": "arxiv",
       "title": "From Visual Perception to Deep Empathy: An Automated Assessment Framework for House-Tree-Person Drawings Using Multimodal LLMs and Multi-Agent Collaboration",
       "link": "https://arxiv.org/abs/2512.21360",
-      "published": "2025-12-29T05:00:00+00:00",
+      "published": "2025-12-30T05:00:00+00:00",
       "summary": "arXiv:2512.21360v1 Announce Type: new Abstract: Background: The House-Tree-Person (HTP) drawing test, introduced by John Buck in 1948, remains a widely used projective technique in clinical psychology. However, it has long faced challenges such as heterogeneous scoring standards, reliance on examiners subjective experience, and a lack of a unified quantitative coding system. Results: Quantitative ..."
     },
     {
@@ -197,7 +197,7 @@
       "category": "arxiv",
       "title": "A Study of Solving Life-and-Death Problems in Go Using Relevance-Zone Based Solvers",
       "link": "https://arxiv.org/abs/2512.21365",
-      "published": "2025-12-29T05:00:00+00:00",
+      "published": "2025-12-30T05:00:00+00:00",
       "summary": "arXiv:2512.21365v1 Announce Type: new Abstract: This paper analyzes the behavior of solving Life-and-Death (L&amp;D) problems in the game of Go using current state-of-the-art computer Go solvers with two techniques: the Relevance-Zone Based Search (RZS) and the relevance-zone pattern table. We examined the solutions derived by relevance-zone based solvers on seven L&amp;D problems from the renowne..."
     },
     {
@@ -206,7 +206,7 @@
       "category": "arxiv",
       "title": "Three-way conflict analysis based on alliance and conflict functions",
       "link": "https://arxiv.org/abs/2512.21419",
-      "published": "2025-12-29T05:00:00+00:00",
+      "published": "2025-12-30T05:00:00+00:00",
       "summary": "arXiv:2512.21419v1 Announce Type: new Abstract: Trisecting agents, issues, and agent pairs are essential topics of three-way conflict analysis. They have been commonly studied based on either a rating or an auxiliary function. A rating function defines the positive, negative, or neutral ratings of agents on issues. An auxiliary function defines the alliance, conflict, and neutrality relations betw..."
     },
     {
@@ -215,8 +215,8 @@
       "category": "arxiv",
       "title": "Feasible strategies in three-way conflict analysis with three-valued ratings",
       "link": "https://arxiv.org/abs/2512.21420",
-      "published": "2025-12-29T05:00:00+00:00",
-      "summary": "arXiv:2512.21420v1 Announce Type: new Abstract: Most existing work on three-way conflict analysis has focused on trisecting agent pairs, agents, or issues, which contributes to understanding the nature of conflicts but falls short in addressing their resolution. Specifically, the formulation of feasible strategies, as an essential component of conflict resolution and mitigation, has received insuf..."
+      "published": "2025-12-30T05:00:00+00:00",
+      "summary": "arXiv:2512.21420v2 Announce Type: new Abstract: Most existing work on three-way conflict analysis has focused on trisecting agent pairs, agents, or issues, which contributes to understanding the nature of conflicts but falls short in addressing their resolution. Specifically, the formulation of feasible strategies, as an essential component of conflict resolution and mitigation, has received insuf..."
     },
     {
       "source_id": "arxiv_cs_ai",
@@ -224,7 +224,7 @@
       "category": "arxiv",
       "title": "Three-way decision with incomplete information based on similarity and satisfiability",
       "link": "https://arxiv.org/abs/2512.21421",
-      "published": "2025-12-29T05:00:00+00:00",
+      "published": "2025-12-30T05:00:00+00:00",
       "summary": "arXiv:2512.21421v1 Announce Type: new Abstract: Three-way decision is widely applied with rough set theory to learn classification or decision rules. The approaches dealing with complete information are well established in the literature, including the two complementary computational and conceptual formulations. The computational formulation uses equivalence relations, and the conceptual formulati..."
     }
   ]
