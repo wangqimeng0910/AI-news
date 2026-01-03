@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-01-02T02:56:41.823351+00:00",
-  "count": 25,
+  "generated_at": "2026-01-03T02:48:17.485304+00:00",
+  "count": 10,
   "items": [
     {
       "source_id": "openai_news",
       "source_name": "OpenAI News",
       "category": "company",
-      "title": "One in a million: celebrating the customers shaping AI’s future",
-      "link": "https://openai.com/index/one-in-a-million-customers",
-      "published": "2025-12-22T00:00:00+00:00",
-      "summary": "More than one million customers around the world now use OpenAI to empower their teams and unlock new opportunities. This post highlights how companies like PayPal, Virgin Atlantic, BBVA, Cisco, Moderna, and Canva are transforming the way work gets done with AI."
+      "title": "Announcing OpenAI Grove Cohort 2",
+      "link": "https://openai.com/index/openai-grove",
+      "published": "2026-01-02T10:00:00+00:00",
+      "summary": "Applications are now open for OpenAI Grove Cohort 2, a 5-week founder program designed for individuals at any stage, from pre-idea to product. Participants receive $50K in API credits, early access to AI tools, and hands-on mentorship from the OpenAI team."
     },
     {
       "source_id": "openai_news",
@@ -24,19 +24,19 @@
       "source_id": "openai_news",
       "source_name": "OpenAI News",
       "category": "company",
-      "title": "Evaluating chain-of-thought monitorability",
-      "link": "https://openai.com/index/evaluating-chain-of-thought-monitorability",
-      "published": "2025-12-18T12:00:00+00:00",
-      "summary": "OpenAI introduces a new framework and evaluation suite for chain-of-thought monitorability, covering 13 evaluations across 24 environments. Our findings show that monitoring a model’s internal reasoning is far more effective than monitoring outputs alone, offering a promising path toward scalable control as AI systems grow more capable."
+      "title": "One in a million: celebrating the customers shaping AI’s future",
+      "link": "https://openai.com/index/one-in-a-million-customers",
+      "published": "2025-12-22T00:00:00+00:00",
+      "summary": "More than one million customers around the world now use OpenAI to empower their teams and unlock new opportunities. This post highlights how companies like PayPal, Virgin Atlantic, BBVA, Cisco, Moderna, and Canva are transforming the way work gets done with AI."
     },
     {
       "source_id": "openai_news",
       "source_name": "OpenAI News",
       "category": "company",
-      "title": "Deepening our collaboration with the U.S. Department of Energy",
-      "link": "https://openai.com/index/us-department-of-energy-collaboration",
-      "published": "2025-12-18T11:00:00+00:00",
-      "summary": "OpenAI and the U.S. Department of Energy have signed a memorandum of understanding to deepen collaboration on AI and advanced computing in support of scientific discovery. The agreement builds on ongoing work with national laboratories and helps establish a framework for applying AI to high-impact research across the DOE ecosystem."
+      "title": "Evaluating chain-of-thought monitorability",
+      "link": "https://openai.com/index/evaluating-chain-of-thought-monitorability",
+      "published": "2025-12-18T12:00:00+00:00",
+      "summary": "OpenAI introduces a new framework and evaluation suite for chain-of-thought monitorability, covering 13 evaluations across 24 environments. Our findings show that monitoring a model’s internal reasoning is far more effective than monitoring outputs alone, offering a promising path toward scalable control as AI systems grow more capable."
     },
     {
       "source_id": "openai_news",
@@ -91,141 +91,6 @@
       "link": "https://blog.google/technology/ai/google-ai-updates-november-2025/",
       "published": "2025-12-05T19:45:00+00:00",
       "summary": "mp4 showing a carousel of images with text like \"Gemini 3\" \"Nano Banana Pro\" and \"Help me plan a trip\""
-    },
-    {
-      "source_id": "arxiv_cs_lg",
-      "source_name": "arXiv cs.LG (Machine Learning)",
-      "category": "arxiv",
-      "title": "Network Traffic Analysis with Process Mining: The UPSIDE Case Study",
-      "link": "https://arxiv.org/abs/2512.23718",
-      "published": "2026-01-01T05:00:00+00:00",
-      "summary": "arXiv:2512.23718v1 Announce Type: new Abstract: Online gaming is a popular activity involving the adoption of complex systems and network infrastructures. The relevance of gaming, which generates large amounts of market revenue, drove research in modeling network devices' behavior to evaluate bandwidth consumption, predict and sustain high loads, and detect malicious activity. In this context, pro..."
-    },
-    {
-      "source_id": "arxiv_cs_lg",
-      "source_name": "arXiv cs.LG (Machine Learning)",
-      "category": "arxiv",
-      "title": "A Comprehensive Study of Deep Learning Model Fixing Approaches",
-      "link": "https://arxiv.org/abs/2512.23745",
-      "published": "2026-01-01T05:00:00+00:00",
-      "summary": "arXiv:2512.23745v1 Announce Type: new Abstract: Deep Learning (DL) has been widely adopted in diverse industrial domains, including autonomous driving, intelligent healthcare, and aided programming. Like traditional software, DL systems are also prone to faults, whose malfunctioning may expose users to significant risks. Consequently, numerous approaches have been proposed to address these issues...."
-    },
-    {
-      "source_id": "arxiv_cs_lg",
-      "source_name": "arXiv cs.LG (Machine Learning)",
-      "category": "arxiv",
-      "title": "A Review of Diffusion-based Simulation-Based Inference: Foundations and Applications in Non-Ideal Data Scenarios",
-      "link": "https://arxiv.org/abs/2512.23748",
-      "published": "2026-01-01T05:00:00+00:00",
-      "summary": "arXiv:2512.23748v1 Announce Type: new Abstract: For complex simulation problems, inferring parameters of scientific interest often precludes the use of classical likelihood-based techniques due to intractable likelihood functions. Simulation-based inference (SBI) methods forego the need for explicit likelihoods by directly utilizing samples from the simulator to learn posterior distributions over ..."
-    },
-    {
-      "source_id": "arxiv_cs_lg",
-      "source_name": "arXiv cs.LG (Machine Learning)",
-      "category": "arxiv",
-      "title": "Coordinate Matrix Machine: A Human-level Concept Learning to Classify Very Similar Documents",
-      "link": "https://arxiv.org/abs/2512.23749",
-      "published": "2026-01-01T05:00:00+00:00",
-      "summary": "arXiv:2512.23749v1 Announce Type: new Abstract: Human-level concept learning argues that humans typically learn new concepts from a single example, whereas machine learning algorithms typically require hundreds of samples to learn a single concept. Our brain subconsciously identifies important features and learns more effectively. \\vspace*{6pt} Contribution: In this paper, we present the Coordinat..."
-    },
-    {
-      "source_id": "arxiv_cs_lg",
-      "source_name": "arXiv cs.LG (Machine Learning)",
-      "category": "arxiv",
-      "title": "Geometric Scaling of Bayesian Inference in LLMs",
-      "link": "https://arxiv.org/abs/2512.23752",
-      "published": "2026-01-01T05:00:00+00:00",
-      "summary": "arXiv:2512.23752v1 Announce Type: new Abstract: Recent work has shown that small transformers trained in controlled \"wind-tunnel'' settings can implement exact Bayesian inference, and that their training dynamics produce a geometric substrate -- low-dimensional value manifolds and progressively orthogonal keys -- that encodes posterior structure. We investigate whether this geometric signature per..."
-    },
-    {
-      "source_id": "arxiv_cs_cl",
-      "source_name": "arXiv cs.CL (Computation and Language)",
-      "category": "arxiv",
-      "title": "Enriching Historical Records: An OCR and AI-Driven Approach for Database Integration",
-      "link": "https://arxiv.org/abs/2512.23710",
-      "published": "2026-01-01T05:00:00+00:00",
-      "summary": "arXiv:2512.23710v1 Announce Type: new Abstract: This research digitizes and analyzes the Leidse hoogleraren en lectoren 1575-1815 books written between 1983 and 1985, which contain biographic data about professors and curators of Leiden University. It addresses the central question: how can we design an automated pipeline that integrates OCR, LLM-based interpretation, and database linking to harmo..."
-    },
-    {
-      "source_id": "arxiv_cs_cl",
-      "source_name": "arXiv cs.CL (Computation and Language)",
-      "category": "arxiv",
-      "title": "CAT: A Metric-Driven Framework for Analyzing the Consistency-Accuracy Relation of LLMs under Controlled Input Variations",
-      "link": "https://arxiv.org/abs/2512.23711",
-      "published": "2026-01-01T05:00:00+00:00",
-      "summary": "arXiv:2512.23711v1 Announce Type: new Abstract: We introduce \\textsc{CAT}, a framework designed to evaluate and visualize the \\emph{interplay} of \\emph{accuracy} and \\emph{response consistency} of Large Language Models (LLMs) under controllable input variations, using multiple-choice (MC) benchmarks as a case study. Current evaluation practices primarily focus on model capabilities such as accurac..."
-    },
-    {
-      "source_id": "arxiv_cs_cl",
-      "source_name": "arXiv cs.CL (Computation and Language)",
-      "category": "arxiv",
-      "title": "STED and Consistency Scoring: A Framework for Evaluating LLM Structured Output Reliability",
-      "link": "https://arxiv.org/abs/2512.23712",
-      "published": "2026-01-01T05:00:00+00:00",
-      "summary": "arXiv:2512.23712v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly deployed for structured data generation, yet output consistency remains critical for production applications. We introduce a comprehensive framework for evaluating and improving consistency in LLM-generated structured outputs. Our approach combines: (1) STED (Semantic Tree Edit Distance), a novel similari..."
-    },
-    {
-      "source_id": "arxiv_cs_cl",
-      "source_name": "arXiv cs.CL (Computation and Language)",
-      "category": "arxiv",
-      "title": "PyBangla at BLP-2025 Task 2: Enhancing Bangla-to-Python Code Generation with Iterative Self-Correction and Multilingual Agents",
-      "link": "https://arxiv.org/abs/2512.23713",
-      "published": "2026-01-01T05:00:00+00:00",
-      "summary": "arXiv:2512.23713v1 Announce Type: new Abstract: LLMs excel at code generation from English prompts, but this progress has not extended to low-resource languages. We address Bangla-to-Python code generation by introducing BanglaCodeAct, an agent-based framework that leverages multi-agent prompting and iterative self-correction. Unlike prior approaches relying on task-specific fine-tuning, BanglaCod..."
-    },
-    {
-      "source_id": "arxiv_cs_cl",
-      "source_name": "arXiv cs.CL (Computation and Language)",
-      "category": "arxiv",
-      "title": "PharmaShip: An Entity-Centric, Reading-Order-Supervised Benchmark for Chinese Pharmaceutical Shipping Documents",
-      "link": "https://arxiv.org/abs/2512.23714",
-      "published": "2026-01-01T05:00:00+00:00",
-      "summary": "arXiv:2512.23714v1 Announce Type: new Abstract: We present PharmaShip, a real-world Chinese dataset of scanned pharmaceutical shipping documents designed to stress-test pre-trained text-layout models under noisy OCR and heterogeneous templates. PharmaShip covers three complementary tasks-sequence entity recognition (SER), relation extraction (RE), and reading order prediction (ROP)-and adopts an e..."
-    },
-    {
-      "source_id": "arxiv_cs_ai",
-      "source_name": "arXiv cs.AI (Artificial Intelligence)",
-      "category": "arxiv",
-      "title": "The Drill-Down and Fabricate Test (DDFT): A Protocol for Measuring Epistemic Robustness in Language Models",
-      "link": "https://arxiv.org/abs/2512.23850",
-      "published": "2026-01-01T05:00:00+00:00",
-      "summary": "arXiv:2512.23850v1 Announce Type: new Abstract: Current language model evaluations measure what models know under ideal conditions but not how robustly they know it under realistic stress. Static benchmarks like MMLU and TruthfulQA cannot distinguish a model that lacks knowledge from one whose verification mechanisms collapse when information degrades or adversaries probe for weaknesses. We introd..."
-    },
-    {
-      "source_id": "arxiv_cs_ai",
-      "source_name": "arXiv cs.AI (Artificial Intelligence)",
-      "category": "arxiv",
-      "title": "CASCADE: Cumulative Agentic Skill Creation through Autonomous Development and Evolution",
-      "link": "https://arxiv.org/abs/2512.23880",
-      "published": "2026-01-01T05:00:00+00:00",
-      "summary": "arXiv:2512.23880v1 Announce Type: new Abstract: Large language model (LLM) agents currently depend on predefined tools or brittle tool generation, constraining their capability and adaptability to complex scientific tasks. We introduce CASCADE, a self-evolving agentic framework representing an early instantiation of the transition from \"LLM + tool use\" to \"LLM + skill acquisition\". CASCADE enables..."
-    },
-    {
-      "source_id": "arxiv_cs_ai",
-      "source_name": "arXiv cs.AI (Artificial Intelligence)",
-      "category": "arxiv",
-      "title": "A Proof-of-Concept for Explainable Disease Diagnosis Using Large Language Models and Answer Set Programming",
-      "link": "https://arxiv.org/abs/2512.23932",
-      "published": "2026-01-01T05:00:00+00:00",
-      "summary": "arXiv:2512.23932v1 Announce Type: new Abstract: Accurate disease prediction is vital for timely intervention, effective treatment, and reducing medical complications. While symbolic AI has been applied in healthcare, its adoption remains limited due to the effort required for constructing high-quality knowledge bases. This work introduces McCoy, a framework that combines Large Language Models (LLM..."
-    },
-    {
-      "source_id": "arxiv_cs_ai",
-      "source_name": "arXiv cs.AI (Artificial Intelligence)",
-      "category": "arxiv",
-      "title": "SPARK: Search Personalization via Agent-Driven Retrieval and Knowledge-sharing",
-      "link": "https://arxiv.org/abs/2512.24008",
-      "published": "2026-01-01T05:00:00+00:00",
-      "summary": "arXiv:2512.24008v1 Announce Type: new Abstract: Personalized search demands the ability to model users' evolving, multi-dimensional information needs; a challenge for systems constrained by static profiles or monolithic retrieval pipelines. We present SPARK (Search Personalization via Agent-Driven Retrieval and Knowledge-sharing), a framework in which coordinated persona-based large language model..."
-    },
-    {
-      "source_id": "arxiv_cs_ai",
-      "source_name": "arXiv cs.AI (Artificial Intelligence)",
-      "category": "arxiv",
-      "title": "ROAD: Reflective Optimization via Automated Debugging for Zero-Shot Agent Alignment",
-      "link": "https://arxiv.org/abs/2512.24040",
-      "published": "2026-01-01T05:00:00+00:00",
-      "summary": "arXiv:2512.24040v1 Announce Type: new Abstract: Automatic Prompt Optimization (APO) has emerged as a critical technique for enhancing Large Language Model (LLM) performance, yet current state-of-the-art methods typically rely on large, labeled gold-standard development sets to compute fitness scores for evolutionary or Reinforcement Learning (RL) approaches. In real-world software engineering, how..."
     }
   ]
 }
